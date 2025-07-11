@@ -24,9 +24,9 @@ public class CarWheel : MonoBehaviour
 
 	private bool _freeWheeling;
 
-	private ParticleEmitter _dustFX;
+	private ParticleSystem _dustFX;
 
-	private ParticleEmitter _groundChunkFX;
+	private ParticleSystem _groundChunkFX;
 
 	private TrailRenderer _trailFX;
 
@@ -86,14 +86,14 @@ public class CarWheel : MonoBehaviour
 		base.transform.parent = _pivotTransform;
 	}
 
-	private ParticleEmitter SetupEmitter(Transform prefab, float offsetX, float offsetZ)
+	private ParticleSystem SetupEmitter(Transform prefab, float offsetX, float offsetZ)
 	{
 		Transform transform = (Transform)UnityEngine.Object.Instantiate(prefab, Vector3.zero, Quaternion.identity);
 		if (transform != null)
 		{
 			transform.parent = _pivotTransform;
 			transform.localPosition = new Vector3(offsetX, 0f - _radius, offsetZ);
-			return transform.particleEmitter;
+			return transform.GetComponent<ParticleSystem>();
 		}
 		return null;
 	}
@@ -124,8 +124,9 @@ public class CarWheel : MonoBehaviour
 			Vector3 a = _car.Velocity;
 			a.y = 0f;
 			a += new Vector3(-2f, 1f, 0f);
-			_dustFX.worldVelocity = a * 0.9f;
-			_dustFX.Emit();
+			var main = _dustFX.main;
+			main.startSpeed = a.magnitude * 0.9f;
+			_dustFX.Emit(1);
 		}
 	}
 
@@ -136,8 +137,9 @@ public class CarWheel : MonoBehaviour
 			Vector3 vector = _car.Velocity;
 			vector.y = 0f;
 			vector += new Vector3(-2f, 4f, 0f);
-			_groundChunkFX.worldVelocity = vector;
-			_groundChunkFX.Emit();
+			var main = _groundChunkFX.main;
+			main.startSpeed = vector.magnitude;
+			_groundChunkFX.Emit(1);
 		}
 	}
 

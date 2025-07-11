@@ -503,7 +503,7 @@ public abstract class tk2dBaseSprite : MonoBehaviour, ISpriteCollectionForceBuil
 				{
 					boxCollider2D.enabled = true;
 				}
-				boxCollider2D.center = new Vector2(tk2dSpriteDefinition.colliderVertices[0].x * _scale.x, tk2dSpriteDefinition.colliderVertices[0].y * _scale.y);
+				boxCollider2D.offset = new Vector2(tk2dSpriteDefinition.colliderVertices[0].x * _scale.x, tk2dSpriteDefinition.colliderVertices[0].y * _scale.y);
 				boxCollider2D.size = new Vector2(Mathf.Abs(2f * tk2dSpriteDefinition.colliderVertices[1].x * _scale.x), Mathf.Abs(2f * tk2dSpriteDefinition.colliderVertices[1].y * _scale.y));
 			}
 			else if (tk2dSpriteDefinition.colliderType == tk2dSpriteDefinition.ColliderType.Mesh)

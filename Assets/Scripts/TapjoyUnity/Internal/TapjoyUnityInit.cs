@@ -6,7 +6,7 @@ namespace TapjoyUnity.Internal
 	{
 		private void Awake()
 		{
-			ApiBindingAndroid.Install();
+			//ApiBindingAndroid.Install();
 		}
 	}
 }

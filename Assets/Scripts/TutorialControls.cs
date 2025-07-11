@@ -32,19 +32,19 @@ public class TutorialControls : Tutorial
 	{
 		Vector3 eulerAngles = _car.localRotation.eulerAngles;
 		float num = Mathf.DeltaAngle(0f, eulerAngles.z);
-		Vector3 angularVelocity = _car.rigidbody.angularVelocity;
+		Vector3 angularVelocity = _car.GetComponent<Rigidbody>().angularVelocity;
 		float z = angularVelocity.z;
 		float num2 = 1f;
 		if (_tilt * z < 0f)
 		{
 			num2 = 1.3f;
 		}
-		_car.rigidbody.angularVelocity += new Vector3(0f, 0f, 7f * _tilt * num2 * Time.deltaTime);
-		Vector3 angularVelocity2 = _car.rigidbody.angularVelocity;
+		_car.GetComponent<Rigidbody>().angularVelocity += new Vector3(0f, 0f, 7f * _tilt * num2 * Time.deltaTime);
+		Vector3 angularVelocity2 = _car.GetComponent<Rigidbody>().angularVelocity;
 		float z2 = angularVelocity2.z;
 		float num3 = 2f;
 		z2 = Mathf.Clamp(z2, 0f - num3, num3);
-		_car.rigidbody.angularVelocity = new Vector3(0f, 0f, z2);
+		_car.GetComponent<Rigidbody>().angularVelocity = new Vector3(0f, 0f, z2);
 		if (num > 30f)
 		{
 			_tilt = -1f;

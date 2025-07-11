@@ -24,7 +24,7 @@ public class CrossPromoManager<T> : AutoSingleton<T> where T : MonoBehaviour
 		_prefKey = prefKey;
 		_deepUrl = deepUrl;
 		LoadProgress();
-		ReadProgressFromDeepLink();
+		//ReadProgressFromDeepLink();
 	}
 
 	protected void SaveProgress()
@@ -44,24 +44,24 @@ public class CrossPromoManager<T> : AutoSingleton<T> where T : MonoBehaviour
 		}
 	}
 
-	protected void ReadProgressFromDeepLink()
-	{
-		string appLaunchUrl = AutoSingleton<GameFacebookManager>.Instance.GetAppLaunchUrl();
-		if (appLaunchUrl.Contains(_deepUrl))
-		{
-			int num = appLaunchUrl.IndexOf('?');
-			if (num != -1)
-			{
-				Dictionary<string, object> dictionary = ParseUri(appLaunchUrl.Substring(num + 1));
-				foreach (KeyValuePair<string, object> item in dictionary)
-				{
-					SetProgress(item.Key, item.Value);
-				}
-				SaveProgress();
-				OnDeepLinkParsed();
-			}
-		}
-	}
+	//protected void ReadProgressFromDeepLink()
+	//{
+	//	string appLaunchUrl = AutoSingleton<GameFacebookManager>.Instance.GetAppLaunchUrl();
+	//	if (appLaunchUrl.Contains(_deepUrl))
+	//	{
+	//		int num = appLaunchUrl.IndexOf('?');
+	//		if (num != -1)
+	//		{
+	//			Dictionary<string, object> dictionary = ParseUri(appLaunchUrl.Substring(num + 1));
+	//			foreach (KeyValuePair<string, object> item in dictionary)
+	//			{
+	//				SetProgress(item.Key, item.Value);
+	//			}
+	//			SaveProgress();
+	//			OnDeepLinkParsed();
+	//		}
+	//	}
+	//}
 
 	private Dictionary<string, object> ParseUri(string uri)
 	{
@@ -82,7 +82,7 @@ public class CrossPromoManager<T> : AutoSingleton<T> where T : MonoBehaviour
 	{
 		if (!pause)
 		{
-			ReadProgressFromDeepLink();
+			//ReadProgressFromDeepLink();
 		}
 	}
 

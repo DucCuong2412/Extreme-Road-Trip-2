@@ -15,7 +15,7 @@ public class FadingManager : AutoSingleton<FadingManager>
 		gameObject.transform.localPosition = Vector3.forward;
 		_quad = gameObject.AddComponent<QuadColored>();
 		_quad.SetColor(Color.black);
-		_quad.renderer.enabled = true;
+		_quad.GetComponent<Renderer>().enabled = true;
 		gameObject = new GameObject("Camera");
 		gameObject.transform.parent = base.transform;
 		gameObject.transform.localPosition = Vector3.zero;

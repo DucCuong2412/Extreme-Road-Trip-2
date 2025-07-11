@@ -78,7 +78,7 @@ public class TransportEpicPowerup : EpicPowerup
 		GameObject gameObject = Object.Instantiate(gamePrefab, Vector3.zero, Quaternion.identity) as GameObject;
 		GameObject visualPrefab = car.VisualPrefab;
 		_carVisualsInstance = (Object.Instantiate(visualPrefab, Vector3.zero, Quaternion.identity) as GameObject);
-		Transform transform = gameObject.transform.FindChild("CarAnchor");
+		Transform transform = gameObject.transform.Find("CarAnchor");
 		if (transform != null)
 		{
 			_carVisualsInstance.transform.parent = transform;
@@ -124,7 +124,7 @@ public class TransportEpicPowerup : EpicPowerup
 		GameObject gamePrefab = _car.GamePrefab;
 		GameObject gameObject = Object.Instantiate(gamePrefab, position3, Quaternion.identity) as GameObject;
 		Vector3 explosionPosition = new Vector3(position3.x - 3f, position3.y - 2f, position3.z);
-		gameObject.rigidbody.AddExplosionForce(300000f * ((float)Device.GetFixedUpdateRate() / 60f), explosionPosition, 0f);
+		gameObject.GetComponent<Rigidbody>().AddExplosionForce(300000f * ((float)Device.GetFixedUpdateRate() / 60f), explosionPosition, 0f);
 		Singleton<GameManager>.Instance.SetCarController(gameObject.GetComponent<CarController>());
 	}
 

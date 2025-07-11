@@ -32,7 +32,7 @@ public class MetroWidgetCarUpgrade : MetroWidget
 		_upgradeSlots = new List<tk2dSprite>();
 		for (int i = 1; i <= 5; i++)
 		{
-			tk2dSprite component = transform.FindChild("Slot" + i.ToString()).FindChild("On").GetComponent<tk2dSprite>();
+			tk2dSprite component = transform.Find("Slot" + i.ToString()).Find("On").GetComponent<tk2dSprite>();
 			SetSlotAlpha(component, (i > level) ? 0f : 1f);
 			_upgradeSlots.Add(component);
 		}

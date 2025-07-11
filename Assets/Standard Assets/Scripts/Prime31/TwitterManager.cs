@@ -26,7 +26,7 @@ namespace Prime31
 
 		static TwitterManager()
 		{
-			AbstractManager.initialize(typeof(TwitterManager));
+			// AbstractManager.initialize(typeof(TwitterManager));
 		}
 
 		public static void noop()
@@ -53,7 +53,7 @@ namespace Prime31
 		{
 			if (TwitterManager.requestDidFinishEvent != null)
 			{
-				TwitterManager.requestDidFinishEvent(Json.decode(results));
+				// TwitterManager.requestDidFinishEvent(Json.decode(results));
 			}
 		}
 

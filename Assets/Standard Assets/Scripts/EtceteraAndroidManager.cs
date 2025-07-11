@@ -4,7 +4,7 @@ using System.IO;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-public class EtceteraAndroidManager : AbstractManager
+public class EtceteraAndroidManager //: AbstractManager
 {
 	[method: MethodImpl(32)]
 	public static event Action<string> alertButtonClickedEvent;
@@ -68,7 +68,7 @@ public class EtceteraAndroidManager : AbstractManager
 
 	static EtceteraAndroidManager()
 	{
-		AbstractManager.initialize(typeof(EtceteraAndroidManager));
+		// AbstractManager.initialize(typeof(EtceteraAndroidManager));
 	}
 
 	public static Texture2D textureFromFileAtPath(string filePath)
@@ -243,11 +243,11 @@ public class EtceteraAndroidManager : AbstractManager
 
 	public void inlineWebViewJSCallback(string message)
 	{
-		EtceteraAndroidManager.inlineWebViewJSCallbackEvent.fire(message);
+		// EtceteraAndroidManager.inlineWebViewJSCallbackEvent.fire(message);
 	}
 
 	public void notificationReceived(string extraData)
 	{
-		EtceteraAndroidManager.notificationReceivedEvent.fire(extraData);
+		// EtceteraAndroidManager.notificationReceivedEvent.fire(extraData);
 	}
 }

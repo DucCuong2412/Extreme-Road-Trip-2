@@ -351,7 +351,7 @@ public class PurchaseManager : AutoSingleton<PurchaseManager>
 	protected override void OnAwake()
 	{
 		UnityEngine.Object.DontDestroyOnLoad(base.gameObject);
-		AutoSingleton<PurchaseServicesGoogle>.Instance.Create();
+		//AutoSingleton<PurchaseServicesGoogle>.Instance.Create();
 		base.OnAwake();
 	}
 
@@ -447,7 +447,7 @@ public class PurchaseManager : AutoSingleton<PurchaseManager>
 	public string GetPurchasePriceString(Purchase purchase)
 	{
 		string empty = string.Empty;
-		return AutoSingleton<PurchaseServicesGoogle>.Instance.GetPurchasePriceString(purchase.Identifier);
+		return null;//AutoSingleton<PurchaseServicesGoogle>.Instance.GetPurchasePriceString(purchase.Identifier);
 	}
 
 	public bool CanMakePayments()
@@ -471,7 +471,7 @@ public class PurchaseManager : AutoSingleton<PurchaseManager>
 			{
 				array[i] = _purchases[i].Identifier;
 			}
-			AutoSingleton<PurchaseServicesGoogle>.Instance.RequestProductData(array);
+			//AutoSingleton<PurchaseServicesGoogle>.Instance.RequestProductData(array);
 		}
 	}
 
@@ -482,7 +482,7 @@ public class PurchaseManager : AutoSingleton<PurchaseManager>
 			_restore = false;
 			string identifier = purchase.Identifier;
 			_purchasing = true;
-			AutoSingleton<PurchaseServicesGoogle>.Instance.Buy(identifier);
+			//AutoSingleton<PurchaseServicesGoogle>.Instance.Buy(identifier);
 		}
 	}
 

@@ -39,7 +39,7 @@ public class MetroButtonShowroomCar : MetroButton
 		Vector3 localPosition = carSlot.localPosition;
 		carSlot.localPosition = new Vector3(localPosition.x * carPositionOffset, localPosition.y * carPositionOffset, localPosition.z);
 		child.localScale = new Vector3(carPositionOffset, carPositionOffset, 1f);
-		Vector3 extents = child.renderer.bounds.extents;
+		Vector3 extents = child.GetComponent<Renderer>().bounds.extents;
 		float y = extents.y;
 		Bounds bounds = RendererBounds.ComputeBounds(carSlot);
 		if (Car != null)

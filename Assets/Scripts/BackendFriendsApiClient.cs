@@ -1,4 +1,4 @@
-using Roofdog;
+//using Roofdog;
 using System;
 
 public static class BackendFriendsApiClient
@@ -9,18 +9,18 @@ public static class BackendFriendsApiClient
 		{
 			onError?.Invoke("No Session Token");
 		}
-		else
-		{
-			AutoSingleton<BackendApiClient>.Instance.PostJson("/rest/friends/updates", null, friendIds.ToJsonData().toJson(), delegate
-			{
-				if (onSuccess != null)
-				{
-					onSuccess();
-				}
-			}, onError, new int[1]
-			{
-				204
-			}, HttpRetryOptions.DEFAULT_RETRY);
-		}
+		//else
+		//{
+			//AutoSingleton<BackendApiClient>.Instance.PostJson("/rest/friends/updates", null, friendIds.ToJsonData().toJson(), delegate
+		//	{
+		//		if (onSuccess != null)
+		//		{
+		//			onSuccess();
+		//		}
+		//	}, onError, new int[1]
+		//	{
+		//		204
+		//	}, HttpRetryOptions.DEFAULT_RETRY);
+		//}
 	}
 }

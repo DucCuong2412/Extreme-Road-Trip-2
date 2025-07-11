@@ -166,7 +166,7 @@ public class MetroMenuTutorial : MetroMenuPage
 		t.position = from;
 		while (!delay.IsDone())
 		{
-			t.position = Vector3.Lerp(t: Mathfx.Hermite(0f, 1f, delay.Value01()), from: from, to: to);
+			//t.position = Vector3.Lerp(t: Mathfx.Hermite(0f, 1f, delay.Value01()), from: from, to: to);
 			yield return null;
 		}
 		t.position = to;

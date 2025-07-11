@@ -14,12 +14,12 @@ public class GameTwitterManager : AutoSingleton<GameTwitterManager>
 
 	private void Init()
 	{
-		TwitterAndroid.init("5FRKVWIB7z9DKVRUufhQ", "l0eGGmnUwWMhpXKJtwgbyRovp5nnwPQRJgJkwNhGiw");
+		//TwitterAndroid.init("5FRKVWIB7z9DKVRUufhQ", "l0eGGmnUwWMhpXKJtwgbyRovp5nnwPQRJgJkwNhGiw");
 	}
 
 	public bool IsLoggedIn()
 	{
-		return TwitterAndroid.isLoggedIn();
+		return false;// TwitterAndroid.isLoggedIn();
 	}
 
 	public bool IsAvailable()
@@ -58,11 +58,11 @@ public class GameTwitterManager : AutoSingleton<GameTwitterManager>
 		{
 			if (image != null)
 			{
-				TwitterAndroid.postStatusUpdate(tweetText, image);
+				//TwitterAndroid.postStatusUpdate(tweetText, image);
 			}
 			else
 			{
-				TwitterAndroid.postStatusUpdate(tweetText);
+				//TwitterAndroid.postStatusUpdate(tweetText);
 			}
 			AutoSingleton<MetroMenuStack>.Instance.Pop(MetroAnimation.popup);
 		};
@@ -71,7 +71,7 @@ public class GameTwitterManager : AutoSingleton<GameTwitterManager>
 
 	private void Login()
 	{
-		TwitterAndroid.showLoginDialog();
+		//TwitterAndroid.showLoginDialog();
 	}
 
 	private IEnumerator LoginAndExecute(Action onLoginDone)
@@ -94,7 +94,7 @@ public class GameTwitterManager : AutoSingleton<GameTwitterManager>
 
 	public void Logout()
 	{
-		TwitterAndroid.logout();
+		//TwitterAndroid.logout();
 		Destroy();
 	}
 }

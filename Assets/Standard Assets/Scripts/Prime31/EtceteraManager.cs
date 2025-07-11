@@ -1,6 +1,6 @@
 namespace Prime31
 {
-	public class EtceteraManager : AbstractManager
-	{
-	}
+	// public class EtceteraManager //: AbstractManager
+	// {
+	// }
 }

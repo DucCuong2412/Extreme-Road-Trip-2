@@ -114,7 +114,7 @@ public class CameraGame : PrefabSingleton<CameraGame>
 
 	private void SetOrthographicSize(float size)
 	{
-		base.camera.orthographicSize = size;
+		base.GetComponent<Camera>().orthographicSize = size;
 		_orthographicSize = size;
 		_height = _orthographicSize * 2f;
 		_width = _height * _screenRatio;
@@ -155,11 +155,11 @@ public class CameraGame : PrefabSingleton<CameraGame>
 		_transform.position += _keyboardMoveVelocity * Time.deltaTime;
 		if (UnityEngine.Input.GetKey(KeyCode.KeypadPlus))
 		{
-			base.camera.orthographicSize -= 5f * Time.deltaTime;
+			base.GetComponent<Camera>().orthographicSize -= 5f * Time.deltaTime;
 		}
 		if (UnityEngine.Input.GetKey(KeyCode.KeypadMinus))
 		{
-			base.camera.orthographicSize += 5f * Time.deltaTime;
+			base.GetComponent<Camera>().orthographicSize += 5f * Time.deltaTime;
 		}
 	}
 

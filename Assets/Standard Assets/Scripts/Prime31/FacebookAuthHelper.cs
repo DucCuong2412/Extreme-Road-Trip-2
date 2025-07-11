@@ -16,12 +16,12 @@ namespace Prime31
 			this.requiresPublishPermissions = requiresPublishPermissions;
 			this.afterAuthAction = afterAuthAction;
 			FacebookManager.sessionOpenedEvent += sessionOpenedEvent;
-			FacebookManager.loginFailedEvent += loginFailedEvent;
-			if (requiresPublishPermissions)
-			{
-				FacebookManager.reauthorizationSucceededEvent += reauthorizationSucceededEvent;
-				FacebookManager.reauthorizationFailedEvent += reauthorizationFailedEvent;
-			}
+		// 	FacebookManager.loginFailedEvent += loginFailedEvent;
+		// 	if (requiresPublishPermissions)
+		// 	{
+		// 		FacebookManager.reauthorizationSucceededEvent += reauthorizationSucceededEvent;
+		// 		FacebookManager.reauthorizationFailedEvent += reauthorizationFailedEvent;
+		// 	}
 		}
 
 		~FacebookAuthHelper()
@@ -34,11 +34,11 @@ namespace Prime31
 			if (afterAuthAction != null)
 			{
 				FacebookManager.sessionOpenedEvent -= sessionOpenedEvent;
-				FacebookManager.loginFailedEvent -= loginFailedEvent;
+				// FacebookManager.loginFailedEvent -= loginFailedEvent;
 				if (requiresPublishPermissions)
 				{
 					FacebookManager.reauthorizationSucceededEvent -= reauthorizationSucceededEvent;
-					FacebookManager.reauthorizationFailedEvent -= reauthorizationFailedEvent;
+					// FacebookManager.reauthorizationFailedEvent -= reauthorizationFailedEvent;
 				}
 			}
 			_instance = null;
@@ -46,27 +46,27 @@ namespace Prime31
 
 		public void start()
 		{
-			FacebookAndroid.login();
+			// FacebookAndroid.login();
 		}
 
 		private void sessionOpenedEvent()
 		{
-			if (requiresPublishPermissions && !FacebookAndroid.getSessionPermissions().Contains("publish_actions"))
-			{
-				FacebookAndroid.reauthorizeWithPublishPermissions(new string[1]
-				{
-					"publish_actions"
-				}, FacebookSessionDefaultAudience.Everyone);
-				return;
-			}
+			// if (requiresPublishPermissions && !FacebookAndroid.getSessionPermissions().Contains("publish_actions"))
+			// {
+			// 	FacebookAndroid.reauthorizeWithPublishPermissions(new string[1]
+			// 	{
+			// 		"publish_actions"
+			// 	}, FacebookSessionDefaultAudience.Everyone);
+			// 	return;
+			// }
 			afterAuthAction();
 			cleanup();
 		}
 
-		private void loginFailedEvent(P31Error error)
-		{
-			cleanup();
-		}
+		// private void loginFailedEvent(P31Error error)
+		// {
+		// 	cleanup();
+		// }
 
 		private void reauthorizationSucceededEvent()
 		{
@@ -74,9 +74,9 @@ namespace Prime31
 			cleanup();
 		}
 
-		private void reauthorizationFailedEvent(P31Error error)
-		{
-			cleanup();
-		}
+		// private void reauthorizationFailedEvent(P31Error error)
+		// {
+		// 	cleanup();
+		// }
 	}
 }

@@ -18,8 +18,8 @@ public abstract class CollidableItem : Item
 
 	public override void Awake()
 	{
-		_collider = base.collider;
-		_rigidbody = base.rigidbody;
+		_collider = base.GetComponent<Collider>();
+		_rigidbody = base.GetComponent<Rigidbody>();
 		base.Awake();
 	}
 

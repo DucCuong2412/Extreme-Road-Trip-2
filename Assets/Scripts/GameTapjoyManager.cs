@@ -10,9 +10,9 @@ public class GameTapjoyManager : AutoSingleton<GameTapjoyManager>, IAdProvider
 
 	private List<PlacementId> _supportedPlacements;
 
-	private Dictionary<PlacementId, TJPlacement> _placements;
+	//private Dictionary<PlacementId, TJPlacement> _placements;
 
-	private TJPlacement _requestedPlacement;
+	//private TJPlacement _requestedPlacement;
 
 	public Action<PlacementId> AdAvailableEvent
 	{
@@ -113,53 +113,53 @@ public class GameTapjoyManager : AutoSingleton<GameTapjoyManager>, IAdProvider
 		_supportedPlacements.Add(PlacementId.BootPlacement);
 		_supportedPlacements.Add(PlacementId.ResumePlacement);
 		_supportedPlacements.Add(PlacementId.OfferwallPlacement);
-		_placements = new Dictionary<PlacementId, TJPlacement>();
+		//_placements = new Dictionary<PlacementId, TJPlacement>();
 		TapjoyRoofdogCustom.Validate();
 	}
 
 	private void OnEnable()
 	{
 		GameEvents.PlayerXPEvent += OnPlayerXP;
-		Tapjoy.OnConnectSuccess += OnConnectSuccess;
-		Tapjoy.OnConnectFailure += OnConnectFailure;
-		Tapjoy.OnAwardCurrencyResponse += OnTapPointsEarnedEvent;
-		Tapjoy.OnAwardCurrencyResponseFailure += OnTapPointsEarnedFailed;
-		Tapjoy.OnSpendCurrencyResponse += OnTapPointSpendSuccessfull;
-		Tapjoy.OnSpendCurrencyResponseFailure += OnTapPointSpendFailed;
-		Tapjoy.OnGetCurrencyBalanceResponse += OnGetCurrencyBalance;
-		TJPlacement.OnRequestSuccess += HandleOnPlacementRequestSuccess;
-		TJPlacement.OnRequestFailure += HandleOnPlacementRequestFailure;
-		TJPlacement.OnContentReady += HandleOnPlacementContentReady;
-		TJPlacement.OnContentShow += HandleOnPlacementContentShow;
-		TJPlacement.OnContentDismiss += HandleOnPlacementContentDismiss;
-		TJPlacement.OnPurchaseRequest += HandleOnPurchaseRequest;
-		TJPlacement.OnRewardRequest += HandleOnRewardRequest;
-		Tapjoy.GetCurrencyBalance();
+		//Tapjoy.OnConnectSuccess += OnConnectSuccess;
+		//Tapjoy.OnConnectFailure += OnConnectFailure;
+		//Tapjoy.OnAwardCurrencyResponse += OnTapPointsEarnedEvent;
+		//Tapjoy.OnAwardCurrencyResponseFailure += OnTapPointsEarnedFailed;
+		//Tapjoy.OnSpendCurrencyResponse += OnTapPointSpendSuccessfull;
+		//Tapjoy.OnSpendCurrencyResponseFailure += OnTapPointSpendFailed;
+		//Tapjoy.OnGetCurrencyBalanceResponse += OnGetCurrencyBalance;
+		//TJPlacement.OnRequestSuccess += HandleOnPlacementRequestSuccess;
+		//TJPlacement.OnRequestFailure += HandleOnPlacementRequestFailure;
+		//TJPlacement.OnContentReady += HandleOnPlacementContentReady;
+		//TJPlacement.OnContentShow += HandleOnPlacementContentShow;
+		//TJPlacement.OnContentDismiss += HandleOnPlacementContentDismiss;
+		//TJPlacement.OnPurchaseRequest += HandleOnPurchaseRequest;
+		//TJPlacement.OnRewardRequest += HandleOnRewardRequest;
+		//Tapjoy.GetCurrencyBalance();
 	}
 
 	private void OnDisable()
 	{
-		GameEvents.PlayerXPEvent -= OnPlayerXP;
-		Tapjoy.OnConnectSuccess -= OnConnectSuccess;
-		Tapjoy.OnConnectFailure -= OnConnectFailure;
-		Tapjoy.OnAwardCurrencyResponse -= OnTapPointsEarnedEvent;
-		Tapjoy.OnAwardCurrencyResponseFailure -= OnTapPointsEarnedFailed;
-		Tapjoy.OnSpendCurrencyResponse -= OnTapPointSpendSuccessfull;
-		Tapjoy.OnSpendCurrencyResponseFailure -= OnTapPointSpendFailed;
-		Tapjoy.OnGetCurrencyBalanceResponse -= OnGetCurrencyBalance;
-		TJPlacement.OnRequestSuccess -= HandleOnPlacementRequestSuccess;
-		TJPlacement.OnRequestFailure -= HandleOnPlacementRequestFailure;
-		TJPlacement.OnContentReady -= HandleOnPlacementContentReady;
-		TJPlacement.OnContentShow -= HandleOnPlacementContentShow;
-		TJPlacement.OnContentDismiss -= HandleOnPlacementContentDismiss;
-		TJPlacement.OnPurchaseRequest -= HandleOnPurchaseRequest;
-		TJPlacement.OnRewardRequest -= HandleOnRewardRequest;
+		//GameEvents.PlayerXPEvent -= OnPlayerXP;
+		//Tapjoy.OnConnectSuccess -= OnConnectSuccess;
+		//Tapjoy.OnConnectFailure -= OnConnectFailure;
+		//Tapjoy.OnAwardCurrencyResponse -= OnTapPointsEarnedEvent;
+		//Tapjoy.OnAwardCurrencyResponseFailure -= OnTapPointsEarnedFailed;
+		//Tapjoy.OnSpendCurrencyResponse -= OnTapPointSpendSuccessfull;
+		//Tapjoy.OnSpendCurrencyResponseFailure -= OnTapPointSpendFailed;
+		//Tapjoy.OnGetCurrencyBalanceResponse -= OnGetCurrencyBalance;
+		//TJPlacement.OnRequestSuccess -= HandleOnPlacementRequestSuccess;
+		//TJPlacement.OnRequestFailure -= HandleOnPlacementRequestFailure;
+		//TJPlacement.OnContentReady -= HandleOnPlacementContentReady;
+		//TJPlacement.OnContentShow -= HandleOnPlacementContentShow;
+		//TJPlacement.OnContentDismiss -= HandleOnPlacementContentDismiss;
+		//TJPlacement.OnPurchaseRequest -= HandleOnPurchaseRequest;
+		//TJPlacement.OnRewardRequest -= HandleOnRewardRequest;
 	}
 
-	private PlacementId GetPlacementId(TJPlacement placement)
-	{
-		return EnumUtil.Parse(placement.GetName(), PlacementId.Undefined);
-	}
+	//private PlacementId GetPlacementId(TJPlacement placement)
+	//{
+	//	return EnumUtil.Parse(placement.GetName(), PlacementId.Undefined);
+	//}
 
 	private void OnConnectSuccess()
 	{
@@ -174,47 +174,47 @@ public class GameTapjoyManager : AutoSingleton<GameTapjoyManager>, IAdProvider
 
 	private bool IsConnected()
 	{
-		return Tapjoy.IsConnected;
+		return false;//Tapjoy.IsConnected;
 	}
 
 	public void TryConnect()
 	{
-		if (!Tapjoy.IsConnected)
-		{
-			Tapjoy.Connect();
-		}
+		//if (!Tapjoy.IsConnected)
+		//{
+		//	Tapjoy.Connect();
+		//}
 	}
 
 	private void CreatePlacements()
 	{
 		foreach (PlacementId supportedPlacement in _supportedPlacements)
 		{
-			if (!_placements.ContainsKey(supportedPlacement))
-			{
-				_placements[supportedPlacement] = TJPlacement.CreatePlacement(supportedPlacement.ToString());
-			}
+			//if (!_placements.ContainsKey(supportedPlacement))
+			//{
+			//	_placements[supportedPlacement] = TJPlacement.CreatePlacement(supportedPlacement.ToString());
+			//}
 		}
 	}
 
 	private void PreloadPlacements()
 	{
-		foreach (KeyValuePair<PlacementId, TJPlacement> placement in _placements)
-		{
-			PreloadPlacement(placement.Value);
-		}
+		//foreach (KeyValuePair<PlacementId, TJPlacement> placement in _placements)
+		//{
+		//	PreloadPlacement(placement.Value);
+		//}
 	}
 
-	private void PreloadPlacement(TJPlacement placement)
-	{
-		if (placement != null && IsConnected())
-		{
-			placement.RequestContent();
-		}
-	}
+	//private void PreloadPlacement(TJPlacement placement)
+	//{
+	//	if (placement != null && IsConnected())
+	//	{
+	//		placement.RequestContent();
+	//	}
+	//}
 
 	private void InitUser()
 	{
-		Tapjoy.SetUserLevel(AutoSingleton<Player>.Instance.Profile.XPProfile.Level);
+		//Tapjoy.SetUserLevel(AutoSingleton<Player>.Instance.Profile.XPProfile.Level);
 		UpdateUserId();
 	}
 
@@ -222,7 +222,7 @@ public class GameTapjoyManager : AutoSingleton<GameTapjoyManager>, IAdProvider
 	{
 		if (IsConnected())
 		{
-			Tapjoy.SetUserLevel(currentLevel);
+			//Tapjoy.SetUserLevel(currentLevel);
 		}
 	}
 
@@ -233,7 +233,7 @@ public class GameTapjoyManager : AutoSingleton<GameTapjoyManager>, IAdProvider
 			string text = AutoSingleton<BackendManager>.Instance.PlayerIdentifier();
 			if (!string.IsNullOrEmpty(text))
 			{
-				Tapjoy.SetUserID(text);
+				//Tapjoy.SetUserID(text);
 			}
 		}
 	}
@@ -296,7 +296,7 @@ public class GameTapjoyManager : AutoSingleton<GameTapjoyManager>, IAdProvider
 		_amountTryingToSpend = amount;
 		this.After(1f, delegate
 		{
-			Tapjoy.SpendCurrency(_amountTryingToSpend);
+			//Tapjoy.SpendCurrency(_amountTryingToSpend);
 		});
 	}
 
@@ -304,97 +304,97 @@ public class GameTapjoyManager : AutoSingleton<GameTapjoyManager>, IAdProvider
 	{
 		if (!pause)
 		{
-			Tapjoy.GetCurrencyBalance();
+			//Tapjoy.GetCurrencyBalance();
 		}
 	}
 
-	private void HandleOnPlacementRequestSuccess(TJPlacement placement)
-	{
-	}
+	//private void HandleOnPlacementRequestSuccess(TJPlacement placement)
+	//{
+	//}
 
-	private void HandleOnPlacementRequestFailure(TJPlacement placement, string error)
-	{
-	}
+	//private void HandleOnPlacementRequestFailure(TJPlacement placement, string error)
+	//{
+	//}
 
-	private void HandleOnPlacementContentReady(TJPlacement placement)
-	{
-		if (_requestedPlacement != null && _requestedPlacement == placement && placement.IsContentReady())
-		{
-			_requestedPlacement.ShowContent();
-			_requestedPlacement = null;
-		}
-	}
+	//private void HandleOnPlacementContentReady(TJPlacement placement)
+	//{
+	//	if (_requestedPlacement != null && _requestedPlacement == placement && placement.IsContentReady())
+	//	{
+	//		_requestedPlacement.ShowContent();
+	//		_requestedPlacement = null;
+	//	}
+	//}
 
-	private void HandleOnPlacementContentShow(TJPlacement placement)
-	{
-		TriggerOnAdShown(GetPlacementId(placement));
-	}
+	//private void HandleOnPlacementContentShow(TJPlacement placement)
+	//{
+	//	TriggerOnAdShown(GetPlacementId(placement));
+	//}
 
-	private void HandleOnPlacementContentDismiss(TJPlacement placement)
-	{
-		if (_placements.ContainsKey(PlacementId.OfferwallPlacement) && placement != _placements[PlacementId.OfferwallPlacement])
-		{
-			PreloadPlacement(placement);
-		}
-		TriggerOnAdClosed(GetPlacementId(placement));
-		Tapjoy.GetCurrencyBalance();
-	}
+	//private void HandleOnPlacementContentDismiss(TJPlacement placement)
+	//{
+	//	if (_placements.ContainsKey(PlacementId.OfferwallPlacement) && placement != _placements[PlacementId.OfferwallPlacement])
+	//	{
+	//		PreloadPlacement(placement);
+	//	}
+	//	TriggerOnAdClosed(GetPlacementId(placement));
+	//	Tapjoy.GetCurrencyBalance();
+	//}
 
-	private void HandleOnPurchaseRequest(TJPlacement placement, TJActionRequest request, string productId)
-	{
-	}
+	//private void HandleOnPurchaseRequest(TJPlacement placement, TJActionRequest request, string productId)
+	//{
+	//}
 
-	private void HandleOnRewardRequest(TJPlacement placement, TJActionRequest request, string itemId, int quantity)
-	{
-	}
+	//private void HandleOnRewardRequest(TJPlacement placement, TJActionRequest request, string itemId, int quantity)
+	//{
+	//}
 
 	private bool ShowRewardedPlacement(PlacementId placementId)
 	{
-		if (_placements.ContainsKey(placementId))
-		{
-			return TryShowPlacement(_placements[placementId]);
-		}
-		this.After(2f, delegate
-		{
-			ShowRewardedPlacement(placementId);
-		});
+		//if (_placements.ContainsKey(placementId))
+		//{
+		//	return TryShowPlacement(_placements[placementId]);
+		//}
+		//this.After(2f, delegate
+		//{
+		//	ShowRewardedPlacement(placementId);
+		//});
 		return false;
 	}
 
-	private bool TryShowPlacement(TJPlacement placement)
-	{
-		TryConnect();
-		if (placement != null)
-		{
-			if (IsConnected())
-			{
-				ShowOrRequestContent(placement);
-				return true;
-			}
-			this.After(2f, delegate
-			{
-				ShowOrRequestContent(placement);
-			});
-		}
-		return false;
-	}
+	//private bool TryShowPlacement(TJPlacement placement)
+	//{
+	//	TryConnect();
+	//	if (placement != null)
+	//	{
+	//		if (IsConnected())
+	//		{
+	//			ShowOrRequestContent(placement);
+	//			return true;
+	//		}
+	//		this.After(2f, delegate
+	//		{
+	//			ShowOrRequestContent(placement);
+	//		});
+	//	}
+	//	return false;
+	//}
 
-	private void ShowOrRequestContent(TJPlacement placement)
-	{
-		if (placement.IsContentReady())
-		{
-			StartCoroutine(ShowContentCR(placement));
-			return;
-		}
-		_requestedPlacement = placement;
-		placement.RequestContent();
-	}
+	//private void ShowOrRequestContent(TJPlacement placement)
+	//{
+	//	if (placement.IsContentReady())
+	//	{
+	//		StartCoroutine(ShowContentCR(placement));
+	//		return;
+	//	}
+	//	_requestedPlacement = placement;
+	//	placement.RequestContent();
+	//}
 
-	private IEnumerator ShowContentCR(TJPlacement placement)
-	{
-		yield return null;
-		placement.ShowContent();
-	}
+	//private IEnumerator ShowContentCR(TJPlacement placement)
+	//{
+	//	yield return null;
+	//	placement.ShowContent();
+	//}
 
 	private void TriggerOnAdAvailable(PlacementId placementId)
 	{

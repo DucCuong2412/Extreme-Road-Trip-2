@@ -51,11 +51,11 @@ public class GameFacebookManager : AutoSingleton<GameFacebookManager>
 	{
 		UnityEngine.Object.DontDestroyOnLoad(base.gameObject);
 		FacebookManager.reauthorizationSucceededEvent += OnPublishPermissionSucceeded;
-		FacebookManager.reauthorizationFailedEvent += OnPublishPermissionFailed;
+		//FacebookManager.reauthorizationFailedEvent += OnPublishPermissionFailed;
 		FacebookManager.dialogCompletedWithUrlEvent += OnDialogCompletedWithUrl;
-		FacebookManager.dialogFailedEvent += OnDialogFailed;
+		//FacebookManager.dialogFailedEvent += OnDialogFailed;
 		FacebookManager.sessionOpenedEvent += OnSessionOpenedEvent;
-		FacebookManager.loginFailedEvent += OnLoginFailed;
+		//FacebookManager.loginFailedEvent += OnLoginFailed;
 		Init();
 		_facebookLike.Reset();
 		_publishPermissionGranted.Reset();
@@ -67,9 +67,9 @@ public class GameFacebookManager : AutoSingleton<GameFacebookManager>
 
 	private void Init()
 	{
-		Facebook.instance.accessToken = FacebookAndroid.getAccessToken();
-		FacebookAndroid.init();
-		FacebookAndroid.setAppVersion(GameVersion.VERSION);
+		//Facebook.instance.accessToken = FacebookAndroid.getAccessToken();
+		//FacebookAndroid.init();
+		//FacebookAndroid.setAppVersion(GameVersion.VERSION);
 		ResumeLogin();
 	}
 
@@ -83,24 +83,24 @@ public class GameFacebookManager : AutoSingleton<GameFacebookManager>
 			});
 			OnSessionOpenedEvent();
 		}
-		else if (!string.IsNullOrEmpty(FacebookAndroid.getAccessToken()))
-		{
-			_onLoginSucceeded = (Action)Delegate.Combine(_onLoginSucceeded, (Action)delegate
-			{
-				CheckPublishPermissions(null);
-				AutoSingleton<BackendManager>.Instance.Authenticate(SocialPlatform.facebook);
-			});
-			_onLoginFailed = (Action<string>)Delegate.Combine(_onLoginFailed, (Action<string>)delegate
-			{
-				AutoSingleton<BackendManager>.Instance.Authenticate(SocialPlatform.facebook);
-			});
-			OnSessionOpenedEvent();
-		}
+		//else if (!string.IsNullOrEmpty(FacebookAndroid.getAccessToken()))
+		//{
+		//	_onLoginSucceeded = (Action)Delegate.Combine(_onLoginSucceeded, (Action)delegate
+		//	{
+		//		CheckPublishPermissions(null);
+		//		AutoSingleton<BackendManager>.Instance.Authenticate(SocialPlatform.facebook);
+		//	});
+		//	_onLoginFailed = (Action<string>)Delegate.Combine(_onLoginFailed, (Action<string>)delegate
+		//	{
+		//		AutoSingleton<BackendManager>.Instance.Authenticate(SocialPlatform.facebook);
+		//	});
+		//	OnSessionOpenedEvent();
+		//}
 	}
 
 	public string GetAppLaunchUrl()
 	{
-		return FacebookAndroid.getAppLaunchUrl();
+		return null; //FacebookAndroid.getAppLaunchUrl();
 	}
 
 	public bool IsAvailable()
@@ -110,7 +110,7 @@ public class GameFacebookManager : AutoSingleton<GameFacebookManager>
 
 	public bool IsLoggedIn()
 	{
-		return FacebookAndroid.isSessionValid();
+		return false;// FacebookAndroid.isSessionValid();
 	}
 
 	public bool IsLoggingIn()
@@ -149,7 +149,7 @@ public class GameFacebookManager : AutoSingleton<GameFacebookManager>
 		}
 		if (IsLoggedIn())
 		{
-			Facebook.instance.graphRequest("me/likes/" + FacebookSetting.WebPageId, HTTPVerb.GET, null, GetFacebookLikesRequestHandler);
+			//Facebook.instance.graphRequest("me/likes/" + FacebookSetting.WebPageId, HTTPVerb.GET, null, GetFacebookLikesRequestHandler);
 		}
 	}
 
@@ -219,11 +219,10 @@ public class GameFacebookManager : AutoSingleton<GameFacebookManager>
 			OnSessionOpenedEvent();
 			return;
 		}
-		FacebookAndroid.logout();
-		FacebookAndroid.loginWithReadPermissions(new string[1]
-		{
-			"user_friends"
-		});
+		//FacebookAndroid.loginWithReadPermissions(new string[1]
+		//{
+		//	//"user_friends"
+		//});
 	}
 
 	public void OnSessionOpenedEvent()
@@ -236,17 +235,17 @@ public class GameFacebookManager : AutoSingleton<GameFacebookManager>
 		_onLoginFailed = null;
 	}
 
-	private void OnLoginFailed(P31Error error)
-	{
-		string text = (error == null) ? string.Empty : error.message;
-		SilentDebug.LogError("Facebook login error: " + text + "Prime code" + error.code);
-		if (_onLoginFailed != null)
-		{
-			_onLoginFailed(text);
-			_onLoginFailed = null;
-		}
-		_onLoginSucceeded = null;
-	}
+	//private void OnLoginFailed(P31Error error)
+	//{
+	//	string text = (error == null) ? string.Empty : error.message;
+	//	SilentDebug.LogError("Facebook login error: " + text + "Prime code" + error.code);
+	//	if (_onLoginFailed != null)
+	//	{
+	//		_onLoginFailed(text);
+	//		_onLoginFailed = null;
+	//	}
+	//	_onLoginSucceeded = null;
+	//}
 
 	private void AuthorizePublishPermissions(Action onPublishPermissionAsked)
 	{
@@ -257,7 +256,7 @@ public class GameFacebookManager : AutoSingleton<GameFacebookManager>
 			{
 				"publish_actions"
 			};
-			FacebookAndroid.reauthorizeWithPublishPermissions(permissions, FacebookSessionDefaultAudience.Friends);
+		//	FacebookAndroid.reauthorizeWithPublishPermissions(permissions, FacebookSessionDefaultAudience.Friends);
 		}
 		else
 		{
@@ -273,32 +272,32 @@ public class GameFacebookManager : AutoSingleton<GameFacebookManager>
 		}
 		else
 		{
-			Facebook.instance.graphRequest("me/permissions", HTTPVerb.GET, delegate(string error, object result)
-			{
-				bool flag = false;
-				if (!string.IsNullOrEmpty(error))
-				{
-					SilentDebug.LogError("CheckPublishPermissions failed: " + error);
-				}
-				else
-				{
-					List<object> list = FacebookResultToList(result);
-					if (list != null)
-					{
-						foreach (object item in list)
-						{
-							Hashtable data = new Hashtable(item as Dictionary<string, object>);
-							if (JsonUtil.ExtractString(data, "permission", string.Empty) == "publish_actions")
-							{
-								flag = (JsonUtil.ExtractString(data, "status", string.Empty) == "granted");
-								break;
-							}
-						}
-						_publishPermissionGranted.Set(flag);
-					}
-				}
-				HandleCheckPublishPermission(flag, onPublishPermissionAsked);
-			});
+			//Facebook.instance.graphRequest("me/permissions", HTTPVerb.GET, delegate(string error, object result)
+			//{
+			//	bool flag = false;
+			//	if (!string.IsNullOrEmpty(error))
+			//	{
+			//		SilentDebug.LogError("CheckPublishPermissions failed: " + error);
+			//	}
+			//	else
+			//	{
+			//		List<object> list = FacebookResultToList(result);
+			//		if (list != null)
+			//		{
+			//			foreach (object item in list)
+			//			{
+			//				Hashtable data = new Hashtable(item as Dictionary<string, object>);
+			//				if (JsonUtil.ExtractString(data, "permission", string.Empty) == "publish_actions")
+			//				{
+			//					flag = (JsonUtil.ExtractString(data, "status", string.Empty) == "granted");
+			//					break;
+			//				}
+			//			}
+			//			_publishPermissionGranted.Set(flag);
+			//		}
+			//	}
+			//	HandleCheckPublishPermission(flag, onPublishPermissionAsked);
+			//});
 		}
 	}
 
@@ -329,16 +328,16 @@ public class GameFacebookManager : AutoSingleton<GameFacebookManager>
 		_onPublishPermissionAsked = null;
 	}
 
-	private void OnPublishPermissionFailed(P31Error error)
-	{
-		SilentDebug.LogWarning(("OnPublishPermissionFailed: " + error == null) ? string.Empty : (error.message + " Code " + error.code));
-		_publishPermissionGranted.Set(data: false);
-		if (_onPublishPermissionAsked != null)
-		{
-			_onPublishPermissionAsked();
-		}
-		_onPublishPermissionAsked = null;
-	}
+	//private void OnPublishPermissionFailed(P31Error error)
+	//{
+	//	SilentDebug.LogWarning(("OnPublishPermissionFailed: " + error == null) ? string.Empty : (error.message + " Code " + error.code));
+	//	_publishPermissionGranted.Set(data: false);
+	//	if (_onPublishPermissionAsked != null)
+	//	{
+	//		_onPublishPermissionAsked();
+	//	}
+	//	_onPublishPermissionAsked = null;
+	//}
 
 	[Obsolete("We removed the like permission")]
 	public void LoginAndRefreshUserLikes(Action<string> onLoginFailed)
@@ -367,7 +366,7 @@ public class GameFacebookManager : AutoSingleton<GameFacebookManager>
 			Dictionary<string, object> dictionary = new Dictionary<string, object>();
 			dictionary.Add("score", score.ToString());
 			Dictionary<string, object> parameters = dictionary;
-			Facebook.instance.graphRequest("me/scores", HTTPVerb.POST, parameters, null);
+			//Facebook.instance.graphRequest("me/scores", HTTPVerb.POST, parameters, null);
 		}
 	}
 
@@ -472,7 +471,7 @@ public class GameFacebookManager : AutoSingleton<GameFacebookManager>
 		}
 		ResetDialogCallback();
 		_onInviteFriendsDialogCompleted = onInviteCompleted;
-		FacebookAndroid.showDialog("apprequests", parameters);
+		//FacebookAndroid.showDialog("apprequests", parameters);
 	}
 
 	private void ResetDialogCallback()
@@ -498,11 +497,11 @@ public class GameFacebookManager : AutoSingleton<GameFacebookManager>
 		ResetDialogCallback();
 	}
 
-	public void OnDialogFailed(P31Error error)
-	{
-		SilentDebug.LogWarning(("Facebook OnDialogFailed: " + error == null) ? string.Empty : (error.message + " Prime " + error.code));
-		ResetDialogCallback();
-	}
+	//public void OnDialogFailed(P31Error error)
+	//{
+	//	SilentDebug.LogWarning(("Facebook OnDialogFailed: " + error == null) ? string.Empty : (error.message + " Prime " + error.code));
+	//	ResetDialogCallback();
+	//}
 
 	public bool IsPublishPermissionGranted()
 	{
@@ -521,7 +520,7 @@ public class GameFacebookManager : AutoSingleton<GameFacebookManager>
 			dictionary.Add("description", description);
 			Dictionary<string, string> parameters = dictionary;
 			ResetDialogCallback();
-			FacebookAndroid.showDialog("feed", parameters);
+			//FacebookAndroid.showDialog("feed", parameters);
 		}
 	}
 
@@ -533,7 +532,7 @@ public class GameFacebookManager : AutoSingleton<GameFacebookManager>
 			dictionary.Add("message", FacebookSetting.ApplicationName);
 			dictionary.Add("picture", image);
 			Dictionary<string, object> parameters = dictionary;
-			Facebook.instance.graphRequest("me/photos", HTTPVerb.POST, parameters, OnImagePosted);
+			//Facebook.instance.graphRequest("me/photos", HTTPVerb.POST, parameters, OnImagePosted);
 		}
 	}
 
@@ -568,7 +567,7 @@ public class GameFacebookManager : AutoSingleton<GameFacebookManager>
 		else
 		{
 			string str = "me?fields=id,name,picture";
-			Facebook.instance.graphRequest(string.Empty + str, HTTPVerb.GET, null, OnUserInfoRetrieved);
+			//Facebook.instance.graphRequest(string.Empty + str, HTTPVerb.GET, null, OnUserInfoRetrieved);
 		}
 	}
 
@@ -604,8 +603,8 @@ public class GameFacebookManager : AutoSingleton<GameFacebookManager>
 
 	public void Logout()
 	{
-		FacebookAndroid.logout();
-		Facebook.instance.accessToken = FacebookAndroid.getAccessToken();
+		//FacebookAndroid.logout();
+		//Facebook.instance.accessToken = FacebookAndroid.getAccessToken();
 		ResetData();
 		if (GameFacebookManager.OnLogout != null)
 		{
@@ -618,7 +617,7 @@ public class GameFacebookManager : AutoSingleton<GameFacebookManager>
 		if (IsLoggedIn())
 		{
 			string str = "me/friends?fields=id,name,first_name,picture&limit=" + 25;
-			Facebook.instance.graphRequest(string.Empty + str, HTTPVerb.GET, null, OnFriendsReceived);
+			//Facebook.instance.graphRequest(string.Empty + str, HTTPVerb.GET, null, OnFriendsReceived);
 		}
 	}
 

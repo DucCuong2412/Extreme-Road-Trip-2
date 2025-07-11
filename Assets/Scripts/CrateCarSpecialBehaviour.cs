@@ -60,7 +60,7 @@ public class CrateCarSpecialBehaviour : CarSpecialBehaviour
 			Transform transform = _crates[index];
 			ReleaseCrate(transform);
 			Vector3 velocity = _carController.Velocity;
-			transform.rigidbody.velocity = new Vector3(velocity.x, (0f - velocity.y) / 3f, velocity.z);
+			transform.GetComponent<Rigidbody>().velocity = new Vector3(velocity.x, (0f - velocity.y) / 3f, velocity.z);
 			_crates.RemoveAt(index);
 		}
 	}

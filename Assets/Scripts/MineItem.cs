@@ -17,7 +17,7 @@ public class MineItem : CollidableItem
 		PrefabSingleton<GameSoundManager>.Instance.PlayMineSound();
 		Vector3 carPos = car.Position;
 		yield return new WaitForSeconds(_randomDelay.Pick());
-		car.rigidbody.AddExplosionForce(_force * ((float)Device.GetFixedUpdateRate() / 60f), carPos, _forceRadius, _forceUpwardsModifier);
+		car.GetComponent<Rigidbody>().AddExplosionForce(_force * ((float)Device.GetFixedUpdateRate() / 60f), carPos, _forceRadius, _forceUpwardsModifier);
 		AutoSingleton<ExplosionManager>.Instance.Explode(base.Position);
 		yield return new WaitForFixedUpdate();
 		_transform.position = GameSettings.OutOfWorldVector;

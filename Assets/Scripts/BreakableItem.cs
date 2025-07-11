@@ -67,7 +67,7 @@ public class BreakableItem : TangibleItem
 		base.Reset();
 		foreach (Transform key in _initPos.Keys)
 		{
-			Rigidbody rigidbody = key.rigidbody;
+			Rigidbody rigidbody = key.GetComponent<Rigidbody>();
 			if (rigidbody != null)
 			{
 				UnityEngine.Object.Destroy(rigidbody);

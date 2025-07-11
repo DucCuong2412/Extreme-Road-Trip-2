@@ -1,4 +1,4 @@
-using ChartboostSDK;
+//using ChartboostSDK;
 using System.Collections;
 using UnityEngine;
 
@@ -56,7 +56,7 @@ public class Boot : Singleton<Boot>
 		yield return null;
 		if (GameChartboostManager.IsSupported())
 		{
-			Chartboost.Create();
+			//Chartboost.Create();
 			yield return null;
 		}
 		AutoSingleton<GameAdProvider>.Instance.Create();

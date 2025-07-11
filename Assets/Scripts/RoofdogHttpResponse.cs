@@ -1,4 +1,4 @@
-using Roofdog;
+// using Roofdog;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -54,17 +54,17 @@ public class RoofdogHttpResponse
 		return utf8.GetString(bytes, num, count);
 	}
 
-	public HttpResponse ToHttpResponse(HttpMethod requestMethod, string requestUrl, Dictionary<string, string> headersToMerge)
-	{
-		Dictionary<string, string> dictionary = new Dictionary<string, string>();
-		foreach (string key in headersToMerge.Keys)
-		{
-			dictionary[key.ToUpper()] = headersToMerge[key];
-		}
-		foreach (string key2 in Headers.Keys)
-		{
-			dictionary[key2.ToUpper()] = Headers[key2];
-		}
-		return new HttpResponse(requestMethod, requestUrl, StatusCode, dictionary, Body);
-	}
+	// public HttpResponse ToHttpResponse(HttpMethod requestMethod, string requestUrl, Dictionary<string, string> headersToMerge)
+	// {
+	// 	Dictionary<string, string> dictionary = new Dictionary<string, string>();
+	// 	foreach (string key in headersToMerge.Keys)
+	// 	{
+	// 		dictionary[key.ToUpper()] = headersToMerge[key];
+	// 	}
+	// 	foreach (string key2 in Headers.Keys)
+	// 	{
+	// 		dictionary[key2.ToUpper()] = Headers[key2];
+	// 	}
+	// 	return new HttpResponse(requestMethod, requestUrl, StatusCode, dictionary, Body);
+	// }
 }

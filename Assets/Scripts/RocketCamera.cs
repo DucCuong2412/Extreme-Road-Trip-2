@@ -38,6 +38,6 @@ public class RocketCamera : Singleton<RocketCamera>
 		float num3 = 120f;
 		float y = position.y;
 		color = ((y < num) ? Color.Lerp(a, color2, Mathf.InverseLerp(0f, num, y)) : ((y < num2) ? Color.Lerp(color2, color3, Mathf.InverseLerp(num, num2, y)) : ((!(y < num3)) ? color4 : Color.Lerp(color3, color4, Mathf.InverseLerp(num2, num3, y)))));
-		base.camera.backgroundColor = color;
+		base.GetComponent<Camera>().backgroundColor = color;
 	}
 }

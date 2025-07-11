@@ -19,7 +19,7 @@ public class TapjoyAnalyticsEventHandler
 			{
 				text2 = "SIGNATURE_WAS_EMPTY";
 			}
-			Tapjoy.TrackPurchaseInGooglePlayStore(tapjoyIAPEventData.SkuDetails, text, text2);
+			//Tapjoy.TrackPurchaseInGooglePlayStore(tapjoyIAPEventData.SkuDetails, text, text2);
 		}
 	}
 }

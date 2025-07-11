@@ -273,7 +273,7 @@ public class tk2dClippedSprite : tk2dBaseSprite
 		else if (base.CurrentSprite.physicsEngine == tk2dSpriteDefinition.PhysicsEngine.Physics2D && boxCollider2D != null)
 		{
 			boxCollider2D.size = 2f * boundsExtents;
-			boxCollider2D.center = boundsCenter;
+			boxCollider2D.offset = boundsCenter;
 		}
 	}
 

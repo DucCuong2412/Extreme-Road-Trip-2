@@ -41,7 +41,7 @@ public class AIInputController : CarInputController
 	{
 		_state = State.stabilizing;
 		_transform = base.transform;
-		_rigidbody = base.rigidbody;
+		_rigidbody = base.GetComponent<Rigidbody>();
 		Vector3 extents = GetComponent<CarController>().GetVisualBounds().extents;
 		_slamStopDistance = extents.y;
 	}

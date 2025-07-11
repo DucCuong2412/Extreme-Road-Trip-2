@@ -40,7 +40,7 @@ public class RocketEpicPowerup : EpicPowerup
 		GameObject gameObject = Object.Instantiate(car.GamePrefab, Vector3.zero, Quaternion.identity) as GameObject;
 		_car = gameObject.GetComponent<CarController>();
 		GameObject gameObject2 = Object.Instantiate(Resources.Load("Rocket")) as GameObject;
-		Transform transform = gameObject.transform.FindChild("RocketAnchor");
+		Transform transform = gameObject.transform.Find("RocketAnchor");
 		if (transform != null)
 		{
 			gameObject2.transform.parent = transform;

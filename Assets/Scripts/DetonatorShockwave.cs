@@ -18,7 +18,8 @@ public class DetonatorShockwave : DetonatorComponent
 
 	public Material shockwaveMaterial;
 
-	public ParticleRenderMode renderMode;
+	public ParticleSystemRenderMode renderMode;
+	//public ParticleRenderMode renderMode;
 
 	public override void Init()
 	{
@@ -37,7 +38,7 @@ public class DetonatorShockwave : DetonatorComponent
 	public void BuildShockwave()
 	{
 		_shockwave = new GameObject("Shockwave");
-		_shockwaveEmitter = (DetonatorBurstEmitter)_shockwave.AddComponent("DetonatorBurstEmitter");
+		//_shockwaveEmitter = (DetonatorBurstEmitter)_shockwave.AddComponent("DetonatorBurstEmitter");
 		_shockwave.transform.parent = base.transform;
 		_shockwave.transform.localRotation = Quaternion.identity;
 		_shockwave.transform.localPosition = localPosition;

@@ -19,7 +19,8 @@ public class AutoSingleton<T> : MonoBehaviour where T : MonoBehaviour
 
 	public void Awake()
 	{
-		if ((Object)_instance == (Object)null)
+		Debug.Log("Awake cccccccccccc: " + typeof(T).ToString());
+        if ((Object)_instance == (Object)null)
 		{
 			_instance = (this as T);
 			OnAwake();

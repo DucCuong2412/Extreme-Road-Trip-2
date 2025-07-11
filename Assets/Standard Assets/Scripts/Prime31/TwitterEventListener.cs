@@ -49,7 +49,7 @@ namespace Prime31
 			if (result != null)
 			{
 				UnityEngine.Debug.Log("requestDidFinishEvent");
-				Utils.logObject(result);
+				// Utils.logObject(result);
 			}
 		}
 

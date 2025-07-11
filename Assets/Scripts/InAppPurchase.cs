@@ -24,8 +24,8 @@ public class InAppPurchase : AnalyticEvent, IRoofdogEvent, ITapjoyEvent
 		_rdData.AddData(RoofdogAnalyticsManager.Parameter.paramStr1, productId);
 		_rdData.AddData(RoofdogAnalyticsManager.Parameter.paramStr2, category);
 		_rdData.AddData(RoofdogAnalyticsManager.Parameter.paramNum1, value2);
-		string skuDetails = SimpleJson.encode(new AndroidSkuDetails(productId, formattedPrice, "inapp", productId, productPrice * 1000000.0, currencyCode, productId));
-		_tjData = new TapjoyIAPEventData(productId, currencyCode, productPrice, transactionId, skuDetails, purchaseData, dataSignature);
+		//string skuDetails = SimpleJson.encode(new AndroidSkuDetails(productId, formattedPrice, "inapp", productId, productPrice * 1000000.0, currencyCode, productId));
+		//_tjData = new TapjoyIAPEventData(productId, currencyCode, productPrice, transactionId, skuDetails, purchaseData, dataSignature);
 	}
 
 	public RoofdogEventData ToRoofdogEventData()

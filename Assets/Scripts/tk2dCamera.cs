@@ -434,8 +434,8 @@ public class tk2dCamera : MonoBehaviour
 			}
 		}
 		float num17 = 1f / ZoomFactor;
-		bool flag2 = Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.WindowsWebPlayer || Application.platform == RuntimePlatform.WindowsEditor;
-		float num18 = (!halfTexelOffset || !flag2 || SystemInfo.graphicsShaderLevel >= 40) ? 0f : 0.5f;
+		//bool flag2 = Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.WindowsWebPlayer || Application.platform == RuntimePlatform.WindowsEditor;
+		//float num18 = (!halfTexelOffset || !flag2 || SystemInfo.graphicsShaderLevel >= 40) ? 0f : 0.5f;
 		float num19 = settings.cameraSettings.orthographicSize;
 		switch (settings.cameraSettings.orthographicType)
 		{
@@ -459,7 +459,7 @@ public class tk2dCamera : MonoBehaviour
 		float num22 = num19 * num17;
 		screenExtents = new Rect(num * num22 / scaleForOverride.x, num2 * num22 / scaleForOverride.y, (num3 - num) * num22 / scaleForOverride.x, (num4 - num2) * num22 / scaleForOverride.y);
 		unscaledScreenExtents = new Rect(zero.x * num22, zero.y * num22, (float)nativeResolutionWidth * num22, (float)nativeResolutionHeight * num22);
-		return OrthoOffCenter(scaleForOverride, num19 * (num + num18) * num17, num19 * (num3 + num18) * num17, num19 * (num2 - num18) * num17, num19 * (num4 - num18) * num17, UnityCamera.nearClipPlane, UnityCamera.farClipPlane);
+		return OrthoOffCenter(scaleForOverride, num19 * (num /*+ num18*/) * num17, num19 * (num3 /*+ num18*/) * num17, num19 * (num2 /*- num18*/) * num17, num19 * (num4 /*- num18*/) * num17, UnityCamera.nearClipPlane, UnityCamera.farClipPlane);
 	}
 
 	private Vector2 GetScreenPixelDimensions(tk2dCamera settings)

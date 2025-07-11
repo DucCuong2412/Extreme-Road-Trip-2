@@ -14,7 +14,7 @@ public class WidgetAchievement : PrefabSingleton<WidgetAchievement>
 	protected override void OnStart()
 	{
 		base.OnStart();
-		_screenHeight = PrefabSingleton<CameraGUI>.Instance.camera.orthographicSize;
+		_screenHeight = PrefabSingleton<CameraGUI>.Instance.GetComponent<Camera>().orthographicSize;
 		Vector3 extents = RendererBounds.ComputeBounds(base.transform).extents;
 		_widgetHeight = extents.y;
 		base.transform.parent = PrefabSingleton<CameraGUI>.Instance.transform;

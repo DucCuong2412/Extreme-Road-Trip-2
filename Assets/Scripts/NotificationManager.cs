@@ -41,9 +41,9 @@ public class NotificationManager : AutoSingleton<NotificationManager>
 	protected override void OnStart()
 	{
 		CleanupNotifications();
-		GoogleCloudMessaging.register("108352960072");
-		GoogleCloudMessagingManager.registrationSucceededEvent += OnRegisterNotificationSuccessEvent;
-		GoogleCloudMessaging.checkForNotifications();
+		//GoogleCloudMessaging.register("108352960072");
+		//GoogleCloudMessagingManager.registrationSucceededEvent += OnRegisterNotificationSuccessEvent;
+		//GoogleCloudMessaging.checkForNotifications();
 	}
 
 	private void OnRegisterNotificationSuccessEvent(string registrationId)

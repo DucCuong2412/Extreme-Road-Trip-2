@@ -220,25 +220,25 @@ public class LeaderboardsManager : AutoSingleton<LeaderboardsManager>
 			}
 			Action<LeaderboardType> downloadLeaderboard = delegate(LeaderboardType type)
 			{
-				_003CCacheLeaderboardsCR_003Ec__Iterator31 _003CCacheLeaderboardsCR_003Ec__Iterator = this;
+				//_003CCacheLeaderboardsCR_003Ec__Iterator31 _003CCacheLeaderboardsCR_003Ec__Iterator = this;
 				bool flag = true;
-				if (base._003C_003Ef__this._leaderboardsTimestamp.ContainsKey(type))
-				{
-					flag = ((DateTime.Now - base._003C_003Ef__this._leaderboardsTimestamp[type]).TotalMinutes > 30.0);
-				}
-				if (!base._003CfacebookLeaderboardAvailable_003E__0 || !base._003C_003Ef__this._scoresCache[base.platform].ContainsKey(type) || flag)
-				{
-					Action retrieveScores = delegate
-					{
-						AutoSingleton<BackendManager>.Instance.GetFriendsLeaderboardEntries(type.ToString());
-					};
-					base._003C_003Ef__this.StartCoroutine(base._003C_003Ef__this.CacheLeaderboardCR(type, retrieveScores, base.platform));
-				}
-				else if (base._003C_003Ef__this.OnScoresRetrievedCallback != null)
-				{
-					List<LeaderboardScore> leaderboardScores = base._003C_003Ef__this.GetLeaderboardScores(type, base.platform);
-					base._003C_003Ef__this.OnScoresRetrievedCallback(SocialPlatform.facebook, type, leaderboardScores);
-				}
+				//if (base._003C_003Ef__this._leaderboardsTimestamp.ContainsKey(type))
+				//{
+				//	flag = ((DateTime.Now - base._003C_003Ef__this._leaderboardsTimestamp[type]).TotalMinutes > 30.0);
+				//}
+				//if (!base._003CfacebookLeaderboardAvailable_003E__0 || !base._003C_003Ef__this._scoresCache[base.platform].ContainsKey(type) || flag)
+				//{
+				//	Action retrieveScores = delegate
+				//	{
+				//		AutoSingleton<BackendManager>.Instance.GetFriendsLeaderboardEntries(type.ToString());
+				//	};
+				//	base._003C_003Ef__this.StartCoroutine(base._003C_003Ef__this.CacheLeaderboardCR(type, retrieveScores, base.platform));
+				//}
+				//else if (base._003C_003Ef__this.OnScoresRetrievedCallback != null)
+				//{
+				//	List<LeaderboardScore> leaderboardScores = base._003C_003Ef__this.GetLeaderboardScores(type, base.platform);
+				//	base._003C_003Ef__this.OnScoresRetrievedCallback(SocialPlatform.facebook, type, leaderboardScores);
+				//}
 			};
 			downloadLeaderboard(LeaderboardType.longestRoadTrip);
 			downloadLeaderboard(LeaderboardType.mostBucksFrenzyMode);

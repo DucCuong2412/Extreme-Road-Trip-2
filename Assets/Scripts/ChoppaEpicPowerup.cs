@@ -43,7 +43,7 @@ public class ChoppaEpicPowerup : EpicPowerup
 		_carGO = (Object.Instantiate(car.GamePrefab, Vector3.zero, Quaternion.identity) as GameObject);
 		_car = _carGO.GetComponent<CarController>();
 		_choppaGO = (Object.Instantiate(Resources.Load("Choppa")) as GameObject);
-		Transform transform = _choppaGO.transform.FindChild("CarAnchor");
+		Transform transform = _choppaGO.transform.Find("CarAnchor");
 		if (transform != null)
 		{
 			_car._rigidbody.isKinematic = true;

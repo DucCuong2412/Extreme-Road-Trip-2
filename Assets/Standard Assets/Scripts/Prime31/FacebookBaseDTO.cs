@@ -4,7 +4,7 @@ namespace Prime31
 	{
 		public override string ToString()
 		{
-			return JsonFormatter.prettyPrint(Json.encode(this)) ?? string.Empty;
+			return null ;// JsonFormatter.prettyPrint(Json.encode(this)) ?? string.Empty;
 		}
 	}
 }

@@ -115,7 +115,7 @@ public class MetroLabel : MetroWidget
 			float width = _childsZone.width;
 			if (_alignment == MetroAlign.Left)
 			{
-				Renderer renderer = _textMesh.renderer;
+				Renderer renderer = _textMesh.GetComponent<Renderer>();
 				Bounds bounds = renderer.bounds;
 				Vector3 a = vector;
 				Vector3 left = Vector3.left;
@@ -125,7 +125,7 @@ public class MetroLabel : MetroWidget
 			}
 			if (_alignment == MetroAlign.Right)
 			{
-				Renderer renderer2 = _textMesh.renderer;
+				Renderer renderer2 = _textMesh.GetComponent<Renderer>();
 				Bounds bounds2 = renderer2.bounds;
 				Vector3 a2 = vector;
 				Vector3 right = Vector3.right;

@@ -16,11 +16,11 @@ public abstract class TangibleItem : CollidableItem
 
 	protected Rigidbody AddRigidbody(GameObject go, CarController car)
 	{
-		if (go.rigidbody == null)
+		if (go.GetComponent<Rigidbody>() == null)
 		{
 			go.AddComponent<Rigidbody>();
 		}
-		Rigidbody rigidbody = go.rigidbody;
+		Rigidbody rigidbody = go.GetComponent<Rigidbody>();
 		rigidbody.constraints = (RigidbodyConstraints)56;
 		rigidbody.interpolation = RigidbodyInterpolation.Interpolate;
 		rigidbody.mass = 0.01f;

@@ -6,7 +6,7 @@ public class BumpableItem : TangibleItem
 	public override void Reset()
 	{
 		base.Reset();
-		Rigidbody rigidbody = _transform.rigidbody;
+		Rigidbody rigidbody = _transform.GetComponent<Rigidbody>();
 		if (rigidbody != null)
 		{
 			UnityEngine.Object.Destroy(rigidbody);

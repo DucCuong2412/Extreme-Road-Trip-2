@@ -63,11 +63,11 @@ public class DetonatorForce : DetonatorComponent
 			Collider[] colliders = _colliders;
 			foreach (Collider collider in colliders)
 			{
-				if (!collider || !collider.rigidbody)
+				if (!collider || !collider.GetComponent<Rigidbody>())
 				{
 					continue;
 				}
-				collider.rigidbody.AddExplosionForce(power * size, _explosionPosition, radius * size, 4f * MyDetonator().upwardsBias * size);
+				collider.GetComponent<Rigidbody>().AddExplosionForce(power * size, _explosionPosition, radius * size, 4f * MyDetonator().upwardsBias * size);
 				SendMessage("OnDetonatorForceHit", null, SendMessageOptions.DontRequireReceiver);
 				if ((bool)fireObject)
 				{
@@ -78,12 +78,13 @@ public class DetonatorForce : DetonatorComponent
 					_tempFireObject = (Object.Instantiate(fireObject, base.transform.position, base.transform.rotation) as GameObject);
 					_tempFireObject.transform.parent = collider.transform;
 					_tempFireObject.transform.localPosition = new Vector3(0f, 0f, 0f);
-					if ((bool)_tempFireObject.particleEmitter)
-					{
-						_tempFireObject.particleEmitter.emit = true;
-						UnityEngine.Object.Destroy(_tempFireObject, fireObjectLife);
-					}
-				}
+				
+                    if (_tempFireObject.GetComponent<ParticleSystem>())
+                    {
+                        _tempFireObject.GetComponent<ParticleSystem>().Play();
+                        UnityEngine.Object.Destroy(_tempFireObject, fireObjectLife);
+                    }
+                }
 			}
 			_delayedExplosionStarted = false;
 			_explodeDelay = 0f;

@@ -1,4 +1,4 @@
-using ChartboostSDK;
+// using ChartboostSDK;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ public class GameChartboostManager : AutoSingleton<GameChartboostManager>, IAdPr
 {
 	private List<PlacementId> _supportedPlacements;
 
-	private CBLocation _requestedPlacement;
+	// private CBLocation _requestedPlacement;
 
 	public Action<PlacementId> AdAvailableEvent
 	{
@@ -102,37 +102,37 @@ public class GameChartboostManager : AutoSingleton<GameChartboostManager>, IAdPr
 
 	private void OnEnable()
 	{
-		Chartboost.didInitialize += OnInitialized;
-		Chartboost.didFailToLoadInterstitial += OnFailedToLoadInterstitial;
-		Chartboost.didDismissInterstitial += OnDismissedInterstitial;
-		Chartboost.didCloseInterstitial += OnClosedInterstitial;
-		Chartboost.didClickInterstitial += OnClickedInterstitial;
-		Chartboost.didCacheInterstitial += OnCachedInterstitial;
-		Chartboost.shouldDisplayInterstitial += OnShouldDisplayInterstitial;
-		Chartboost.didDisplayInterstitial += OnDisplayedInterstitial;
+		// Chartboost.didInitialize += OnInitialized;
+		// Chartboost.didFailToLoadInterstitial += OnFailedToLoadInterstitial;
+		// Chartboost.didDismissInterstitial += OnDismissedInterstitial;
+		// Chartboost.didCloseInterstitial += OnClosedInterstitial;
+		// Chartboost.didClickInterstitial += OnClickedInterstitial;
+		// Chartboost.didCacheInterstitial += OnCachedInterstitial;
+		// Chartboost.shouldDisplayInterstitial += OnShouldDisplayInterstitial;
+		// Chartboost.didDisplayInterstitial += OnDisplayedInterstitial;
 	}
 
 	private void OnDisable()
 	{
-		Chartboost.didInitialize -= OnInitialized;
-		Chartboost.didFailToLoadInterstitial -= OnFailedToLoadInterstitial;
-		Chartboost.didDismissInterstitial -= OnDismissedInterstitial;
-		Chartboost.didCloseInterstitial -= OnClosedInterstitial;
-		Chartboost.didClickInterstitial -= OnClickedInterstitial;
-		Chartboost.didCacheInterstitial -= OnCachedInterstitial;
-		Chartboost.shouldDisplayInterstitial -= OnShouldDisplayInterstitial;
-		Chartboost.didDisplayInterstitial -= OnDisplayedInterstitial;
+		// Chartboost.didInitialize -= OnInitialized;
+		// Chartboost.didFailToLoadInterstitial -= OnFailedToLoadInterstitial;
+		// Chartboost.didDismissInterstitial -= OnDismissedInterstitial;
+		// Chartboost.didCloseInterstitial -= OnClosedInterstitial;
+		// Chartboost.didClickInterstitial -= OnClickedInterstitial;
+		// Chartboost.didCacheInterstitial -= OnCachedInterstitial;
+		// Chartboost.shouldDisplayInterstitial -= OnShouldDisplayInterstitial;
+		// Chartboost.didDisplayInterstitial -= OnDisplayedInterstitial;
 	}
 
-	private CBLocation GetPlacement(PlacementId placementId)
-	{
-		return CBLocation.locationFromName(placementId.ToString());
-	}
+	// private CBLocation GetPlacement(PlacementId placementId)
+	// {
+	// 	return CBLocation.locationFromName(placementId.ToString());
+	// }
 
-	private PlacementId CBLocationToPlacementId(CBLocation location)
-	{
-		return EnumUtil.Parse(location.ToString(), PlacementId.Undefined);
-	}
+	// private PlacementId CBLocationToPlacementId(CBLocation location)
+	// {
+	// 	return EnumUtil.Parse(location.ToString(), PlacementId.Undefined);
+	// }
 
 	public static bool IsSupported()
 	{
@@ -141,7 +141,7 @@ public class GameChartboostManager : AutoSingleton<GameChartboostManager>, IAdPr
 
 	private void OnInitSuccess()
 	{
-		Chartboost.setAutoCacheAds(autoCacheAds: true);
+		// Chartboost.setAutoCacheAds(autoCacheAds: true);
 		PreloadPlacements();
 	}
 
@@ -155,35 +155,35 @@ public class GameChartboostManager : AutoSingleton<GameChartboostManager>, IAdPr
 
 	private void PreloadPlacement(PlacementId id)
 	{
-		Chartboost.cacheInterstitial(GetPlacement(id));
+		// Chartboost.cacheInterstitial(GetPlacement(id));
 	}
 
 	private bool ShowRewardedPlacement(PlacementId placementId)
 	{
-		if (!Chartboost.isInitialized())
-		{
-			return false;
-		}
-		ShowOrRequestContent(GetPlacement(placementId));
+		// if (!Chartboost.isInitialized())
+		// {
+		// 	return false;
+		// }
+		// ShowOrRequestContent(GetPlacement(placementId));
 		return true;
 	}
 
-	private void ShowOrRequestContent(CBLocation placement)
-	{
-		if (Chartboost.hasInterstitial(placement))
-		{
-			StartCoroutine(ShowContentCR(placement));
-			return;
-		}
-		_requestedPlacement = placement;
-		Chartboost.cacheInterstitial(placement);
-	}
+	// private void ShowOrRequestContent(CBLocation placement)
+	// {
+	// 	if (Chartboost.hasInterstitial(placement))
+	// 	{
+	// 		StartCoroutine(ShowContentCR(placement));
+	// 		return;
+	// 	}
+	// 	_requestedPlacement = placement;
+	// 	Chartboost.cacheInterstitial(placement);
+	// }
 
-	private IEnumerator ShowContentCR(CBLocation placement)
-	{
-		yield return null;
-		Chartboost.showInterstitial(placement);
-	}
+	// private IEnumerator ShowContentCR(CBLocation placement)
+	// {
+	// 	yield return null;
+	// 	Chartboost.showInterstitial(placement);
+	// }
 
 	private void OnInitialized(bool status)
 	{
@@ -194,48 +194,48 @@ public class GameChartboostManager : AutoSingleton<GameChartboostManager>, IAdPr
 		}
 	}
 
-	private void OnFailedToLoadInterstitial(CBLocation location, CBImpressionError error)
-	{
-		AddLog($"didFailToLoadInterstitial: {error} at location {location}");
-	}
+	// private void OnFailedToLoadInterstitial(CBLocation location, CBImpressionError error)
+	// {
+	// 	AddLog($"didFailToLoadInterstitial: {error} at location {location}");
+	// }
 
-	private void OnDismissedInterstitial(CBLocation location)
-	{
-		AddLog("didDismissInterstitial: " + location);
-	}
+	// private void OnDismissedInterstitial(CBLocation location)
+	// {
+	// 	AddLog("didDismissInterstitial: " + location);
+	// }
 
-	private void OnClosedInterstitial(CBLocation location)
-	{
-		AddLog("didCloseInterstitial: " + location);
-		TriggerOnAdClosed(CBLocationToPlacementId(location));
-	}
+	// private void OnClosedInterstitial(CBLocation location)
+	// {
+	// 	AddLog("didCloseInterstitial: " + location);
+	// 	TriggerOnAdClosed(CBLocationToPlacementId(location));
+	// }
 
-	private void OnClickedInterstitial(CBLocation location)
-	{
-		AddLog("didClickInterstitial: " + location);
-	}
+	// private void OnClickedInterstitial(CBLocation location)
+	// {
+	// 	AddLog("didClickInterstitial: " + location);
+	// }
 
-	private void OnCachedInterstitial(CBLocation location)
-	{
-		AddLog("didCacheInterstitial: " + location);
-		if (_requestedPlacement != null && _requestedPlacement == location)
-		{
-			Chartboost.showInterstitial(location);
-			_requestedPlacement = null;
-		}
-	}
+	// private void OnCachedInterstitial(CBLocation location)
+	// {
+	// 	AddLog("didCacheInterstitial: " + location);
+	// 	if (_requestedPlacement != null && _requestedPlacement == location)
+	// 	{
+	// 		Chartboost.showInterstitial(location);
+	// 		_requestedPlacement = null;
+	// 	}
+	// }
 
-	private bool OnShouldDisplayInterstitial(CBLocation location)
-	{
-		AddLog("shouldDisplayInterstitial @" + location);
-		return true;
-	}
+	// private bool OnShouldDisplayInterstitial(CBLocation location)
+	// {
+	// 	AddLog("shouldDisplayInterstitial @" + location);
+	// 	return true;
+	// }
 
-	private void OnDisplayedInterstitial(CBLocation location)
-	{
-		AddLog("didDisplayInterstitial: " + location);
-		TriggerOnAdShown(CBLocationToPlacementId(location));
-	}
+	// private void OnDisplayedInterstitial(CBLocation location)
+	// {
+	// 	AddLog("didDisplayInterstitial: " + location);
+	// 	TriggerOnAdShown(CBLocationToPlacementId(location));
+	// }
 
 	private void AddLog(string text)
 	{

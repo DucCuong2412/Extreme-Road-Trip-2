@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Data;
 
 namespace Prime31
 {
@@ -6,12 +7,12 @@ namespace Prime31
 	{
 		public static void init()
 		{
-			FacebookAndroid.init();
+			// FacebookAndroid.init();
 		}
 
 		public static string getAppLaunchUrl()
 		{
-			return FacebookAndroid.getAppLaunchUrl();
+			return null;// FacebookAndroid.getAppLaunchUrl();
 		}
 
 		public static void login()
@@ -21,62 +22,62 @@ namespace Prime31
 
 		public static void loginWithReadPermissions(string[] permissions)
 		{
-			FacebookAndroid.loginWithReadPermissions(permissions);
+			// FacebookAndroid.loginWithReadPermissions(permissions);
 		}
 
 		public static void reauthorizeWithReadPermissions(string[] permissions)
 		{
-			FacebookAndroid.reauthorizeWithReadPermissions(permissions);
+			// FacebookAndroid.reauthorizeWithReadPermissions(permissions);
 		}
 
 		public static void reauthorizeWithPublishPermissions(string[] permissions, FacebookSessionDefaultAudience defaultAudience)
 		{
-			FacebookAndroid.reauthorizeWithPublishPermissions(permissions, defaultAudience);
+			// FacebookAndroid.reauthorizeWithPublishPermissions(permissions, defaultAudience);
 		}
 
 		public static bool isSessionValid()
 		{
-			return FacebookAndroid.isSessionValid();
+			return false; //FacebookAndroid.isSessionValid();
 		}
 
 		public static string getAccessToken()
 		{
-			return FacebookAndroid.getAccessToken();
+			return null;//.getAccessToken();
 		}
 
 		public static List<object> getSessionPermissions()
 		{
-			return FacebookAndroid.getSessionPermissions();
+			return null; //FacebookAndroid.getSessionPermissions();
 		}
 
 		public static void logout()
 		{
-			FacebookAndroid.logout();
+			// FacebookAndroid.logout();
 		}
 
 		public static void showDialog(string dialogType, Dictionary<string, string> options)
 		{
-			FacebookAndroid.showDialog(dialogType, options);
+			// FacebookAndroid.showDialog(dialogType, options);
 		}
 
 		public static void showFacebookShareDialog(Dictionary<string, object> parameters)
 		{
-			FacebookAndroid.showFacebookShareDialog(parameters);
+			// FacebookAndroid.showFacebookShareDialog(parameters);
 		}
 
 		public static void setAppVersion(string version)
 		{
-			FacebookAndroid.setAppVersion(version);
+			// FacebookAndroid.setAppVersion(version);
 		}
 
 		public static void logEvent(string eventName, Dictionary<string, object> parameters = null)
 		{
-			FacebookAndroid.logEvent(eventName, parameters);
+			// FacebookAndroid.logEvent(eventName, parameters);
 		}
 
 		public static void logEvent(string eventName, double valueToSum, Dictionary<string, object> parameters = null)
 		{
-			FacebookAndroid.logEvent(eventName, valueToSum, parameters);
+			// FacebookAndroid.logEvent(eventName, valueToSum, parameters);
 		}
 	}
 }

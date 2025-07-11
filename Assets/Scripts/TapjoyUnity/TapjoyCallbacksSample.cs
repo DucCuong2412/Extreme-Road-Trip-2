@@ -1,10 +1,10 @@
 namespace TapjoyUnity
 {
-	public class TapjoyCallbacksSample : TapjoyRuntimeCallbacks
+	public class TapjoyCallbacksSample// : TapjoyRuntimeCallbacks
 	{
-		public override string GetFyberUserId()
-		{
-			return string.Empty;
-		}
+		//public override string GetFyberUserId()
+		//{
+		//	return string.Empty;
+		//}
 	}
 }

@@ -130,7 +130,7 @@ public class CarController : MonoBehaviour
 		{
 			transform.tag = GameSettings.CarBumperColliderTag;
 			transform.gameObject.layer = layer;
-			transform.collider.material = AutoSingleton<CarPhysics>.Instance.Bumper;
+			transform.GetComponent<Collider>().material = AutoSingleton<CarPhysics>.Instance.Bumper;
 		}
 		_rigidbody.mass = Config._mass;
 		_rigidbody.angularDrag = Config._angularDrag;
@@ -379,7 +379,7 @@ public class CarController : MonoBehaviour
 
 	public Bounds GetVisualBounds()
 	{
-		return _visuals[0].renderer.bounds;
+		return _visuals[0].GetComponent<Renderer>().bounds;
 	}
 
 	public bool IsBoosting()
@@ -400,12 +400,12 @@ public class CarController : MonoBehaviour
 			Transform[] visuals = _visuals;
 			foreach (Transform transform in visuals)
 			{
-				transform.renderer.enabled = false;
+				transform.GetComponent<Renderer>().enabled = false;
 			}
 			Transform[] colliders = _colliders;
 			foreach (Transform transform2 in colliders)
 			{
-				transform2.collider.isTrigger = true;
+				transform2.GetComponent<Collider>().isTrigger = true;
 			}
 			GetComponent<Rigidbody>().velocity = Vector3.zero;
 			GetComponent<Rigidbody>().detectCollisions = false;

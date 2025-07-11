@@ -31,7 +31,7 @@ public class DiamondCarSpecialBehaviour : CarSpecialBehaviour
 		Transform transform = (Transform)Object.Instantiate(prefab, Vector3.zero, Quaternion.identity);
 		if (transform != null)
 		{
-			return transform.particleSystem;
+			return transform.GetComponent<ParticleSystem>();
 		}
 		return null;
 	}

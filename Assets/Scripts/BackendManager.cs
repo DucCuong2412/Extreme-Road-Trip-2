@@ -586,7 +586,7 @@ public class BackendManager : AutoSingleton<BackendManager>
 			ReplayResponseMessage replayResponseMessage = new ReplayResponseMessage(text);
 			foreach (Replay replay in replayResponseMessage.Replays)
 			{
-				base.OnReplayLoaded(replay);
+				//base.OnReplayLoaded(replay);
 			}
 		});
 	}

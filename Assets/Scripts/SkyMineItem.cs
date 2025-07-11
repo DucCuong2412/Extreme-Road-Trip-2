@@ -38,9 +38,9 @@ public class SkyMineItem : CollidableItem
 	{
 		AutoSingleton<GameStatsManager>.Instance.CurrentRun.RecordMineExplosion(1);
 		PrefabSingleton<GameSoundManager>.Instance.PlayMineSound();
-		if (!car.rigidbody.isKinematic)
+		if (!car.GetComponent<Rigidbody>().isKinematic)
 		{
-			Rigidbody rigidbody = car.rigidbody;
+			Rigidbody rigidbody = car.GetComponent<Rigidbody>();
 			Vector3 velocity = rigidbody.velocity;
 			Vector3 velocity2 = car.Velocity;
 			rigidbody.velocity = velocity + new Vector3(0f, (!(velocity2.y >= 0f)) ? 50f : (-50f), 0f);
