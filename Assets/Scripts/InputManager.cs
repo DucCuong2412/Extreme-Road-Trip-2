@@ -51,6 +51,7 @@ public class InputManager : AutoSingleton<InputManager>
 
 	private void Update()
 	{
+		Debug.Log("touchh");
 		_mouseTouch = FakeTouchFromMouse();
 		FakeTouch[] touches = GetTouches();
 		int num = 0;
@@ -82,7 +83,7 @@ public class InputManager : AutoSingleton<InputManager>
 		{
 			if (((1 << j) & num) == 0)
 			{
-				_fingers[j] = null;
+				//_fingers[j] = null;
 			}
 		}
 	}

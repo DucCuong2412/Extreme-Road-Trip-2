@@ -10,6 +10,7 @@ public class QuadColored : MonoBehaviour
 
 	public void SetColor(Color color)
 	{
+		return;
 		Mesh sharedMesh = GetComponent<MeshFilter>().sharedMesh;
 		Color[] colors = sharedMesh.colors;
 		for (int i = 0; i < colors.Length; i++)
@@ -21,7 +22,7 @@ public class QuadColored : MonoBehaviour
 
 	public void Awake()
 	{
-		//GetComponent<Quad>().Setup(new Material(Shader.Find("Roofdog/Vertex Colored")));
+		GetComponent<Quad>().Setup(new Material(Shader.Find("Roofdog/Vertex Colored")));
 	}
 
 	public void Update()

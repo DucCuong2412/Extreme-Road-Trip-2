@@ -208,6 +208,7 @@ public class MetroButton : MetroWidget
 			PlayClickFX();
 			if (this.OnButtonClicked != null)
 			{
+
 				this.OnButtonClicked();
 			}
 		}

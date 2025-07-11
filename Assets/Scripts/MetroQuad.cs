@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using UnityEngine;
 
@@ -33,6 +33,8 @@ public class MetroQuad : MonoBehaviour
 	static MetroQuad()
 	{
 		_sharedMaterial = new Material(Shader.Find("Roofdog/Vertex Colored"));
+		
+		//tại vì cái này mình đã xóa foler gốc đi của nó rồi nên  ko còn shader 
 	}
 
 	public void Awake()
