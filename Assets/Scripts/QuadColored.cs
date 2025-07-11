@@ -21,7 +21,7 @@ public class QuadColored : MonoBehaviour
 
 	public void Awake()
 	{
-		GetComponent<Quad>().Setup(new Material(Shader.Find("Roofdog/Vertex Colored")));
+		//GetComponent<Quad>().Setup(new Material(Shader.Find("Roofdog/Vertex Colored")));
 	}
 
 	public void Update()

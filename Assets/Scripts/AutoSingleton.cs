@@ -19,11 +19,12 @@ public class AutoSingleton<T> : MonoBehaviour where T : MonoBehaviour
 
 	public void Awake()
 	{
-		Debug.Log("Awake cccccccccccc: " + typeof(T).ToString());
+		
         if ((Object)_instance == (Object)null)
 		{
 			_instance = (this as T);
-			OnAwake();
+          
+            OnAwake();
 		}
 		else
 		{
@@ -34,7 +35,8 @@ public class AutoSingleton<T> : MonoBehaviour where T : MonoBehaviour
 
 	public static bool IsCreated()
 	{
-		return (Object)_instance != (Object)null;
+       
+        return (Object)_instance != (Object)null;
 	}
 
 	public void Create()

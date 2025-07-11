@@ -81,7 +81,8 @@ public class MetroLabel : MetroWidget
 
 	private void MakeLabel()
 	{
-		GameObject gameObject = (GameObject)Object.Instantiate(Resources.Load(_font.FontName), Vector3.zero, Quaternion.identity);
+       
+        GameObject gameObject = (GameObject)Object.Instantiate(Resources.Load(_font.FontName), Vector3.zero, Quaternion.identity);
 		gameObject.layer = 8;
 		gameObject.transform.parent = base.transform;
 		gameObject.transform.localPosition = Vector3.back;

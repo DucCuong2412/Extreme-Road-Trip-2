@@ -80,16 +80,16 @@ public class AdProvider<T> : AutoSingleton<T> where T : MonoBehaviour
 
 	protected virtual void OnBoot()
 	{
-		if (!_bootPlacementShown)
-		{
-			_bootPlacementShown = true;
-			ShowRewardedPlacement(PlacementId.BootPlacement);
-		}
+		//if (!_bootPlacementShown)
+		//{
+		//	_bootPlacementShown = true;
+		//	ShowRewardedPlacement(PlacementId.BootPlacement);
+		//}
 	}
 
 	protected virtual void OnResume()
 	{
-		ShowRewardedPlacement(PlacementId.ResumePlacement);
+		//ShowRewardedPlacement(PlacementId.ResumePlacement);
 	}
 
 	protected virtual void OnCustomAdEvent(string eventName)
@@ -98,33 +98,33 @@ public class AdProvider<T> : AutoSingleton<T> where T : MonoBehaviour
 
 	private void OnApplicationPause(bool pause)
 	{
-		if (pause)
-		{
-			_pauseTime = DateTime.Now;
-			_adProviders.ForEach(delegate(IAdProvider provider)
-			{
-				provider.OnPause();
-			});
-		}
-		else
-		{
-			_adProviders.ForEach(delegate(IAdProvider provider)
-			{
-				provider.OnResume();
-			});
-			TimeSpan timeSpan = DateTime.Now - _pauseTime;
-			if (!_isAdDisplayed && GameSpecificCanDisplayResumePlacement() && timeSpan.TotalSeconds > _resumeDelay)
-			{
-				AdEvents.OnResume();
-			}
-		}
-		GameSpecificOnApplicationPause(pause);
+		//if (pause)
+		//{
+		//	_pauseTime = DateTime.Now;
+		//	_adProviders.ForEach(delegate(IAdProvider provider)
+		//	{
+		//		provider.OnPause();
+		//	});
+		//}
+		//else
+		//{
+		//	_adProviders.ForEach(delegate(IAdProvider provider)
+		//	{
+		//		provider.OnResume();
+		//	});
+		//	TimeSpan timeSpan = DateTime.Now - _pauseTime;
+		//	if (!_isAdDisplayed && GameSpecificCanDisplayResumePlacement() && timeSpan.TotalSeconds > _resumeDelay)
+		//	{
+		//		AdEvents.OnResume();
+		//	}
+		//}
+		//GameSpecificOnApplicationPause(pause);
 	}
 
 	public bool IsEnabled(string placementId)
 	{
-		return IsEnabled(PlacementIdFromString(placementId));
-	}
+        return false;//	return IsEnabled(PlacementIdFromString(placementId));
+    }
 
 	public void ShowRewardedPlacement(string placementId)
 	{
@@ -133,123 +133,123 @@ public class AdProvider<T> : AutoSingleton<T> where T : MonoBehaviour
 
 	private PlacementId PlacementIdFromString(string placementId)
 	{
-		return EnumUtil.Parse(placementId, PlacementId.Undefined);
+		return default;// EnumUtil.Parse(placementId, PlacementId.Undefined);
 	}
 
 	public bool IsEnabled(PlacementId placementId)
 	{
-		return _adProviders.Find((IAdProvider p) => p.IsSupported(placementId)) != null;
-	}
+        return false;//	return  _adProviders.Find((IAdProvider p) => p.IsSupported(placementId)) != null;
+    }
 
 	public bool IsRewardedAdAvailable(PlacementId placementId)
 	{
-		return _adProviders.Find((IAdProvider p) => p.IsSupported(placementId) && p.IsRewardedAdAvailable()) != null;
+		return false;// _adProviders.Find((IAdProvider p) => p.IsSupported(placementId) && p.IsRewardedAdAvailable()) != null;
 	}
 
 	public void ShowRewardedPlacement(PlacementId placementId)
 	{
-		if (!IsEnabled(placementId))
-		{
-			SilentDebug.LogWarning(placementId.ToString() + " is disabled, user should not be able to trigger it.");
-			return;
-		}
-		Action onGranted = delegate
-		{
-			bool flag = false;
-			foreach (IAdProvider adProvider in _adProviders)
-			{
-				if (adProvider.IsRewardedAdAvailable() && adProvider.IsSupported(placementId))
-				{
-					flag |= adProvider.ShowRewardedPlacement(placementId);
-				}
-			}
-			if (!flag)
-			{
-				OnNoContentAvailable(placementId);
-			}
-		};
-		CheckPermissions(placementId, onGranted, delegate
-		{
-			ShowPermissionsDeniedPopup(placementId);
-		});
+		//if (!IsEnabled(placementId))
+		//{
+		//	SilentDebug.LogWarning(placementId.ToString() + " is disabled, user should not be able to trigger it.");
+		//	return;
+		//}
+		//Action onGranted = delegate
+		//{
+		//	bool flag = false;
+		//	foreach (IAdProvider adProvider in _adProviders)
+		//	{
+		//		if (adProvider.IsRewardedAdAvailable() && adProvider.IsSupported(placementId))
+		//		{
+		//			flag |= adProvider.ShowRewardedPlacement(placementId);
+		//		}
+		//	}
+		//	if (!flag)
+		//	{
+		//		OnNoContentAvailable(placementId);
+		//	}
+		//};
+		//CheckPermissions(placementId, onGranted, delegate
+		//{
+		//	ShowPermissionsDeniedPopup(placementId);
+		//});
 	}
 
 	private void ShowPermissionsDeniedPopup(PlacementId placementId)
 	{
-		string titleString = "Videos";
-		string messageString = "You need to allow storage acces to view videos.\nIf you don't see the permissions popup, check your app settings";
-		string buttonString = "Retry";
-		Action buttonAction = delegate
-		{
-			AutoSingleton<MetroMenuStack>.Instance.Pop(MetroAnimation.popup);
-			ShowRewardedPlacement(placementId);
-		};
-		MetroPopupMessage page = MetroMenuPage.Create<MetroPopupMessage>().Setup(titleString, messageString, buttonString, MetroSkin.Slice9ButtonBlue, buttonAction);
-		AutoSingleton<MetroMenuStack>.Instance.Push(page);
+		//string titleString = "Videos";
+		//string messageString = "You need to allow storage acces to view videos.\nIf you don't see the permissions popup, check your app settings";
+		//string buttonString = "Retry";
+		//Action buttonAction = delegate
+		//{
+		//	AutoSingleton<MetroMenuStack>.Instance.Pop(MetroAnimation.popup);
+		//	ShowRewardedPlacement(placementId);
+		//};
+		//MetroPopupMessage page = MetroMenuPage.Create<MetroPopupMessage>().Setup(titleString, messageString, buttonString, MetroSkin.Slice9ButtonBlue, buttonAction);
+		//AutoSingleton<MetroMenuStack>.Instance.Push(page);
 	}
 
 	public void CheckPermissions(PlacementId placementId, Action onGranted, Action onDenied)
 	{
-		if (placementId == PlacementId.FreeCratesPlacement || placementId == PlacementId.EndRunVideoPopupPlacement || placementId == PlacementId.OfferwallPlacement)
-		{
-			if (placementId == PlacementId.EndRunVideoPopupPlacement)
-			{
-				onDenied = delegate
-				{
-				};
-			}
-			AndroidRuntimePermissions.ExecuteWithPermission(AndroidPermission.WRITE_EXTERNAL_STORAGE, onGranted, onDenied);
-		}
-		else
-		{
-			onGranted?.Invoke();
-		}
+		//if (placementId == PlacementId.FreeCratesPlacement || placementId == PlacementId.EndRunVideoPopupPlacement || placementId == PlacementId.OfferwallPlacement)
+		//{
+		//	if (placementId == PlacementId.EndRunVideoPopupPlacement)
+		//	{
+		//		onDenied = delegate
+		//		{
+		//		};
+		//	}
+		//	AndroidRuntimePermissions.ExecuteWithPermission(AndroidPermission.WRITE_EXTERNAL_STORAGE, onGranted, onDenied);
+		//}
+		//else
+		//{
+		//	onGranted?.Invoke();
+		//}
 	}
 
 	private void OnNoContentAvailable(PlacementId placementId)
 	{
-		if (placementId != PlacementId.EndRunVideoPopupPlacement)
-		{
-			_isAdDisplayed = false;
-			GameSpecificOnNoContentAvailable(placementId);
-		}
+		//if (placementId != PlacementId.EndRunVideoPopupPlacement)
+		//{
+		//	_isAdDisplayed = false;
+		//	GameSpecificOnNoContentAvailable(placementId);
+		//}
 	}
 
 	private void OnAdAvailable(PlacementId placementId)
 	{
-		AdEvents.OnAdAvailable(placementId);
+		//AdEvents.OnAdAvailable(placementId);
 	}
 
 	private void OnAdNotAvailable(PlacementId placementId)
 	{
-		AdEvents.OnAdNotAvailable(placementId);
+		//AdEvents.OnAdNotAvailable(placementId);
 	}
 
 	private void OnAdClosed(PlacementId placementId)
 	{
-		_isAdDisplayed = false;
-		AdEvents.OnAdClosed(placementId);
+		//_isAdDisplayed = false;
+		//AdEvents.OnAdClosed(placementId);
 	}
 
 	private void OnAdShown(PlacementId placementId)
 	{
-		_isAdDisplayed = true;
-		AdEvents.OnAdShown(placementId);
+		//_isAdDisplayed = true;
+		//AdEvents.OnAdShown(placementId);
 	}
 
 	private void OnVideoFullyViewed(PlacementId placementId)
 	{
-		AdEvents.OnVideoFullyViewed(placementId);
+		//AdEvents.OnVideoFullyViewed(placementId);
 	}
 
 	private void OnVideoInterrupted(PlacementId placementId)
 	{
-		AdEvents.OnVideoInterrupted(placementId);
+		//AdEvents.OnVideoInterrupted(placementId);
 	}
 
 	private void OnSendVideoReward(PlacementId placementId)
 	{
-		AdEvents.OnSendAdReward(placementId);
+		//AdEvents.OnSendAdReward(placementId);
 	}
 
 	protected virtual void GameSpecificAddProviders()
