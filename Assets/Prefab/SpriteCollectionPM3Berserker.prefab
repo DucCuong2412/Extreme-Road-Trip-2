@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "SpriteCollectionPM3Berserker"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "PM3BerserkerBody"
+    boundsData:
+    - {x: 0, y: -0.01041663, z: 0}
+    - {x: 8, y: 2.604167, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.01041663, z: 0}
+    - {x: 8, y: 2.604167, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -4, y: -1.3125, z: 0}
+    - {x: 4, y: -1.3125, z: 0}
+    - {x: -4, y: 1.291667, z: 0}
+    - {x: 4, y: 1.291667, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.007816406, y: 0.7539043}
+    - {x: 0.4960898, y: 0.003908203}
+    - {x: 0.4960898, y: 0.7539043}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e81ba43d49b4e5b9ebd6ad7a270d185, type: 2}
+    materialId: 0
+    sourceTextureGUID: "3aa2e694ef6fe4d518963ae2f0c254e2"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "PM3BerserkerWells"
+    boundsData:
+    - {x: 0.01041698, y: -0.01041663, z: 0}
+    - {x: 8.520834, y: 1.354167, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041698, y: -0.01041663, z: 0}
+    - {x: 8.520834, y: 1.354167, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -4.25, y: -0.6875, z: 0}
+    - {x: 4.270834, y: -0.6875, z: 0}
+    - {x: -4.25, y: 0.6666667, z: 0}
+    - {x: 4.270834, y: 0.6666667, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5117227, y: 0.003908203}
+    - {x: 0.5117227, y: 0.8027324}
+    - {x: 0.7656211, y: 0.003908203}
+    - {x: 0.7656211, y: 0.8027324}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e81ba43d49b4e5b9ebd6ad7a270d185, type: 2}
+    materialId: 0
+    sourceTextureGUID: "497854985378a4d04982e38ab514d8cb"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "PM3BerserkerWheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.25, y: 1.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.25, y: 1.25, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.625, y: -0.625, z: 0}
+    - {x: 0.625, y: -0.625, z: 0}
+    - {x: -0.625, y: 0.625, z: 0}
+    - {x: 0.625, y: 0.625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.7617207}
+    - {x: 0.2421836, y: 0.7617207}
+    - {x: 0.007816406, y: 0.8789043}
+    - {x: 0.2421836, y: 0.8789043}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7e81ba43d49b4e5b9ebd6ad7a270d185, type: 2}
+    materialId: 0
+    sourceTextureGUID: "2c49105cf18da4263905e089a0e43453"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 7e81ba43d49b4e5b9ebd6ad7a270d185, type: 2}
+  textures:
+  - {fileID: 2800000, guid: b5aaab2e5a764b90b57dd3d60026deeb, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "db0f13bb972a84a46b148f256f7780b5"
+  spriteCollectionName: "SpriteCollectionPM3Berserker"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 768
+  buildKey: 980886732
+  dataGuid: "60e9b8ba6451f4501a916d8c43a42ab9"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

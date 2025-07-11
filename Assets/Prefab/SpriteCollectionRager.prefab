@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "SpriteCollectionRager"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "RagerWells"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 4.916667, y: 0.875, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 4.916667, y: 0.875, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -2.458333, y: -0.4375, z: 0}
+    - {x: 2.458333, y: -0.4375, z: 0}
+    - {x: -2.458333, y: 0.4375, z: 0}
+    - {x: 2.458333, y: 0.4375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7226602, y: 0.003908203}
+    - {x: 0.7226602, y: 0.4648418}
+    - {x: 0.8867148, y: 0.003908203}
+    - {x: 0.8867148, y: 0.4648418}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7455225ce81e4598887c67b1130c6e64, type: 2}
+    materialId: 0
+    sourceTextureGUID: "7f2dd3763ec2f48bf943498a68370f17"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "RagerWheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.208333, y: 1.208333, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.208333, y: 1.208333, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.6041667, y: -0.6041667, z: 0}
+    - {x: 0.6041667, y: -0.6041667, z: 0}
+    - {x: -0.6041667, y: 0.6041667, z: 0}
+    - {x: 0.6041667, y: 0.6041667, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7226602, y: 0.4726582}
+    - {x: 0.9492148, y: 0.4726582}
+    - {x: 0.7226602, y: 0.5859355}
+    - {x: 0.9492148, y: 0.5859355}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7455225ce81e4598887c67b1130c6e64, type: 2}
+    materialId: 0
+    sourceTextureGUID: "81c91667759e6423a80e110a7489e93b"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "RagerBody"
+    boundsData:
+    - {x: 0.04166675, y: 0.01041669, z: 0}
+    - {x: 6.25, y: 3.729167, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 6.708333, y: 3.75, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.083333, y: -1.854167, z: 0}
+    - {x: 3.166667, y: -1.854167, z: 0}
+    - {x: -3.083333, y: 1.875, z: 0}
+    - {x: 3.166667, y: 1.875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.007816406, y: 0.5898418}
+    - {x: 0.7070273, y: 0.003908203}
+    - {x: 0.7070273, y: 0.5898418}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7455225ce81e4598887c67b1130c6e64, type: 2}
+    materialId: 0
+    sourceTextureGUID: "80680d1a3bfe94fd891e56325c524731"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 7455225ce81e4598887c67b1130c6e64, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 6d26c56d35ba44bf8b72566f37608366, type: 3}
+  pngTextures: []
+  materialPngTextureId: 
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "0ba5e0e7cf60b4bfcb49a71b79da3591"
+  spriteCollectionName: "SpriteCollectionRager"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 768
+  buildKey: 715711856
+  dataGuid: "40ad630be12a84c159199c2a367e783c"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

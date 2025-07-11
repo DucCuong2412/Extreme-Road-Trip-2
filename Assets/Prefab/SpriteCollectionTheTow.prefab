@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "SpriteCollectionTheTow"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "TheTowWheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.125, y: 1.125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.125, y: 1.125, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.5625, y: -0.5625, z: 0}
+    - {x: 0.5625, y: -0.5625, z: 0}
+    - {x: -0.5625, y: 0.5625, z: 0}
+    - {x: 0.5625, y: 0.5625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6757852, y: 0.5527363}
+    - {x: 0.8867148, y: 0.5527363}
+    - {x: 0.6757852, y: 0.6582012}
+    - {x: 0.8867148, y: 0.6582012}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9762a35c2fba4e359eebeab519635cd7, type: 2}
+    materialId: 0
+    sourceTextureGUID: "3cce1cf77405045a6989e068295be80c"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "TheTowBody"
+    boundsData:
+    - {x: 0, y: -0.01041663, z: 0}
+    - {x: 7.083333, y: 3.479167, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.01041663, z: 0}
+    - {x: 7.083333, y: 3.479167, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.541667, y: -1.75, z: 0}
+    - {x: 3.541667, y: -1.75, z: 0}
+    - {x: -3.541667, y: 1.729167, z: 0}
+    - {x: 3.541667, y: 1.729167, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.007816406, y: 0.6679668}
+    - {x: 0.6601523, y: 0.003908203}
+    - {x: 0.6601523, y: 0.6679668}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9762a35c2fba4e359eebeab519635cd7, type: 2}
+    materialId: 0
+    sourceTextureGUID: "6d44ed52bcd184a4fb200cbc1b070bb8"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "TheTowWells"
+    boundsData:
+    - {x: 0.01041675, y: 0, z: 0}
+    - {x: 5.770833, y: 1.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041675, y: 0, z: 0}
+    - {x: 5.770833, y: 1.25, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -2.875, y: -0.625, z: 0}
+    - {x: 2.895833, y: -0.625, z: 0}
+    - {x: -2.875, y: 0.625, z: 0}
+    - {x: 2.895833, y: 0.625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6757852, y: 0.003908203}
+    - {x: 0.6757852, y: 0.5449199}
+    - {x: 0.9101523, y: 0.003908203}
+    - {x: 0.9101523, y: 0.5449199}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9762a35c2fba4e359eebeab519635cd7, type: 2}
+    materialId: 0
+    sourceTextureGUID: "38074f3c180e1404c929506916f739a4"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 9762a35c2fba4e359eebeab519635cd7, type: 2}
+  textures:
+  - {fileID: 2800000, guid: a5487f82426b4c17a095a044508caac9, type: 3}
+  pngTextures: []
+  materialPngTextureId: 
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "2cc0dd9d2c90f4d239b06e0abb9e95d3"
+  spriteCollectionName: "SpriteCollectionTheTow"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 768
+  buildKey: 584068950
+  dataGuid: "458f4bcdd77904a2faf7c35720eb7829"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

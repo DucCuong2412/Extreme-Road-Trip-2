@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "SpriteCollectionMarkII"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "MarkIIWells"
+    boundsData:
+    - {x: 0, y: -0.01041666, z: 0}
+    - {x: 6.291667, y: 0.8541667, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.01041666, z: 0}
+    - {x: 6.291667, y: 0.8541667, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.145833, y: -0.4375, z: 0}
+    - {x: 3.145833, y: -0.4375, z: 0}
+    - {x: -3.145833, y: 0.4166667, z: 0}
+    - {x: 3.145833, y: 0.4166667, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3750039, y: 0.003908203}
+    - {x: 0.3750039, y: 0.593748}
+    - {x: 0.5351523, y: 0.003908203}
+    - {x: 0.5351523, y: 0.593748}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: d85e27e9d9974f8396a8d58587f15e5b, type: 2}
+    materialId: 0
+    sourceTextureGUID: "1370e2fc2bc1b4daba12f11de4f9864f"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "MarkIIWheels"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.208333, y: 1.208333, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.25, y: 1.25, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.6041667, y: -0.6041667, z: 0}
+    - {x: 0.6041667, y: -0.6041667, z: 0}
+    - {x: -0.6041667, y: 0.6041667, z: 0}
+    - {x: 0.6041667, y: 0.6041667, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.8105488}
+    - {x: 0.2343711, y: 0.8105488}
+    - {x: 0.007816406, y: 0.9238262}
+    - {x: 0.2343711, y: 0.9238262}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: d85e27e9d9974f8396a8d58587f15e5b, type: 2}
+    materialId: 0
+    sourceTextureGUID: "eb05e0631204642bc910bce3ee88ff16"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "MarkII"
+    boundsData:
+    - {x: 0.01041627, y: 0, z: 0}
+    - {x: 8.520834, y: 1.875, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041651, y: 0, z: 0}
+    - {x: 8.604167, y: 1.958333, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -4.25, y: -0.9375, z: 0}
+    - {x: 4.270833, y: -0.9375, z: 0}
+    - {x: -4.25, y: 0.9375, z: 0}
+    - {x: 4.270833, y: 0.9375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.007816406, y: 0.8027324}
+    - {x: 0.3593711, y: 0.003908203}
+    - {x: 0.3593711, y: 0.8027324}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: d85e27e9d9974f8396a8d58587f15e5b, type: 2}
+    materialId: 0
+    sourceTextureGUID: "c838f8ff222144dbab42cf92458c7f4c"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: d85e27e9d9974f8396a8d58587f15e5b, type: 2}
+  textures:
+  - {fileID: 2800000, guid: d1d500476df84f83b4dd0caaaa5dfb7d, type: 3}
+  pngTextures: []
+  materialPngTextureId: 
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "20e523a31467e405cb0f20ee949db52d"
+  spriteCollectionName: "SpriteCollectionMarkII"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 768
+  buildKey: 691495601
+  dataGuid: "d2b0cc66bbc2541ee9415f6783c4f018"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

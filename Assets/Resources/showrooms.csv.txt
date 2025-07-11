@@ -1,0 +1,6 @@
+prefab	displayName	coins	bucks	description
+ShowroomGarage	GARAGE	0	0	Family Garage
+ShowroomBarn	BARN	7500	0	Frontier Fun
+ShowroomTruck	TRUCK	15000	0	Lots of room!
+ShowroomDesert	CARAVAN	0	30	Hottest place on Earth
+ShowroomWater	UNDERWATER	0	30	Atlantean Garage

@@ -1,0 +1,519 @@
+[
+	{
+		"TravelMission":
+		[
+		{
+			"id": "tm1", 
+			"description" : "Travel 5000m",
+			"objective": 5000,
+			"priority" : 200
+		},
+		
+		{
+			"id": "tm2", 
+			"description" : "Travel 10000m",
+			"objective": 10000,
+			"priority" : 400
+		},
+		
+		{
+			"id": "tm3", 
+			"description" : "Travel 20000m",
+			"objective": 20000,
+			"priority" : 600
+		},
+		
+		{
+			"id": "tm4", 
+			"description" : "Travel 50000m",
+			"objective": 50000,
+			"priority" : 800
+		},
+
+		{
+			"id": "tm5", 
+			"description" : "Travel 100000m",
+			"objective": 100000,
+			"priority" : 1000
+		}
+		]
+    },
+    
+    {
+		"TravelMissionSingleRun":
+		[
+		{
+			"id": "tms1", 
+			"description" : "Reach 500m",
+			"objective": 500,
+			"priority" : 50
+		},
+
+		{
+			"id": "tms2", 
+			"description" : "Reach 2000m",
+			"objective": 2000,
+			"priority" : 200
+		},
+		
+		{
+			"id": "tms3", 
+			"description" : "Reach 5000m",
+			"objective": 5000,
+			"priority" : 400
+		},
+
+		{
+			"id": "tms4", 
+			"description" : "Reach 10000m",
+			"objective": 10000,
+			"priority" : 600
+		},
+
+		{
+			"id": "tms5", 
+			"description" : "Reach 20000m",
+			"objective": 20000,
+			"priority" : 800
+		}
+		] 
+    },
+    
+    {    
+		"CoinsMission":
+		[
+		{
+			"id": "cm1", 
+			"description" : "Pickup 500@",
+			"objective": 500,
+			"priority" : 200
+		},
+		
+		{
+			"id": "cm2", 
+			"description" : "Pickup 1000@",
+			"objective": 1000,
+			"priority" : 400
+		},
+		
+		{
+			"id": "cm3", 
+			"description" : "Pickup 2000@",
+			"objective": 2000,
+			"priority" : 600
+		},
+
+		{
+			"id": "cm4", 
+			"description" : "Pickup 5000@",
+			"objective": 5000,
+			"priority" : 800
+		}
+		] 
+    },
+    
+    {    
+		"CoinsMissionSingleRun":
+		[
+		{
+			"id": "cms1", 
+			"description" : "Pickup 50@ in a game",
+			"objective": 50,
+			"priority" : 100
+		},
+		
+		{
+			"id": "cms2", 
+			"description" : "Pickup 100@ in a game",
+			"objective": 100,
+			"priority" : 200
+		},
+		
+		{
+			"id": "cms3", 
+			"description" : "Pickup 200@ in a game",
+			"objective": 200,
+			"priority" : 400
+		},
+		
+		{
+			"id": "cms4", 
+			"description" : "Pickup 500@ in a game",
+			"objective": 500,
+			"priority" : 600
+		},
+		
+		{
+			"id": "cms5", 
+			"description" : "Pickup 1000@ in a game",
+			"objective": 1000,
+			"priority" : 600
+		}
+		] 
+    },
+        
+    {    
+		"ConsecutiveLandingMission":
+		[
+		{
+			"id": "lm1", 
+			"description" : "Do a Perfect landing",
+			"objective": 1,
+			"landingType" : "perfectLanding",
+			"priority" : 50
+		},
+		
+		{
+			"id": "lm2", 
+			"description" : "Do a Perfect Slam landing",
+			"objective": 1,
+			"landingType" : "perfectSlamLanding",
+			"priority" : 100
+		},
+		
+		{
+			"id": "lm3", 
+			"description" : "2 consecutive Perfect landings",
+			"objective": 2,
+			"landingType" : "perfectLanding",
+			"priority" : 200
+		},
+		
+		{
+			"id": "lm4", 
+			"description" : "2 consecutive Perfect Slam landings",
+			"objective": 2,
+			"landingType" : "perfectSlamLanding",
+			"priority" : 250
+		},
+		
+		{
+			"id": "lm5", 
+			"description" : "3 consecutive Perfect landings",
+			"objective": 3,
+			"landingType" : "perfectLanding",
+			"priority" : 400
+		},
+		
+		{
+			"id": "lm6", 
+			"description" : "3 consecutive Perfect Slam landings",
+			"objective": 3,
+			"landingType" : "perfectSlamLanding",
+			"priority" : 450
+		}
+		] 
+    },
+
+    {
+		"MegaBoostMission":
+		[
+		{
+			"id": "bm1",
+			"description" : "Activate the Overdrive",
+			"objective": 1,
+			"priority" : 150
+		},
+
+		{
+			"id": "bm2",
+			"description" : "Overdrive twice in a game",
+			"objective": 2,
+			"priority" : 250
+		},
+
+		{
+			"id": "bm3",
+			"description" : "Overdrive 3 times in a game",
+			"objective": 3,
+			"priority" : 450
+		},
+
+		{
+			"id": "bm4",
+			"description" : "Overdrive 5 times in a game",
+			"objective": 5,
+			"priority" : 650
+		},
+
+		{
+			"id": "bm5",
+			"description" : "Overdrive 10 times in a game",
+			"objective": 10,
+			"priority" : 850
+		}
+		]
+    },
+
+    {
+		"AirMission":
+		[
+		{
+			"id": "am1",
+			"description" : "Jump over a distance of 100m",
+			"objective": 100,
+			"priority" : 50
+		},
+
+		{
+			"id": "am2",
+			"description" : "Jump over a distance of 200m",
+			"objective": 200,
+			"priority" : 150
+		},
+
+		{
+			"id": "am3",
+			"description" : "Jump over a distance of 300m",
+			"objective": 300,
+			"priority" : 250
+		},
+
+		{
+			"id": "am4",
+			"description" : "Jump over a distance of 500m",
+			"objective": 500,
+			"priority" : 350
+		},
+		
+		{
+			"id": "am5",
+			"description" : "Jump over a distance of 850m",
+			"objective": 850,
+			"priority" : 600
+		}
+		]
+    },
+
+    {
+		"MostFlipJumpMission":
+		[
+		{
+			"id": "fm1",
+			"description" : "Do 2 flips in a jump",
+			"objective": 2,
+			"priority" : 50
+		},
+
+		{
+			"id": "fm2",
+			"description" : "Do 3 flips in a jump",
+			"objective": 3,
+			"priority" : 200
+		},
+
+		{
+			"id": "fm3",
+			"description" : "Do 4 flips in a jump",
+			"objective": 4,
+			"priority" : 350
+		},
+
+		{
+			"id": "fm4",
+			"description" : "Do 5 flips in a jump",
+			"objective": 5,
+			"priority" : 500
+		},
+
+		{
+			"id": "fm5",
+			"description" : "Do 10 flips in a jump",
+			"objective": 10,
+			"priority" : 750
+		}
+		]
+    },
+    
+    {
+		"MostFlipRunMission":
+		[
+		{
+			"id": "frm1",
+			"description" : "Do 10 flips in a game",
+			"objective": 10,
+			"priority" : 100
+		},
+
+		{
+			"id": "frm2",
+			"description" : "Do 20 flips in a game",
+			"objective": 20,
+			"priority" : 250
+		},
+
+		{
+			"id": "frm3",
+			"description" : "Do 30 flips in a game",
+			"objective": 30,
+			"priority" : 400
+		},
+
+		{
+			"id": "frm4",
+			"description" : "Do 50 flips in a game",
+			"objective": 50,
+			"priority" : 650
+		}
+		]
+    },
+
+    {
+		"MineExplosionMission":
+		[
+		{
+			"id": "mm1",
+			"description" : "Hit a mine",
+			"objective": 1,
+			"priority" : 100
+		},
+
+		{
+			"id": "mm2",
+			"description" : "Hit 3 mines in a game",
+			"objective": 3,
+			"priority" : 250
+		},
+
+		{
+			"id": "mm3",
+			"description" : "Hit 5 mines in a game",
+			"objective": 5,
+			"priority" : 400
+		}
+		]
+    },
+    
+    {
+		"TwoKMission":
+		[
+		{
+			"id": "2km1",
+			"description" : "Reach 2000m under 60 seconds",
+			"objective": 60,
+			"priority" : 150
+		},
+
+		{
+			"id": "2km2",
+			"description" : "Reach 2000m under 50 seconds",
+			"objective": 50,
+			"priority" : 300
+		},
+
+		{
+			"id": "2km3",
+			"description" : "Reach 2000m under 40 seconds",
+			"objective": 40,
+			"priority" : 450
+		},
+
+		{
+			"id": "2km4",
+			"description" : "Reach 2000m under 30 seconds",
+			"objective": 30,
+			"priority" : 900
+		}
+		]
+    },
+    
+    {
+		"PowerUpMission":
+		[
+		{
+			"id": "pm1",
+			"description" : "Use the Boost powerup",
+			"objective": 1,
+			"powerup" : "boost",
+			"priority" : 100
+		},
+
+		{
+			"id": "pm2",
+			"description" : "Use the Magnet powerup",
+			"objective": 1,
+			"powerup" : "magnet",
+			"priority" : 150
+		},
+
+		{
+			"id": "pm3",
+			"description" : "Use the Coin Doubler powerup",
+			"objective": 1,
+			"powerup" : "coinDoubler",
+			"priority" : 150
+		}
+		]
+    },
+
+    {
+		"CrashMission":
+		[
+		{
+			"id": "crm1",
+			"description" : "Crash between 300m and 400m",
+			"objective": 1,
+			"minValue": 300,
+			"maxValue": 400,
+			"priority" : 100
+		},
+
+		{
+			"id": "crm2",
+			"description" : "Crash between 1000m and 1200m",
+			"objective": 1,
+			"minValue": 1000,
+			"maxValue": 1200,
+			"priority" : 350
+		},
+
+		{
+			"id": "crm3",
+			"description" : "Crash between 2000m and 2250m",
+			"objective": 1,
+			"minValue": 2000,
+			"maxValue": 2250,
+			"priority" : 500
+		}
+		]
+    },
+
+    {
+		"UpsideDownSlamMission":
+		[
+		{
+			"id": "usm1",
+			"description" : "Slam while upside down",
+			"objective": 1,
+			"priority" : 200
+		}
+		]
+    },
+
+    {
+		"UpsideDownDistanceMission":
+		[
+		{
+			"id": "udm1",
+			"description" : "Travel 50m while upside down",
+			"objective": 50,
+			"priority" : 200
+		},
+		
+		{
+			"id": "udm2",
+			"description" : "Travel 200m while upside down",
+			"objective": 200,
+			"priority" : 350
+		},
+		
+		{
+			"id": "udm3",
+			"description" : "Travel 400m while upside down",
+			"objective": 400,
+			"priority" : 500
+		}
+		]
+    }
+    
+]

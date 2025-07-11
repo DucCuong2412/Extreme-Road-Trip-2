@@ -1,0 +1,21 @@
+public enum StuntEvent
+{
+	none,
+	backWheelie,
+	frontWheelie,
+	bigAir,
+	hangTime,
+	longJump,
+	frontFlip,
+	backFlip,
+	perfectLanding,
+	greatLanding,
+	goodLanding,
+	landing,
+	wheelieLanding,
+	closeCall,
+	longSlam,
+	tumbler,
+	perfectSlamLanding,
+	handsFreeLanding
+}

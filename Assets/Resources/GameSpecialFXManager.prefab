@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "GameSpecialFXManager"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3161eba77cca28fdf4f896a980e4ad9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sparks:
+    _prefab: {fileID: 1791799704090708511, guid: f3fbc93e3aee24d6788e8aa24aed02e6, type: 2}
+  _crateBreakFX:
+    _prefab: {fileID: 1791799704090708512, guid: 1aae65585942a46f0bd9742ee7bde091, type: 2}
+  _coinShowerPrefab: {fileID: 1791799704090708511, guid: facfe9d3e45594940a0afa892fe1cb94, type: 2}
+  _grindFXPrefab: {fileID: 1791799704090708512, guid: 14d61ce8fdb914bdf8d23d2d7815001e, type: 2}
+  _engineBreakPrefab: {fileID: 1791799704090708511, guid: 2af4f9f7a887f4cf9bd7619ee43c1cd9, type: 2}
+  _skid:
+    _prefab: {fileID: 1791799704090708511, guid: b8dadcb719e5f446d91892b341b447ea, type: 2}
+  _dustFXPrefab: {fileID: 1791799704090708511, guid: 632dde02b65904150b847efd05b9c8f6, type: 2}
+  _dust:
+    _prefab: {fileID: 1791799704090708511, guid: 632dde02b65904150b847efd05b9c8f6, type: 2}
+  _groundChunkFXPrefab: {fileID: 1791799704090708511, guid: 47d83bea076dd41de884379adf679abc, type: 2}
+  _groundChunk:
+    _prefab: {fileID: 1791799704090708511, guid: 47d83bea076dd41de884379adf679abc, type: 2}
+  _treeChunk:
+    _prefab: {fileID: 1791799704090708511, guid: b8dadcb719e5f446d91892b341b447ea, type: 2}
+  _megaBoostFX: {fileID: 1791799704090708513, guid: 15ff89e5aab2e47ca8d7c0206705a520, type: 2}
+  _rocketFX: {fileID: 1791799704090708513, guid: 0c5cc571eb2e84030b6c6c911e2bde2f, type: 2}
+  _boostTrailPrefab: {fileID: 1791799704090708511, guid: 04f5795a13b0f49ac99c56d7aed0d5f5, type: 2}
+  _coinTrail: {fileID: 1791799704090708511, guid: 304f21a2849de4102affa5c9c6911598, type: 2}
+  _gasTrail: {fileID: 1791799704090708511, guid: 70519627827824063a4bddeb2682fe0a, type: 2}
+  _buckTrail: {fileID: 1791799704090708511, guid: 456dc777b6a4849e38e3c0a5052f45db, type: 2}
+  _carShadow: {fileID: 1791799704090708511, guid: 3a5c694f4e2ae41bf97eeec135372cb1, type: 2}
+  _slamLinesFX: {fileID: 1791799704090708511, guid: 7f02858d3b1b24a159816e3e29a65eee, type: 2}
+  _magnetFX: {fileID: 1791799704090708511, guid: be5e947cc3fc746faa322beef3a46378, type: 2}
+  _coinsFX: {fileID: 1791799704090708513, guid: 3d159b3336aa64fc29551dc990208ddf, type: 2}
+  _explosionPocketMineCrate: {fileID: 1791799704090708513, guid: 14d2d8fd515044313b12fc5e5fcbe5d2, type: 2}

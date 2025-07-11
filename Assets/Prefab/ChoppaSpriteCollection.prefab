@@ -1,0 +1,337 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "ChoppaSpriteCollection"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "choppaBlade04"
+    boundsData:
+    - {x: -1.9, y: -0.9, z: 0}
+    - {x: 21.5, y: 4.1, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6, y: 6.2, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -12.65, y: -2.95, z: 0}
+    - {x: 8.85, y: -2.95, z: 0}
+    - {x: -12.65, y: 1.15, z: 0}
+    - {x: 8.85, y: 1.15, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7734385, y: 0.001954101}
+    - {x: 0.7734385, y: 0.421874}
+    - {x: 0.8535147, y: 0.001954101}
+    - {x: 0.8535147, y: 0.421874}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 22a641b7596a413c853a5cdf9df8c8bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: "a339a78291e3943bc870792cc972e9f7"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "choppaPlateform"
+    boundsData:
+    - {x: 4.768372E-07, y: -0.04999971, z: 0}
+    - {x: 24.9, y: 17.9, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.02500057, y: -0.02499962, z: 0}
+    - {x: 25.05, y: 18.05, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -12.45, y: -9, z: 0}
+    - {x: 12.45, y: -9, z: 0}
+    - {x: -12.45, y: 8.900001, z: 0}
+    - {x: 12.45, y: 8.900001, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.3945322}
+    - {x: 0.001954101, y: 0.8808584}
+    - {x: 0.3515615, y: 0.3945322}
+    - {x: 0.3515615, y: 0.8808584}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 22a641b7596a413c853a5cdf9df8c8bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: "d813b3d5b45a14c569c95e8580479d60"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "choppaBlade02"
+    boundsData:
+    - {x: 1.65, y: -0.3249999, z: 0}
+    - {x: 20.8, y: 4.150001, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6, y: 6.2, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -8.75, y: -2.4, z: 0}
+    - {x: 12.05, y: -2.4, z: 0}
+    - {x: -8.75, y: 1.75, z: 0}
+    - {x: 12.05, y: 1.75, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8574228, y: 0.001954101}
+    - {x: 0.8574228, y: 0.4082021}
+    - {x: 0.9384756, y: 0.001954101}
+    - {x: 0.9384756, y: 0.4082021}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 22a641b7596a413c853a5cdf9df8c8bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: "d963c79ab712f466b8469094c893a1e9"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "choppaBlade03"
+    boundsData:
+    - {x: -2.85, y: 0.07500005, z: 0}
+    - {x: 19.9, y: 4.65, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6, y: 6.2, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -12.8, y: -2.25, z: 0}
+    - {x: 7.1, y: -2.25, z: 0}
+    - {x: -12.8, y: 2.4, z: 0}
+    - {x: 7.1, y: 2.4, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6787119, y: 0.001954101}
+    - {x: 0.6787119, y: 0.390624}
+    - {x: 0.7695303, y: 0.001954101}
+    - {x: 0.7695303, y: 0.390624}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 22a641b7596a413c853a5cdf9df8c8bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: "ac3840ba2841a40cab088f49f7448689"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "choppaBody"
+    boundsData:
+    - {x: -0.02500057, y: -2.384186E-07, z: 0}
+    - {x: 34.45, y: 13.3, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.0250001, z: 0}
+    - {x: 35.1, y: 13.45, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -17.25, y: -6.65, z: 0}
+    - {x: 17.2, y: -6.65, z: 0}
+    - {x: -17.25, y: 6.65, z: 0}
+    - {x: 17.2, y: 6.65, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.001954101, y: 0.001954101}
+    - {x: 0.6748037, y: 0.001954101}
+    - {x: 0.001954101, y: 0.2617178}
+    - {x: 0.6748037, y: 0.2617178}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 22a641b7596a413c853a5cdf9df8c8bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: "b6083c1bc62a54b0eb79bd206513adba"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "choppaBlade01"
+    boundsData:
+    - {x: 0.3249998, y: 0.2000001, z: 0}
+    - {x: 24.95, y: 3.3, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 25.6, y: 6.2, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -12.15, y: -1.45, z: 0}
+    - {x: 12.8, y: -1.45, z: 0}
+    - {x: -12.15, y: 1.85, z: 0}
+    - {x: 12.8, y: 1.85, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8574228, y: 0.4121104}
+    - {x: 0.8574228, y: 0.8994131}
+    - {x: 0.921874, y: 0.4121104}
+    - {x: 0.921874, y: 0.8994131}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 22a641b7596a413c853a5cdf9df8c8bd, type: 2}
+    materialId: 0
+    sourceTextureGUID: "08feabdebf0b7428a882a93dbfda28f6"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 22a641b7596a413c853a5cdf9df8c8bd, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 4932c332a5a14a67902594fe7770e10f, type: 3}
+  pngTextures: []
+  materialPngTextureId: 
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "ffcda88d3160e40f59630c3c1d5e88f4"
+  spriteCollectionName: "ChoppaSpriteCollection"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 320
+  buildKey: 478664939
+  dataGuid: "0ba48326515de4c4483be8824644eff0"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

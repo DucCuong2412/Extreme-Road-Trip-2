@@ -1,0 +1,329 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 87.76494, y: 2.935462, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202279}
+  - component: {fileID: 1791799705936202278}
+  - component: {fileID: 1791799705936202277}
+  - component: {fileID: 1791799705936202276}
+  - component: {fileID: 1791799705936202275}
+  - component: {fileID: 1791799705936202274}
+  - component: {fileID: 1791799705936202273}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "Detonator"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e1735c80b9881371c08556a0e41a8b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  on: 1
+  detonatorControlled: 1
+  startSize: 1
+  size: 1.014891
+  explodeDelayMin: 0.05999999
+  explodeDelayMax: 0.1146556
+  startDuration: 2
+  duration: 2.812986
+  timeScale: 1
+  startDetail: 1
+  detail: 1
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  startLocalPosition: {x: 0, y: 0, z: 0}
+  localPosition: {x: 0, y: 0, z: 0}
+  startForce: {x: 0, y: 0, z: 0}
+  force: {x: 0, y: 0, z: 0}
+  startVelocity: {x: 0, y: 0, z: 0}
+  velocity: {x: 0, y: 0, z: 0}
+  detailThreshold: 0
+  sprayObject: {fileID: 1791799704040376862, guid: abdc837d9a07acd409959e581ef68e61, type: 2}
+  count: 8
+  startingRadius: 4.241039
+  minScale: 1
+  maxScale: 1
+--- !u!114 &1791799705936202273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c230347497e68571e30d4636813a969d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  on: 1
+  detonatorControlled: 1
+  startSize: 1
+  size: 1
+  explodeDelayMin: 0
+  explodeDelayMax: 0
+  startDuration: 2
+  duration: 3
+  timeScale: 1
+  startDetail: 1
+  detail: 1
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  color: {r: 1, g: 0.423, b: 0, a: 0.5}
+  startLocalPosition: {x: 0, y: 0, z: 0}
+  localPosition: {x: 0, y: 0, z: 0}
+  startForce: {x: 0, y: 0, z: 0}
+  force: {x: 0, y: 0, z: 0}
+  startVelocity: {x: 0, y: 0, z: 0}
+  velocity: {x: 0, y: 0, z: 0}
+  detailThreshold: 0
+  fireballAMaterial: {fileID: 0}
+  fireballBMaterial: {fileID: 0}
+  fireShadowMaterial: {fileID: 0}
+  drawFireballA: 1
+  drawFireballB: 1
+  drawFireShadow: 1
+--- !u!114 &1791799705936202274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c230347497e68571e30d4636813a969d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  on: 1
+  detonatorControlled: 1
+  startSize: 1
+  size: 1.877378
+  explodeDelayMin: 0.02999999
+  explodeDelayMax: 0.12
+  startDuration: 2
+  duration: 2.272677
+  timeScale: 1
+  startDetail: 1
+  detail: 1.21
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  color: {r: 1, g: 0.8899964, b: 0.8093525, a: 0.2196078}
+  startLocalPosition: {x: 0, y: 0, z: 0}
+  localPosition: {x: 0, y: 0, z: 0}
+  startForce: {x: 0, y: 0, z: 0}
+  force: {x: 0, y: 0, z: 0}
+  startVelocity: {x: 0, y: 0, z: 0}
+  velocity: {x: 0, y: 0, z: 0}
+  detailThreshold: 0
+  fireballAMaterial: {fileID: 0}
+  fireballBMaterial: {fileID: 0}
+  fireShadowMaterial: {fileID: 0}
+  drawFireballA: 1
+  drawFireballB: 1
+  drawFireShadow: 1
+--- !u!114 &1791799705936202275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 683824928fdbd522cebdb4e6860d1062, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  on: 1
+  detonatorControlled: 1
+  startSize: 1
+  size: 4.981096
+  explodeDelayMin: 0
+  explodeDelayMax: 0
+  startDuration: 2
+  duration: 0.25
+  timeScale: 1
+  startDetail: 1
+  detail: 1
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  startLocalPosition: {x: 0, y: 0, z: 0}
+  localPosition: {x: 0, y: 1.08, z: 0}
+  startForce: {x: 0, y: 0, z: 0}
+  force: {x: 0, y: 0, z: 0}
+  startVelocity: {x: 0, y: 0, z: 0}
+  velocity: {x: 0, y: 0, z: 0}
+  detailThreshold: 0
+  shockwaveMaterial: {fileID: 0}
+  renderMode: 4
+--- !u!114 &1791799705936202276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e2bd6ef49c735869c1f3dec1e3a811, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  on: 1
+  detonatorControlled: 1
+  startSize: 1
+  size: 1.051907
+  explodeDelayMin: 0
+  explodeDelayMax: 0
+  startDuration: 2
+  duration: 4
+  timeScale: 1
+  startDetail: 1
+  detail: 14.78743
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  color: {r: 0.9307692, g: 0.7131433, b: 0.7131433, a: 1}
+  startLocalPosition: {x: 0, y: 0, z: 0}
+  localPosition: {x: 0, y: 0, z: 0}
+  startForce: {x: 0, y: 0, z: 0}
+  force: {x: 0, y: -9.81, z: 0}
+  startVelocity: {x: 0, y: 0, z: 0}
+  velocity: {x: 300, y: 300, z: 300}
+  detailThreshold: 0
+  sparksMaterial: {fileID: 0}
+--- !u!114 &1791799705936202277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1972e551b5bd6500018e8b9a9569e5b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  on: 1
+  detonatorControlled: 1
+  startSize: 1
+  size: 5
+  explodeDelayMin: 0
+  explodeDelayMax: 0
+  startDuration: 2
+  duration: 0.8648527
+  timeScale: 1
+  startDetail: 1
+  detail: 1
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  startLocalPosition: {x: 0, y: 0, z: 0}
+  localPosition: {x: 0, y: 0, z: 0}
+  startForce: {x: 0, y: 0, z: 0}
+  force: {x: 0, y: 0, z: 0}
+  startVelocity: {x: 0, y: 0, z: 0}
+  velocity: {x: 0, y: 0, z: 0}
+  detailThreshold: 0.8895082
+  zOffset: 0.9765595
+  distortion: 38.15018
+  heatwaveMaterial: {fileID: 0}
+--- !u!114 &1791799705936202278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e1735c80b9881371c08556a0e41a8b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  on: 1
+  detonatorControlled: 1
+  startSize: 1
+  size: 0.9459925
+  explodeDelayMin: 0
+  explodeDelayMax: 0
+  startDuration: 2
+  duration: 4
+  timeScale: 1
+  startDetail: 1
+  detail: 1
+  startColor: {r: 1, g: 1, b: 1, a: 1}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  startLocalPosition: {x: 0, y: 0, z: 0}
+  localPosition: {x: 0, y: 0, z: 0}
+  startForce: {x: 0, y: 0, z: 0}
+  force: {x: 0, y: 20.2409, z: 0}
+  startVelocity: {x: 0, y: 0, z: 0}
+  velocity: {x: 200, y: 200, z: 200}
+  detailThreshold: 0
+  sprayObject: {fileID: 1791799704040376862, guid: 5cae1a02f5362443284e452c3020967f, type: 2}
+  count: 33
+  startingRadius: 5
+  minScale: 0.2004919
+  maxScale: 0.5389314
+--- !u!114 &1791799705936202279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd20f9053671b4453204fdcd370445e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  size: 7.818025
+  color: {r: 0.3020717, g: 0.661618, b: 0.8432836, a: 0.4627451}
+  explodeOnStart: 0
+  duration: 3.297183
+  detail: 1
+  upwardsBias: 1.953479
+  destroyTime: 0
+  useWorldSpace: 1
+  direction: {x: 0, y: 75.15689, z: 0.1873263}
+  fireballAMaterial: {fileID: 2100000, guid: 04ffbfbdf67d4525b28693848c0b4e5d, type: 2}
+  fireballBMaterial: {fileID: 2100000, guid: 240bb3afdaa64e73b39f406b48d704f3, type: 2}
+  smokeAMaterial: {fileID: 2100000, guid: f681403003524cdbb1480c29609674d0, type: 2}
+  smokeBMaterial: {fileID: 2100000, guid: c2db7330eaf44d13bacd9694fec9f84f, type: 2}
+  shockwaveMaterial: {fileID: 2100000, guid: 731655afb8134dceb3bfaa20d3f06312, type: 2}
+  sparksMaterial: {fileID: 2100000, guid: 6b2d48bc56e644e09829ab46f64111c7, type: 2}
+  glowMaterial: {fileID: 2100000, guid: 9387260310eb4caca8fa3361ad1e192e, type: 2}
+  heatwaveMaterial: {fileID: 0}
+  autoCreateFireball: 1
+  autoCreateSparks: 1
+  autoCreateShockwave: 0
+  autoCreateSmoke: 1
+  autoCreateGlow: 1
+  autoCreateLight: 1
+  autoCreateForce: 0
+  autoCreateHeatwave: 0

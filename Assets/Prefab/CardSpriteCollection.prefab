@@ -1,0 +1,638 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "CardSpriteCollection"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "bronzeMedal"
+    boundsData:
+    - {x: 0.02500007, y: -0.02500013, z: 0}
+    - {x: 1.25, y: 1.85, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.02500004, y: -0.0250001, z: 0}
+    - {x: 1.45, y: 2.05, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -0.6, y: -0.9500001, z: 0}
+    - {x: 0.6500001, y: -0.9500001, z: 0}
+    - {x: -0.6, y: 0.8999999, z: 0}
+    - {x: 0.6500001, y: 0.8999999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3281289, y: 0.2031289}
+    - {x: 0.3281289, y: 0.3007773}
+    - {x: 0.4726523, y: 0.2031289}
+    - {x: 0.4726523, y: 0.3007773}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a0189756557346f4abd3a3fa32da3e7f, type: 2}
+    materialId: 0
+    sourceTextureGUID: "74a6074bb42d8473ead4ef0efab3d257"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "missionMeterLocked"
+    boundsData:
+    - {x: 0, y: -0.02499986, z: 0}
+    - {x: 2.3, y: 5.85, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.02499986, z: 0}
+    - {x: 2.5, y: 6.05, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -1.15, y: -2.95, z: 0}
+    - {x: 1.15, y: -2.95, z: 0}
+    - {x: -1.15, y: 2.9, z: 0}
+    - {x: 1.15, y: 2.9, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3281289, y: 0.007816406}
+    - {x: 0.3281289, y: 0.1874961}
+    - {x: 0.7851523, y: 0.007816406}
+    - {x: 0.7851523, y: 0.1874961}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a0189756557346f4abd3a3fa32da3e7f, type: 2}
+    materialId: 0
+    sourceTextureGUID: "f42ca2cbfbe734da1ae85a1d0575e06b"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "goldMedal"
+    boundsData:
+    - {x: 0.02500007, y: 0, z: 0}
+    - {x: 1.25, y: 1.8, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.02500004, y: 0, z: 0}
+    - {x: 1.45, y: 2, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -0.6, y: -0.9, z: 0}
+    - {x: 0.6500001, y: -0.9, z: 0}
+    - {x: -0.6, y: 0.9, z: 0}
+    - {x: 0.6500001, y: 0.9, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4882852, y: 0.2031289}
+    - {x: 0.4882852, y: 0.3007773}
+    - {x: 0.6289023, y: 0.2031289}
+    - {x: 0.6289023, y: 0.3007773}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a0189756557346f4abd3a3fa32da3e7f, type: 2}
+    materialId: 0
+    sourceTextureGUID: "8328a5475df444cf1870fcb1b0586d86"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "lock"
+    boundsData:
+    - {x: 0.02500001, y: -1.490116E-08, z: 0}
+    - {x: 0.65, y: 0.8, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.02500001, y: 0, z: 0}
+    - {x: 0.85, y: 1, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -0.3, y: -0.4, z: 0}
+    - {x: 0.35, y: -0.4, z: 0}
+    - {x: -0.3, y: 0.4, z: 0}
+    - {x: 0.35, y: 0.4, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.9375039, y: 0.4804727}
+    - {x: 0.9882773, y: 0.4804727}
+    - {x: 0.9375039, y: 0.5429648}
+    - {x: 0.9882773, y: 0.5429648}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a0189756557346f4abd3a3fa32da3e7f, type: 2}
+    materialId: 0
+    sourceTextureGUID: "a59ee5fcffa5b40e18d9a3af0b15ea32"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "lockedMedal"
+    boundsData:
+    - {x: 0.02500007, y: 0, z: 0}
+    - {x: 1.25, y: 1.8, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.02500004, y: 0, z: 0}
+    - {x: 1.45, y: 2, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -0.6, y: -0.9, z: 0}
+    - {x: 0.6500001, y: -0.9, z: 0}
+    - {x: -0.6, y: 0.9, z: 0}
+    - {x: 0.6500001, y: 0.9, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6445352, y: 0.2031289}
+    - {x: 0.6445352, y: 0.3007773}
+    - {x: 0.7851523, y: 0.2031289}
+    - {x: 0.7851523, y: 0.3007773}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a0189756557346f4abd3a3fa32da3e7f, type: 2}
+    materialId: 0
+    sourceTextureGUID: "1f0c62309c9434c6ab79ca4e7f33b186"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "missionCircleOutline"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.9, y: 1.9, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2.1, y: 2.1, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -0.95, y: -0.95, z: 0}
+    - {x: 0.95, y: -0.95, z: 0}
+    - {x: -0.95, y: 0.95, z: 0}
+    - {x: 0.95, y: 0.95, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6367227, y: 0.3164102}
+    - {x: 0.7851523, y: 0.3164102}
+    - {x: 0.6367227, y: 0.4648398}
+    - {x: 0.7851523, y: 0.4648398}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a0189756557346f4abd3a3fa32da3e7f, type: 2}
+    materialId: 0
+    sourceTextureGUID: "3864ce253f8a34cd1ba0874b264e846e"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "missionCirclePieChart"
+    boundsData:
+    - {x: 0.02499998, y: 0, z: 0}
+    - {x: 1.65, y: 1.6, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.02499998, y: 0, z: 0}
+    - {x: 1.85, y: 1.8, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -0.8, y: -0.8, z: 0}
+    - {x: 0.85, y: -0.8, z: 0}
+    - {x: -0.8, y: 0.8, z: 0}
+    - {x: 0.85, y: 0.8, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6367227, y: 0.4804727}
+    - {x: 0.7656211, y: 0.4804727}
+    - {x: 0.6367227, y: 0.6054648}
+    - {x: 0.7656211, y: 0.6054648}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a0189756557346f4abd3a3fa32da3e7f, type: 2}
+    materialId: 0
+    sourceTextureGUID: "60ea526f0d51640bbaa2636e70a06a69"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "missionMeter"
+    boundsData:
+    - {x: 0, y: -0.02499986, z: 0}
+    - {x: 2.3, y: 5.85, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.02499986, z: 0}
+    - {x: 2.5, y: 6.05, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -1.15, y: -2.95, z: 0}
+    - {x: 1.15, y: -2.95, z: 0}
+    - {x: -1.15, y: 2.9, z: 0}
+    - {x: 1.15, y: 2.9, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8007852, y: 0.007816406}
+    - {x: 0.9804648, y: 0.007816406}
+    - {x: 0.8007852, y: 0.4648398}
+    - {x: 0.9804648, y: 0.4648398}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a0189756557346f4abd3a3fa32da3e7f, type: 2}
+    materialId: 0
+    sourceTextureGUID: "9fd241875db7c4c20b71783a4fc5dbe3"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "silverMedal"
+    boundsData:
+    - {x: 0.02500007, y: 0, z: 0}
+    - {x: 1.25, y: 1.8, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.02500004, y: 0, z: 0}
+    - {x: 1.45, y: 2, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -0.6, y: -0.9, z: 0}
+    - {x: 0.6500001, y: -0.9, z: 0}
+    - {x: -0.6, y: 0.9, z: 0}
+    - {x: 0.6500001, y: 0.9, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7812539, y: 0.4804727}
+    - {x: 0.7812539, y: 0.5781211}
+    - {x: 0.9218711, y: 0.4804727}
+    - {x: 0.9218711, y: 0.5781211}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a0189756557346f4abd3a3fa32da3e7f, type: 2}
+    materialId: 0
+    sourceTextureGUID: "e0d6625bd6e414f89824bb072bce662c"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "prestigeBadge00"
+    boundsData:
+    - {x: 0, y: -0.02499998, z: 0}
+    - {x: 3.9, y: 3.85, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 4, y: 4, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -1.95, y: -1.95, z: 0}
+    - {x: 1.95, y: -1.95, z: 0}
+    - {x: -1.95, y: 1.9, z: 0}
+    - {x: 1.95, y: 1.9, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.3281289}
+    - {x: 0.007816406, y: 0.6328086}
+    - {x: 0.3085898, y: 0.3281289}
+    - {x: 0.3085898, y: 0.6328086}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a0189756557346f4abd3a3fa32da3e7f, type: 2}
+    materialId: 0
+    sourceTextureGUID: "73af81baafe384789a372280478f1afb"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "prestigeBadge01"
+    boundsData:
+    - {x: 5.960464E-08, y: -0.05000007, z: 0}
+    - {x: 3.8, y: 3.8, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 4, y: 4, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -1.9, y: -1.95, z: 0}
+    - {x: 1.9, y: -1.95, z: 0}
+    - {x: -1.9, y: 1.85, z: 0}
+    - {x: 1.9, y: 1.85, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3242227, y: 0.3281289}
+    - {x: 0.6210898, y: 0.3281289}
+    - {x: 0.3242227, y: 0.6249961}
+    - {x: 0.6210898, y: 0.6249961}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a0189756557346f4abd3a3fa32da3e7f, type: 2}
+    materialId: 0
+    sourceTextureGUID: "98d910c17726e4580bb51335356b1f5e"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "prestigeBadge02"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 3.9, y: 3.9, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 4, y: 4, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -1.95, y: -1.95, z: 0}
+    - {x: 1.95, y: -1.95, z: 0}
+    - {x: -1.95, y: 1.95, z: 0}
+    - {x: 1.95, y: 1.95, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.007816406}
+    - {x: 0.3124961, y: 0.007816406}
+    - {x: 0.007816406, y: 0.3124961}
+    - {x: 0.3124961, y: 0.3124961}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a0189756557346f4abd3a3fa32da3e7f, type: 2}
+    materialId: 0
+    sourceTextureGUID: "e362ef54926364ad783392eff6a275d5"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "prestigeBadgeWhite"
+    boundsData:
+    - {x: 0, y: -0.02499998, z: 0}
+    - {x: 3.9, y: 3.85, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 4, y: 4, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -1.95, y: -1.95, z: 0}
+    - {x: 1.95, y: -1.95, z: 0}
+    - {x: -1.95, y: 1.9, z: 0}
+    - {x: 1.95, y: 1.9, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.6484414}
+    - {x: 0.007816406, y: 0.9531211}
+    - {x: 0.3085898, y: 0.6484414}
+    - {x: 0.3085898, y: 0.9531211}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a0189756557346f4abd3a3fa32da3e7f, type: 2}
+    materialId: 0
+    sourceTextureGUID: "71eaae0ac6d0d4a93aeff58fca89d005"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: a0189756557346f4abd3a3fa32da3e7f, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 881640186088473e9200771c35880e25, type: 3}
+  pngTextures: []
+  materialPngTextureId: 
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "2ebe9709200d8487196c2e21d9bd702f"
+  spriteCollectionName: "CardSpriteCollection"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 320
+  buildKey: 1076982357
+  dataGuid: "4e70165fbacec44d4b924a3751fed449"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

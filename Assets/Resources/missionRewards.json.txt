@@ -1,0 +1,23 @@
+[
+    {"frequency": 15    "reward": {"type": "coins",       "amount": 100}},
+    {"frequency": 10    "reward": {"type": "coins",       "amount": 250}},
+    {"frequency": 8    "reward": {"type": "coins",       "amount": 300}},
+    {"frequency": 6    "reward": {"type": "coins",       "amount": 400}},
+    {"frequency": 4    "reward": {"type": "coins",       "amount": 500}},
+    {"frequency": 2    "reward": {"type": "coins",       "amount": 1000}},
+    
+    {"frequency": 20    "reward": {"type": "boost",       "amount": 2}},
+    {"frequency": 12    "reward": {"type": "boost",       "amount": 3}},
+    {"frequency": 5    "reward": {"type": "boost",       "amount": 5}},
+
+    {"frequency": 15    "reward": {"type": "magnet",      "amount": 2}},
+    {"frequency": 8    "reward": {"type": "magnet",      "amount": 4}},
+    {"frequency": 4   "reward": {"type": "magnet",      "amount": 5}},   
+            
+    {"frequency": 8    "reward": {"type": "bucks",       "amount": 1}},
+    {"frequency": 1    "reward": {"type": "bucks",       "amount": 3}},
+
+    {"frequency": 12    "reward": {"type": "coinDoubler", "amount": 2}},
+    {"frequency": 6    "reward": {"type": "coinDoubler", "amount": 3}},
+    {"frequency": 2    "reward": {"type": "coinDoubler", "amount": 5}}
+]

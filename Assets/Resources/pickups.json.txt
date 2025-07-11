@@ -1,0 +1,128 @@
+{
+    "intro": [],
+    "game":
+    [
+        {
+            "frequency": 4,
+            "prefabs":
+            [
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupGas"
+            ]
+        },
+        
+        {
+            "frequency": 3,
+            "prefabs":
+            [
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin"
+            ]
+        },
+        
+        {
+            "frequency": 3,
+            "prefabs":
+            [
+                "PrefabPickupCoin",
+                "PrefabPickupGas",
+                "PrefabPickupCoin",
+                "PrefabPickupGas",
+                "PrefabPickupCoin",
+                "PrefabPickupGas"
+            ]
+        },
+        
+        {
+            "frequency": 2,
+            "prefabs":
+            [
+                "PrefabPickupGas",
+                "PrefabPickupGas",
+                "PrefabPickupGas",
+                "PrefabPickupGas",
+                "PrefabPickupGas"
+            ]
+        },
+        
+        {
+            "frequency": 1,
+            "prefabs":
+            [
+                "PrefabBreakableCrate"
+            ]
+        },
+        
+        {
+            "frequency": 1,
+            "prefabs":
+            [
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabBreakableCrate",
+                "PrefabPickupGas",
+                "PrefabPickupGas",
+                "PrefabBreakableCrate",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin"
+            ]
+        },
+        
+        {
+            "frequency": 1,
+            "prefabs":
+            [
+                "PrefabMine"
+            ]
+        },
+        
+        {
+            "frequency": 1,
+            "prefabs":
+            [
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabBreakableCrate",
+                "PrefabPickupCoin",
+                "PrefabBreakableCrate",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin"
+            ]
+        },
+        
+        {
+            "frequency": 1,
+            "prefabs":
+            [
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabMine"
+            ]
+        },
+        
+        {
+            "frequency": 1,
+            "prefabs":
+            [
+                "PrefabBalloon"
+            ]
+        }
+    ]
+}

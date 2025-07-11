@@ -1,0 +1,100 @@
+{
+  "ebt": {
+    "DisplayName": "Extreme Bike Trip",
+    "PlatformAppData": {
+      "IOS": {
+        "AppId": "fb1402512489966424",
+        "StoreURL": "http://ad.apps.fm/FZ7yJuPYL9dWGIsCb9Kl6PE7og6fuV2oOMeOQdRqrE38m3FKj1li_LT1Cu4uDmcAt-nNDTgidECaMYTkRxsguOPbFvsLxWtKFm7WGsDqiU8"
+      },
+      "ANDROID": {
+        "AppId": "ca.roofdog.biketrip",
+        "StoreURL": "http://ad.apps.fm/ke-7bJJsEKQ7CSLof6jVkHiO5NO_BXpsCXSn5-k8Tn3c-q8v2eKtYSfujEyd6y_VqdPcsdeLi7nmam9SLCEOdw"
+      },
+      "AMAZON": {
+        "AppId": "ca.roofdog.biketrip",
+        "StoreURL": "http://ad.apps.fm/6ZINHDofq7BTqa4FrOvEnMZXqGlB-_mU4DHUqKnqM_NMvnuuTO7fW5-TkBY-d2xDT7rm-klIQ0KCZgUJx-sX2ZbVZBRFp2vQ8Fv3bH9ABoVeQvkpjpe4lX8XH7BgDPHK"
+      }
+    }
+  },
+  "pocketMine": {
+    "DisplayName": "Pocket Mine",
+    "PlatformAppData": {
+      "IOS": {
+        "AppId": "fb496930583705902",
+        "StoreURL": "http://ad.apps.fm/TFA0MyWlT-uNYa1tKv2QHfE7og6fuV2oOMeOQdRqrE3Xceew8Hx4Ko0zsgGry5D5dpSg9idhpct6OvY277B5Fc4Y7tsa3MZhdR5ck2hLiww"
+      },
+      "ANDROID": {
+        "AppId": "pocketmine",
+        "StoreURL": "http://ad.apps.fm/RBD6csT6BMcjZU4lKmf0rXiO5NO_BXpsCXSn5-k8Tn0ktmAK1NH6Fb3tG4LZVptSfAtxyPk4hHhyk9an28TJ1A"
+      },
+      "AMAZON": {
+        "AppId": "pocketmine",
+        "StoreURL": "http://ad.apps.fm/zmGjDC1DpNe8TFz2JpBza8ZXqGlB-_mU4DHUqKnqM_NMvnuuTO7fW5-TkBY-d2xDJLkAKM_E-JCfAVPh-IVtQqPJKwrMeBO8l3hW-ydEVj8nWm6Z8VNWC_jtHUVytxtw"
+      }
+    }
+  },
+  "prt": {
+    "DisplayName": "Pocket Road Trip",
+    "PlatformAppData": {
+      "IOS": {
+        "AppId": "fb262760153890584",
+        "StoreURL": "http://ad.apps.fm/q6HaHIb8yvNtdDY4032CNfE7og6fuV2oOMeOQdRqrE1dWqVZV8rbJd1moIm4qd5TMaEuLzj2iGUTzJUpNMzZ78X2hBFQthfj2wO-9Vn0swrwmGoCp43dyUyi8sCzsPeK"
+      },
+      "ANDROID": {
+        "AppId": "prt",
+        "StoreURL": "http://ad.apps.fm/ccBYQ_YkvhEk8f5c8D5KIHiO5NO_BXpsCXSn5-k8Tn1uL1nTz0NV25ds765UDXlJrYVnWo_npDAjThtTsqnPXTJa8RJzWU6MS6kfBwepmxU"
+      }
+    }
+  },
+  "pocketMine2": {
+    "DisplayName": "Pocket Mine 2",
+    "PlatformAppData": {
+      "IOS": {
+        "AppId": "pocketmine2",
+        "StoreURL": "https://itunes.apple.com/app/pocket-mine-2/id901476753"
+      },
+      "ANDROID": {
+        "AppId": "pocketmine2",
+        "StoreURL": "https://play.google.com/store/apps/details?id=ca.roofdog.pm2"
+      },
+      "AMAZON": {
+        "AppId": "pocketmine2",
+        "StoreURL": "http://www.amazon.com/Roofdog-Games-inc-Pocket-Mine/dp/B00U9PVKC8"
+      }
+    }
+  },
+  "fishing": {
+    "DisplayName": "Fishing Break!",
+    "PlatformAppData": {
+      "IOS": {
+        "AppId": "fishing",
+        "StoreURL": "https://itunes.apple.com/app/fishing-break/id997811612"
+      },
+      "ANDROID": {
+        "AppId": "fishing",
+        "StoreURL": "https://ad.apps.fm/V4nXiJ7jPuKsxcTlxN0mNHiO5NO_BXpsCXSn5-k8Tn0zROFuoi0uo8ZDb2fHUwTc-m62Vw0NDTbqpyE02eqG2Opx3R9h6TiXAlKeFUR77iw"
+      },
+      "AMAZON": {
+        "AppId": "fishing",
+        "StoreURL": "http://www.amazon.com/Roofdog-Games-inc-Fishing-Break/dp/B01BNWSI1Q"
+      }
+    }
+  },
+  "pocketmine3": {
+    "DisplayName": "Pocket Mine 3",
+    "PlatformAppData": {
+      "IOS": {
+        "AppId": "pocketmine3",
+        "StoreURL": "https://ad.apps.fm/wHLSxVcRjeOhi3LveiL6ERM8G1T_LUvoWYXredpuoYBkwk94Su5f9iO86TCTHvKHFfEN8owvGIeWG4WO65JsEw"
+      },
+      "ANDROID": {
+        "AppId": "pocketmine3",
+        "StoreURL": "https://ad.apps.fm/0rd3BG8MgYxmsKV1ZB-QDniO5NO_BXpsCXSn5-k8Tn3q5ay_SbN6V-nYxlueDELX5sFC-IJaJZtxppcXM6qqEw"
+      },
+      "AMAZON": {
+        "AppId": "pocketmine3",
+        "StoreURL": ""
+      }
+    }
+  }
+}

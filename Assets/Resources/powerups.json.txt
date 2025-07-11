@@ -1,0 +1,5 @@
+{
+    "boost" : {"price": {"currency" : "coins", "amount" : 100}},
+    "coinDoubler" : {"price": {"currency" : "bucks", "amount" : 1}},
+    "magnet": {"price": {"currency" : "coins", "amount" : 200}}
+}

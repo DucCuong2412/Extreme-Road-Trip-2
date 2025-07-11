@@ -1,0 +1,8 @@
+Type	Count	Price	Currency	Asset	Description
+powerups	5	8	bucks	IconStorePowerupsPack1	
+powerups	10	15	bucks	IconStorePowerupsPack2	
+powerups	25	30	bucks	IconStorePowerupsPack3	
+crates	1	400	coins	IconStoreCratesPack1	
+crates	2	700	coins	IconStoreCratesPack2	
+crates	3	1000	coins	IconStoreCratesPack3	
+permanentCoinDoubler	1	299	realMoney	IconStoreCoinDoublerBundle	Permanent coin doubler\n+ ADS Remover

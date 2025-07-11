@@ -1,0 +1,8 @@
+{
+   "useCurrencyPurchase":true,
+   "useiCloud":true,
+   "useFacebookInvite":true,
+   "useFlurryClips":true,
+   "useNativeSocialSharing":true,
+   "useGameCenterChallenge":true
+}

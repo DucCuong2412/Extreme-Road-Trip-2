@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "SpriteCollectionFishingSharkTruck"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "SharkTruckWells"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 5.666667, y: 0.875, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 5.666667, y: 0.875, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -2.833333, y: -0.4375, z: 0}
+    - {x: 2.833333, y: -0.4375, z: 0}
+    - {x: -2.833333, y: 0.4375, z: 0}
+    - {x: 2.833333, y: 0.4375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7460977, y: 0.003908203}
+    - {x: 0.7460977, y: 0.5351543}
+    - {x: 0.9101523, y: 0.003908203}
+    - {x: 0.9101523, y: 0.5351543}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 58d665234b7544628c29bb191463699e, type: 2}
+    materialId: 0
+    sourceTextureGUID: "23a0723295ca74eeb953b0ac93e0961c"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "SharkTruckWheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.125, y: 1.125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.125, y: 1.125, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.5625, y: -0.5625, z: 0}
+    - {x: 0.5625, y: -0.5625, z: 0}
+    - {x: -0.5625, y: 0.5625, z: 0}
+    - {x: 0.5625, y: 0.5625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.8847676}
+    - {x: 0.2187461, y: 0.8847676}
+    - {x: 0.007816406, y: 0.9902324}
+    - {x: 0.2187461, y: 0.9902324}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 58d665234b7544628c29bb191463699e, type: 2}
+    materialId: 0
+    sourceTextureGUID: "72792a92584a1466a95b7e9a4a4dc694"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "SharkTruckBody"
+    boundsData:
+    - {x: 0.01041651, y: -0.01041663, z: 0}
+    - {x: 9.3125, y: 3.854167, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041651, y: -0.01041663, z: 0}
+    - {x: 9.3125, y: 3.854167, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -4.645833, y: -1.9375, z: 0}
+    - {x: 4.666667, y: -1.9375, z: 0}
+    - {x: -4.645833, y: 1.916667, z: 0}
+    - {x: 4.666667, y: 1.916667, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.007816406, y: 0.8769512}
+    - {x: 0.7304648, y: 0.003908203}
+    - {x: 0.7304648, y: 0.8769512}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 58d665234b7544628c29bb191463699e, type: 2}
+    materialId: 0
+    sourceTextureGUID: "76d3f4f2c47c54bd696a3a366a11ea4f"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 58d665234b7544628c29bb191463699e, type: 2}
+  textures:
+  - {fileID: 2800000, guid: cf12086de026474aa83a77b873649841, type: 3}
+  pngTextures: []
+  materialPngTextureId: 
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "7b1233b8849784d819ca59811f1423f1"
+  spriteCollectionName: "SpriteCollectionFishingSharkTruck"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 768
+  buildKey: 1899856269
+  dataGuid: "ad3b210c9f0164d86a93effa0531ed26"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

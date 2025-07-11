@@ -1,0 +1,41 @@
+{
+"BikeTripPromoConfig":
+	[
+		{
+		"Type":"Popup",
+		"Enable":false,
+		"Placements":
+			[
+				{
+				"PlacementId":"MainMenu",
+				"Enable":false,
+				"Frequency":1
+				"MaxDisplay": 10
+				"CloseButtonSec": 2
+				},
+				{
+				"PlacementId":"EndRun",
+				"Enable":false,
+				"Frequency":3
+				"MaxDisplay": 10
+				"CloseButtonSec": 0
+				}
+			]
+		},
+		{
+		"Type":"MultiplayerButton",
+		"Enable":false,
+		"Placements":
+			[
+				{
+				"PlacementId": "MainMenu",
+				"Enable": false
+				 },
+				{
+				"PlacementId": "EndRun",
+				"Enable": false
+				 }
+			]
+		}
+	]
+}

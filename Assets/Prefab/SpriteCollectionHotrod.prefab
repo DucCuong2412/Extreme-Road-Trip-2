@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "SpriteCollectionHotrod"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "HotrodBackWheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.333333, y: 1.333333, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.333333, y: 1.333333, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.6666667, y: -0.6666667, z: 0}
+    - {x: 0.6666667, y: -0.6666667, z: 0}
+    - {x: -0.6666667, y: 0.6666667, z: 0}
+    - {x: 0.6666667, y: 0.6666667, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.6816426}
+    - {x: 0.2578086, y: 0.6816426}
+    - {x: 0.007816406, y: 0.8066387}
+    - {x: 0.2578086, y: 0.8066387}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b92572f084da45f499a399812d4c87f6, type: 2}
+    materialId: 0
+    sourceTextureGUID: "89155c1dfefad479ab6d7b7d6cfa5abc"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "HotrodBody"
+    boundsData:
+    - {x: 0.01041675, y: 0, z: 0}
+    - {x: 7.145833, y: 2.541667, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041675, y: 0, z: 0}
+    - {x: 7.229167, y: 2.625, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.5625, y: -1.270833, z: 0}
+    - {x: 3.583333, y: -1.270833, z: 0}
+    - {x: -3.5625, y: 1.270833, z: 0}
+    - {x: 3.583333, y: 1.270833, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.007816406, y: 0.6738262}
+    - {x: 0.4843711, y: 0.003908203}
+    - {x: 0.4843711, y: 0.6738262}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b92572f084da45f499a399812d4c87f6, type: 2}
+    materialId: 0
+    sourceTextureGUID: "b24d537610ac94b8ebcce2594cd701de"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "HotrodFrontWheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.125, y: 1.125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.125, y: 1.125, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.5625, y: -0.5625, z: 0}
+    - {x: 0.5625, y: -0.5625, z: 0}
+    - {x: -0.5625, y: 0.5625, z: 0}
+    - {x: 0.5625, y: 0.5625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.8144551}
+    - {x: 0.2187461, y: 0.8144551}
+    - {x: 0.007816406, y: 0.9199199}
+    - {x: 0.2187461, y: 0.9199199}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b92572f084da45f499a399812d4c87f6, type: 2}
+    materialId: 0
+    sourceTextureGUID: "93f01152d1c7246e1ad4e6ff72329ac1"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "HotrodWells"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 6.583333, y: 1.125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 6.666667, y: 1.208333, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.291667, y: -0.5625, z: 0}
+    - {x: 3.291667, y: -0.5625, z: 0}
+    - {x: -3.291667, y: 0.5625, z: 0}
+    - {x: 3.291667, y: 0.5625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5000039, y: 0.003908203}
+    - {x: 0.5000039, y: 0.6210918}
+    - {x: 0.7109336, y: 0.003908203}
+    - {x: 0.7109336, y: 0.6210918}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: b92572f084da45f499a399812d4c87f6, type: 2}
+    materialId: 0
+    sourceTextureGUID: "9440e2bb64bca4969894aa6d8e3d4d63"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: b92572f084da45f499a399812d4c87f6, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 75c4d23d4f9f47b0bccd4cc12e0e6247, type: 3}
+  pngTextures: []
+  materialPngTextureId: 
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "696e712d9921f488ba40647de98ccb04"
+  spriteCollectionName: "SpriteCollectionHotrod"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 768
+  buildKey: 1912303738
+  dataGuid: "0aba5a9a3b40b4e01b141463a56cc5a8"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

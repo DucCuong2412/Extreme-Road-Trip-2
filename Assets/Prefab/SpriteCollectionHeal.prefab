@@ -1,0 +1,294 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "SpriteCollectionHeal"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "healWells"
+    boundsData:
+    - {x: 0.01041675, y: -0.01041669, z: 0}
+    - {x: 7.645833, y: 1.3125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041675, y: -0.01041669, z: 0}
+    - {x: 7.645833, y: 1.3125, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.8125, y: -0.6666667, z: 0}
+    - {x: 3.833333, y: -0.6666667, z: 0}
+    - {x: -3.8125, y: 0.6458333, z: 0}
+    - {x: 3.833333, y: 0.6458333, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8476582, y: 0.003908203}
+    - {x: 0.8476582, y: 0.7207012}
+    - {x: 0.9707012, y: 0.003908203}
+    - {x: 0.9707012, y: 0.7207012}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: d0396289cadc40c68dd1d3d8b56b3021, type: 2}
+    materialId: 0
+    sourceTextureGUID: "e9f4748d3e94c4ae2abd025ce665fdd9"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "healWheel"
+    boundsData:
+    - {x: -2.980232E-08, y: -2.980232E-08, z: 0}
+    - {x: 1.583333, y: 1.583333, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.625, y: 1.625, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.7916667, y: -0.7916667, z: 0}
+    - {x: 0.7916666, y: -0.7916667, z: 0}
+    - {x: -0.7916667, y: 0.7916666, z: 0}
+    - {x: 0.7916666, y: 0.7916666, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.003908203, y: 0.7285176}
+    - {x: 0.1523418, y: 0.7285176}
+    - {x: 0.003908203, y: 0.8769512}
+    - {x: 0.1523418, y: 0.8769512}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: d0396289cadc40c68dd1d3d8b56b3021, type: 2}
+    materialId: 0
+    sourceTextureGUID: "262cafb803f4e48f3855650ab56e3741"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "healBody"
+    boundsData:
+    - {x: 0, y: -0.01041675, z: 0}
+    - {x: 8.916667, y: 4.1875, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.01041675, z: 0}
+    - {x: 8.916667, y: 4.1875, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -4.458333, y: -2.104167, z: 0}
+    - {x: 4.458333, y: -2.104167, z: 0}
+    - {x: -4.458333, y: 2.083333, z: 0}
+    - {x: 4.458333, y: 2.083333, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.003908203, y: 0.003908203}
+    - {x: 0.8398418, y: 0.003908203}
+    - {x: 0.003908203, y: 0.3964824}
+    - {x: 0.8398418, y: 0.3964824}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: d0396289cadc40c68dd1d3d8b56b3021, type: 2}
+    materialId: 0
+    sourceTextureGUID: "5f2aa05c879b746e9b8adac2840c39b2"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "healLight02"
+    boundsData:
+    - {x: -0.02083331, y: -0.01041669, z: 0}
+    - {x: 1.625, y: 1.395833, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.01041669, z: 0}
+    - {x: 1.666667, y: 1.395833, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.8333334, y: -0.7083334, z: 0}
+    - {x: 0.7916667, y: -0.7083334, z: 0}
+    - {x: -0.8333334, y: 0.6875, z: 0}
+    - {x: 0.7916667, y: 0.6875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.1601582, y: 0.7285176}
+    - {x: 0.1601582, y: 0.8808574}
+    - {x: 0.2910137, y: 0.7285176}
+    - {x: 0.2910137, y: 0.8808574}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: d0396289cadc40c68dd1d3d8b56b3021, type: 2}
+    materialId: 0
+    sourceTextureGUID: "837538ed3f40946d5863a18a6e41b3df"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "healLight01"
+    boundsData:
+    - {x: 0.01041669, y: -0.01041669, z: 0}
+    - {x: 1.604167, y: 1.395833, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.01041669, z: 0}
+    - {x: 1.666667, y: 1.395833, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.7916667, y: -0.7083334, z: 0}
+    - {x: 0.8125001, y: -0.7083334, z: 0}
+    - {x: -0.7916667, y: 0.6875, z: 0}
+    - {x: 0.8125001, y: 0.6875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.2988301, y: 0.7285176}
+    - {x: 0.2988301, y: 0.8789043}
+    - {x: 0.4296855, y: 0.7285176}
+    - {x: 0.4296855, y: 0.8789043}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: d0396289cadc40c68dd1d3d8b56b3021, type: 2}
+    materialId: 0
+    sourceTextureGUID: "e12d6ed41c9ca470dbdcfa3d1af1ff2d"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: d0396289cadc40c68dd1d3d8b56b3021, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 018435a5104442d59df28b81d7995086, type: 3}
+  pngTextures: []
+  materialPngTextureId: 
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "96439a5fd66b54984b43e7d41efac2a5"
+  spriteCollectionName: "SpriteCollectionHeal"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 768
+  buildKey: 1703420820
+  dataGuid: "f196c34d4550a48e6b92527c3609d9e7"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

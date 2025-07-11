@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376874}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708525
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376874}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708525}
+  - component: {fileID: 1791799705936202288}
+  m_Layer: 0
+  m_Name: "SpriteCollectionMuscle"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "MuscleBody"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 8.708333, y: 2.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 8.75, y: 2.291667, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -4.354167, y: -1.125, z: 0}
+    - {x: 4.354167, y: -1.125, z: 0}
+    - {x: -4.354167, y: 1.125, z: 0}
+    - {x: 4.354167, y: 1.125, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.007816406, y: 0.8203105}
+    - {x: 0.4296836, y: 0.003908203}
+    - {x: 0.4296836, y: 0.8203105}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0bd88f52bbf948088042bb9a8a5e2d63, type: 2}
+    materialId: 0
+    sourceTextureGUID: "0cbdfd2e98608407a88b78c07f964024"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "MuscleWheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.25, y: 1.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.25, y: 1.25, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.625, y: -0.625, z: 0}
+    - {x: 0.625, y: -0.625, z: 0}
+    - {x: -0.625, y: 0.625, z: 0}
+    - {x: 0.625, y: 0.625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.828127}
+    - {x: 0.2421836, y: 0.828127}
+    - {x: 0.007816406, y: 0.9453105}
+    - {x: 0.2421836, y: 0.9453105}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0bd88f52bbf948088042bb9a8a5e2d63, type: 2}
+    materialId: 0
+    sourceTextureGUID: "2b921484fbb8942ecaeca3e748d1cbf7"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "MuscleWells"
+    boundsData:
+    - {x: 0.01041675, y: -1.490116E-08, z: 0}
+    - {x: 6.895833, y: 0.9166666, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041675, y: -0.01041669, z: 0}
+    - {x: 6.895833, y: 0.9375, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.4375, y: -0.4583333, z: 0}
+    - {x: 3.458333, y: -0.4583333, z: 0}
+    - {x: -3.4375, y: 0.4583333, z: 0}
+    - {x: 3.458333, y: 0.4583333, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4453164, y: 0.003908203}
+    - {x: 0.4453164, y: 0.6503887}
+    - {x: 0.6171836, y: 0.003908203}
+    - {x: 0.6171836, y: 0.6503887}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0bd88f52bbf948088042bb9a8a5e2d63, type: 2}
+    materialId: 0
+    sourceTextureGUID: "ea83d798521be4c8db81ce27169bdf56"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 0bd88f52bbf948088042bb9a8a5e2d63, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 16204a345b4d44bb88a56cf0b42d9511, type: 3}
+  pngTextures: []
+  materialPngTextureId: 
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "c400b5a3d7c3040d59a28f24a3d33558"
+  spriteCollectionName: "SpriteCollectionMuscle"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 768
+  buildKey: 924164216
+  dataGuid: "b01c7c569d3d84254a89c679fb18244b"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

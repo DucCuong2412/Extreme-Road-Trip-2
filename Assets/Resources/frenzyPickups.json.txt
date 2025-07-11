@@ -1,0 +1,56 @@
+{
+    "intro": 
+    [
+        {
+            "frequency": 1,
+            "prefabs":
+            [
+                "PrefabGenerousFrenzyCrate"
+            ]
+        },
+    ],
+    "game":
+    [
+        {
+            "frequency": 2,
+            "prefabs":
+            [
+                "PrefabMine"
+            ]
+        },
+        
+        {
+            "frequency": 1,
+            "prefabs":
+            [
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+                "PrefabPickupCoin",
+               	"PrefabMine"
+            ]
+        },
+        
+        {
+            "frequency": 2,
+            "prefabs":
+            [
+                "PrefabFrenzyCrate"
+            ]
+        },
+        
+        {
+            "frequency": 5,
+            "prefabs":
+            [
+                "PrefabFrenzyBalloon"
+            ]
+        }
+    ]
+}

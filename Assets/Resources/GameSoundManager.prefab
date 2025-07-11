@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "GameSoundManager"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ca58a3930b9ded72d5e564716ca7033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _boost: {fileID: 8300000, guid: cf9a53fe6c1645a4b964f3fd5b1fc640, type: 3}
+  _megaBoost: {fileID: 8300000, guid: be9fb9ee20034645a7c01a3a70c93ee8, type: 3}
+  _slamming: {fileID: 8300000, guid: 2d55366b136e4ca6836b8cccee81923a, type: 3}
+  _tireContact: {fileID: 8300000, guid: b3330b3314c64f69ace2896eddbcb5f3, type: 3}
+  _button: {fileID: 8300000, guid: e07837a30c564def9c1ec56b547ebdb0, type: 3}
+  _cashRegister: {fileID: 8300000, guid: 6dfd9f6c49714ac9a595994a69e8e084, type: 3}
+  _pickupCoin:
+  - {fileID: 8300000, guid: ec79bb1e56914952be55189d5b0d691e, type: 3}
+  - {fileID: 8300000, guid: a74816da4bd442f8b15a301498a584d6, type: 3}
+  _pickupGas:
+  - {fileID: 8300000, guid: 4abe4d44a0d946f4956e34b3cc0db1ef, type: 3}
+  - {fileID: 8300000, guid: 4ba32a3bbf4e43d09bcc1b76d3221aea, type: 3}
+  _pickupBuck:
+  - {fileID: 8300000, guid: f50f998789a64eafa59264909f13e55a, type: 3}
+  _coinDoublerReward: {fileID: 8300000, guid: 83f8120f87a741829d9b4b2bd1d63c22, type: 3}
+  _magnetReward: {fileID: 8300000, guid: ed307c183d624a35984647702b88bdae, type: 3}
+  _megaBoostReward: {fileID: 8300000, guid: 63930f0645574f5e8a2f28c8bb891ea9, type: 3}
+  _wood: {fileID: 8300000, guid: 81a6b8477da942bd80ee2b042be1d2f0, type: 3}
+  _metal: {fileID: 8300000, guid: cd9fa7a8f5244f9a8b8c53dd9c6a80a0, type: 3}
+  _breakRock: {fileID: 8300000, guid: 28a7f0362bd94fe89a0c1ad3ffc1b031, type: 3}
+  _cone: {fileID: 8300000, guid: 701467f0e5f84e23bd5a1770e469dc9a, type: 3}
+  _balloon: {fileID: 8300000, guid: ad2d78ccd3284df38bd695f33ff9299c, type: 3}
+  _weed: {fileID: 8300000, guid: d82dd81016894ccd8374c64bd1ea8065, type: 3}
+  _witch: {fileID: 8300000, guid: 8bbaf879725f4f96acf13c6c38e1929e, type: 3}
+  _pumpkin: {fileID: 8300000, guid: 6ba05b0d97a84942a432b5543f2263c0, type: 3}
+  _snow: {fileID: 8300000, guid: 27acd54173294135b36f7bf78409677d, type: 3}
+  _ufo: {fileID: 8300000, guid: 1c6d2a0e6ce54068a2c3820d7a281f8e, type: 3}
+  _birds: {fileID: 8300000, guid: 0afdce21983844188d048c88504d2e28, type: 3}
+  _woodHit: {fileID: 8300000, guid: 81a6b8477da942bd80ee2b042be1d2f0, type: 3}
+  _woodCrash: {fileID: 8300000, guid: bba77b93b02a45a193d70b9f632edaa7, type: 3}
+  _mine: {fileID: 8300000, guid: f1b31bc5a01946828a04e4e19c9f1ff2, type: 3}
+  _explosion: {fileID: 8300000, guid: e75642db0f464e93a88fb85e79e0a94f, type: 3}
+  _flash: {fileID: 8300000, guid: 060753a024be4c37974228e5fb6990ca, type: 3}
+  _whish: {fileID: 8300000, guid: 9c38ba181635407aa93de072283e8a4a, type: 3}
+  _bweep: {fileID: 8300000, guid: 736276f5e23e4e11872014dee82e5606, type: 3}
+  _suddenDeathAlarm: {fileID: 8300000, guid: 05c48d9b845848b18812215c1e1bd83b, type: 3}
+  _steamBreak: {fileID: 8300000, guid: fe19f11510574183b1a4fa3e108349ce, type: 3}
+  _stomp: {fileID: 8300000, guid: 399e9e45205440e3a00e9a09a293a8c3, type: 3}
+  _crowd: {fileID: 8300000, guid: 8f930ded9fa04eca88796b85b6264b8f, type: 3}
+  _star: {fileID: 8300000, guid: dae677876ef343b89605a1b6fe2943f7, type: 3}
+  _xpGoingUp: {fileID: 8300000, guid: cc92cca5294546d29bbfa33964f95acb, type: 3}
+  _upgradeDrill: {fileID: 8300000, guid: f110e2d7841e46cfbdc9469af396ae5d, type: 3}
+  _loopingBeep: {fileID: 8300000, guid: b5381f35af0a4e29ace2979872c7f68d, type: 3}
+  _loopingCoin: {fileID: 8300000, guid: fc68c66cd6594e058a1a6f121fe91cc5, type: 3}
+  _loopingFlash: {fileID: 8300000, guid: 7db312c0e9fa47489503f184844f4eca, type: 3}

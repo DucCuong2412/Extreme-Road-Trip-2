@@ -1,0 +1,26 @@
+public enum Currency
+{
+	coins,
+	bucks,
+	prestigeTokens,
+	realMoney,
+	coalOre,
+	diamondOre,
+	healBlock,
+	rockBlock,
+	dirtBlock,
+	crateBlock,
+	distance,
+	fishMinnow,
+	fishPeamouth,
+	fishTrout,
+	fishBarracuda,
+	fishClownfish,
+	fishGreatWhiteShark,
+	monsterGreenOrc,
+	monsterSlime,
+	monsterBlackSpider,
+	monsterGoblin,
+	monsterSentinel,
+	monsterBerserker
+}

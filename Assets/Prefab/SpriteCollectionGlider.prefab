@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "SpriteCollectionGlider"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "GliderBody"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 7.875, y: 2.125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 7.875, y: 2.125, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.9375, y: -1.0625, z: 0}
+    - {x: 3.9375, y: -1.0625, z: 0}
+    - {x: -3.9375, y: 1.0625, z: 0}
+    - {x: 3.9375, y: 1.0625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.007816406, y: 0.7421855}
+    - {x: 0.4062461, y: 0.003908203}
+    - {x: 0.4062461, y: 0.7421855}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0c3b1614e7a2432e853f55fcb85f9802, type: 2}
+    materialId: 0
+    sourceTextureGUID: "d732ab051c94744049c3f8bb75ed12ea"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "GliderWheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.333333, y: 1.333333, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.333333, y: 1.333333, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.6666667, y: -0.6666667, z: 0}
+    - {x: 0.6666667, y: -0.6666667, z: 0}
+    - {x: -0.6666667, y: 0.6666667, z: 0}
+    - {x: 0.6666667, y: 0.6666667, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.750002}
+    - {x: 0.2578086, y: 0.750002}
+    - {x: 0.007816406, y: 0.874998}
+    - {x: 0.2578086, y: 0.874998}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0c3b1614e7a2432e853f55fcb85f9802, type: 2}
+    materialId: 0
+    sourceTextureGUID: "4871bf45269a64c2797db1dc4ace10a8"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "GliderWells"
+    boundsData:
+    - {x: 0, y: -2.980232E-08, z: 0}
+    - {x: 6.291667, y: 1.166667, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.01041669, z: 0}
+    - {x: 6.333333, y: 1.1875, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.145833, y: -0.5833334, z: 0}
+    - {x: 3.145833, y: -0.5833334, z: 0}
+    - {x: -3.145833, y: 0.5833333, z: 0}
+    - {x: 3.145833, y: 0.5833333, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4218789, y: 0.003908203}
+    - {x: 0.4218789, y: 0.593748}
+    - {x: 0.6406211, y: 0.003908203}
+    - {x: 0.6406211, y: 0.593748}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0c3b1614e7a2432e853f55fcb85f9802, type: 2}
+    materialId: 0
+    sourceTextureGUID: "503c6421da5b64be5854b4c54169c7b9"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 0c3b1614e7a2432e853f55fcb85f9802, type: 2}
+  textures:
+  - {fileID: 2800000, guid: c561d248013f4ec1a68cbd023bd68375, type: 3}
+  pngTextures: []
+  materialPngTextureId: 
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "e576b590c8b854c2384ddb35342e918c"
+  spriteCollectionName: "SpriteCollectionGlider"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 768
+  buildKey: 1116650681
+  dataGuid: "10743b96f54964d94b5228363f00feab"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

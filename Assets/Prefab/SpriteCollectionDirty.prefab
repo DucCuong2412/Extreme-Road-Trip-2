@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "SpriteCollectionDirty"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "DirtyWheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.458333, y: 1.458333, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.458333, y: 1.458333, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.7291667, y: -0.7291667, z: 0}
+    - {x: 0.7291667, y: -0.7291667, z: 0}
+    - {x: -0.7291667, y: 0.7291667, z: 0}
+    - {x: 0.7291667, y: 0.7291667, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.734377}
+    - {x: 0.2812461, y: 0.734377}
+    - {x: 0.007816406, y: 0.8710918}
+    - {x: 0.2812461, y: 0.8710918}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7df1c4d685444e42928c7fc1fbd69e99, type: 2}
+    materialId: 0
+    sourceTextureGUID: "258d9a18a182f4a3facf9b729115a5ea"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "DirtyWells"
+    boundsData:
+    - {x: 0.01041651, y: -0.01041669, z: 0}
+    - {x: 6.8125, y: 1.1875, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041651, y: -0.01041669, z: 0}
+    - {x: 6.8125, y: 1.1875, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.395833, y: -0.6041667, z: 0}
+    - {x: 3.416667, y: -0.6041667, z: 0}
+    - {x: -3.395833, y: 0.5833333, z: 0}
+    - {x: 3.416667, y: 0.5833333, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5429727, y: 0.003908203}
+    - {x: 0.5429727, y: 0.6425762}
+    - {x: 0.7656211, y: 0.003908203}
+    - {x: 0.7656211, y: 0.6425762}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7df1c4d685444e42928c7fc1fbd69e99, type: 2}
+    materialId: 0
+    sourceTextureGUID: "f4eab05d8300b43c5b5dd491556fc089"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "DirtyBody"
+    boundsData:
+    - {x: 0, y: -0.01041663, z: 0}
+    - {x: 7.708333, y: 2.770833, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.01041663, z: 0}
+    - {x: 7.708333, y: 2.770833, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.854167, y: -1.395833, z: 0}
+    - {x: 3.854167, y: -1.395833, z: 0}
+    - {x: -3.854167, y: 1.375, z: 0}
+    - {x: 3.854167, y: 1.375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.007816406, y: 0.7265605}
+    - {x: 0.5273398, y: 0.003908203}
+    - {x: 0.5273398, y: 0.7265605}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7df1c4d685444e42928c7fc1fbd69e99, type: 2}
+    materialId: 0
+    sourceTextureGUID: "4c419b6ae0084409c99bff077ec25549"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 7df1c4d685444e42928c7fc1fbd69e99, type: 2}
+  textures:
+  - {fileID: 2800000, guid: d96a8658c0e04255a45329aa60e8f31a, type: 3}
+  pngTextures: []
+  materialPngTextureId: 
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "cbc38b434f4f84d53b2d433db2c234d5"
+  spriteCollectionName: "SpriteCollectionDirty"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 768
+  buildKey: 906481355
+  dataGuid: "6df21ef65cdd64b4997e264ec0c4c8cb"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

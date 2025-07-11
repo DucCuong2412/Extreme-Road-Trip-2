@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "SpriteCollectionPacemaker"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "LifesaverBody"
+    boundsData:
+    - {x: 0.01041627, y: -0.01041681, z: 0}
+    - {x: 8.770834, y: 3.479167, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041651, y: -0.01041675, z: 0}
+    - {x: 8.854167, y: 3.5625, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -4.375, y: -1.75, z: 0}
+    - {x: 4.395833, y: -1.75, z: 0}
+    - {x: -4.375, y: 1.729167, z: 0}
+    - {x: 4.395833, y: 1.729167, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.007816406, y: 0.8261699}
+    - {x: 0.6601523, y: 0.003908203}
+    - {x: 0.6601523, y: 0.8261699}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0509c35d1a304fa980252ec953868b55, type: 2}
+    materialId: 0
+    sourceTextureGUID: "ad70b223aec534d7ea3ac7dc8a887a84"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "LifesaverWells"
+    boundsData:
+    - {x: 0.01041675, y: -0.01041666, z: 0}
+    - {x: 6.520833, y: 1.104167, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041675, y: -0.01041669, z: 0}
+    - {x: 6.604167, y: 1.1875, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.25, y: -0.5625, z: 0}
+    - {x: 3.270833, y: -0.5625, z: 0}
+    - {x: -3.25, y: 0.5416667, z: 0}
+    - {x: 3.270833, y: 0.5416667, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6757852, y: 0.003908203}
+    - {x: 0.6757852, y: 0.6152324}
+    - {x: 0.8828086, y: 0.003908203}
+    - {x: 0.8828086, y: 0.6152324}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0509c35d1a304fa980252ec953868b55, type: 2}
+    materialId: 0
+    sourceTextureGUID: "d74af329c6bae480e898de7093c60a33"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "LifesaverWheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.541667, y: 1.541667, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.541667, y: 1.541667, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.7708334, y: -0.7708334, z: 0}
+    - {x: 0.7708334, y: -0.7708334, z: 0}
+    - {x: -0.7708334, y: 0.7708334, z: 0}
+    - {x: 0.7708334, y: 0.7708334, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.8339863}
+    - {x: 0.2968711, y: 0.8339863}
+    - {x: 0.007816406, y: 0.9785137}
+    - {x: 0.2968711, y: 0.9785137}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0509c35d1a304fa980252ec953868b55, type: 2}
+    materialId: 0
+    sourceTextureGUID: "960cd21a62e1c45e99f7f8d3356e1455"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 0509c35d1a304fa980252ec953868b55, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 7f28371646d34503b8cd2bc2fe957a23, type: 3}
+  pngTextures: []
+  materialPngTextureId: 
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "b5a6af0a5013542c1a544e592113954f"
+  spriteCollectionName: "SpriteCollectionPacemaker"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 768
+  buildKey: 1651590754
+  dataGuid: "b3aa3f97c46b44625be7516c5b475419"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

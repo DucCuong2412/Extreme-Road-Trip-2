@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "SpriteCollectionClassic"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "classicWells"
+    boundsData:
+    - {x: 0.01041675, y: -0.01041666, z: 0}
+    - {x: 5.104167, y: 0.9791667, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041675, y: -0.01041666, z: 0}
+    - {x: 5.104167, y: 0.9791667, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -2.541667, y: -0.5, z: 0}
+    - {x: 2.5625, y: -0.5, z: 0}
+    - {x: -2.541667, y: 0.4791667, z: 0}
+    - {x: 2.5625, y: 0.4791667, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.7226582}
+    - {x: 0.9648398, y: 0.7226582}
+    - {x: 0.007816406, y: 0.8144512}
+    - {x: 0.9648398, y: 0.8144512}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0f3d4e3252f047798c8a41da0af7359a, type: 2}
+    materialId: 0
+    sourceTextureGUID: "8613a2cd68c7a4f02a03e2e1b368abe4"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "classicBody"
+    boundsData:
+    - {x: -0.04166675, y: -0.01041669, z: 0}
+    - {x: 7.583333, y: 1.9375, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 7.916667, y: 2.25, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.833333, y: -0.9791667, z: 0}
+    - {x: 3.75, y: -0.9791667, z: 0}
+    - {x: -3.833333, y: 0.9583333, z: 0}
+    - {x: 3.75, y: 0.9583333, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.007816406, y: 0.7148418}
+    - {x: 0.3710898, y: 0.003908203}
+    - {x: 0.3710898, y: 0.7148418}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0f3d4e3252f047798c8a41da0af7359a, type: 2}
+    materialId: 0
+    sourceTextureGUID: "5b216a783e0f442cfb08d0b064173488"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "classicWheel"
+    boundsData:
+    - {x: -2.980232E-08, y: -2.980232E-08, z: 0}
+    - {x: 1.041667, y: 1.041667, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.083333, y: 1.083333, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.5208334, y: -0.5208334, z: 0}
+    - {x: 0.5208333, y: -0.5208334, z: 0}
+    - {x: -0.5208334, y: 0.5208333, z: 0}
+    - {x: 0.5208333, y: 0.5208333, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.8222676}
+    - {x: 0.2031211, y: 0.8222676}
+    - {x: 0.007816406, y: 0.9199199}
+    - {x: 0.2031211, y: 0.9199199}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0f3d4e3252f047798c8a41da0af7359a, type: 2}
+    materialId: 0
+    sourceTextureGUID: "1a3e4763ad9d34449a5c09861c1fac27"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 0f3d4e3252f047798c8a41da0af7359a, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 1139cd89443a452083c76b1fcd2e3b8a, type: 3}
+  pngTextures: []
+  materialPngTextureId: 
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "5b92248424de8481d82880fe4abc705a"
+  spriteCollectionName: "SpriteCollectionClassic"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 768
+  buildKey: 749049609
+  dataGuid: "35f015703616a406d9057d9346535050"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

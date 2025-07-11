@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "SpriteCollectionDragster"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "HillbilllyBody"
+    boundsData:
+    - {x: 0, y: 0.02083337, z: 0}
+    - {x: 8.583334, y: 2.416667, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.01041663, z: 0}
+    - {x: 8.583334, y: 2.604167, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -4.291667, y: -1.1875, z: 0}
+    - {x: 4.291667, y: -1.1875, z: 0}
+    - {x: -4.291667, y: 1.229167, z: 0}
+    - {x: 4.291667, y: 1.229167, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.007816406, y: 0.8085918}
+    - {x: 0.4609336, y: 0.003908203}
+    - {x: 0.4609336, y: 0.8085918}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 634d945ac72844669841d1696c60f485, type: 2}
+    materialId: 0
+    sourceTextureGUID: "97b0ad794303b4f6dab9d8a7289392c9"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "HillbillyBackWheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.5, y: 1.5, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.5, y: 1.5, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.75, y: -0.75, z: 0}
+    - {x: 0.75, y: -0.75, z: 0}
+    - {x: -0.75, y: 0.75, z: 0}
+    - {x: 0.75, y: 0.75, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.8164082}
+    - {x: 0.2890586, y: 0.8164082}
+    - {x: 0.007816406, y: 0.9570293}
+    - {x: 0.2890586, y: 0.9570293}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 634d945ac72844669841d1696c60f485, type: 2}
+    materialId: 0
+    sourceTextureGUID: "a3e833d9b39704ab58590b84b4be9727"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "HillbillyFrontWheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.208333, y: 1.208333, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.208333, y: 1.208333, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.6041667, y: -0.6041667, z: 0}
+    - {x: 0.6041667, y: -0.6041667, z: 0}
+    - {x: -0.6041667, y: 0.6041667, z: 0}
+    - {x: 0.6041667, y: 0.6041667, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.3046914, y: 0.8164082}
+    - {x: 0.5312461, y: 0.8164082}
+    - {x: 0.3046914, y: 0.9296855}
+    - {x: 0.5312461, y: 0.9296855}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 634d945ac72844669841d1696c60f485, type: 2}
+    materialId: 0
+    sourceTextureGUID: "d1e33b07568c742ddbfa270386d0d957"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "HillbillyWells"
+    boundsData:
+    - {x: 0.04166651, y: 0.04166666, z: 0}
+    - {x: 7.625, y: 1.458333, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041651, y: -0.01041669, z: 0}
+    - {x: 7.6875, y: 1.5625, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.770833, y: -0.6875, z: 0}
+    - {x: 3.854167, y: -0.6875, z: 0}
+    - {x: -3.770833, y: 0.7708333, z: 0}
+    - {x: 3.854167, y: 0.7708333, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4765664, y: 0.003908203}
+    - {x: 0.4765664, y: 0.718748}
+    - {x: 0.7499961, y: 0.003908203}
+    - {x: 0.7499961, y: 0.718748}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 634d945ac72844669841d1696c60f485, type: 2}
+    materialId: 0
+    sourceTextureGUID: "fe80830b03d424116bddf8c8434921cb"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 634d945ac72844669841d1696c60f485, type: 2}
+  textures:
+  - {fileID: 2800000, guid: b6924b62dd7342518535455e4e5b136d, type: 3}
+  pngTextures: []
+  materialPngTextureId: 
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "745ed535b5bc0478a811b68f3cb9e50e"
+  spriteCollectionName: "SpriteCollectionDragster"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 768
+  buildKey: 1635870357
+  dataGuid: "7c9280972fbbc40b289ce648ae601b13"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

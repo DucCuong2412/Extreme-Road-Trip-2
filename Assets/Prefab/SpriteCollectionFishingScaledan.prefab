@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "SpriteCollectionFishingScaledan"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "ScaledanBody"
+    boundsData:
+    - {x: 0, y: -0.01041663, z: 0}
+    - {x: 8.958334, y: 2.729167, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.01041663, z: 0}
+    - {x: 8.958334, y: 2.729167, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -4.479167, y: -1.375, z: 0}
+    - {x: 4.479167, y: -1.375, z: 0}
+    - {x: -4.479167, y: 1.354167, z: 0}
+    - {x: 4.479167, y: 1.354167, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.007816406, y: 0.843748}
+    - {x: 0.5195273, y: 0.003908203}
+    - {x: 0.5195273, y: 0.843748}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 62067aeaa1004689840ad2c0a5f5dbf6, type: 2}
+    materialId: 0
+    sourceTextureGUID: "130d90203f9f447f4bbedd9f986c978c"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "ScaledanWells"
+    boundsData:
+    - {x: 0, y: -0.01041666, z: 0}
+    - {x: 6.25, y: 0.8958334, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.01041666, z: 0}
+    - {x: 6.25, y: 0.8958334, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.125, y: -0.4583333, z: 0}
+    - {x: 3.125, y: -0.4583333, z: 0}
+    - {x: -3.125, y: 0.4375, z: 0}
+    - {x: 3.125, y: 0.4375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5351602, y: 0.003908203}
+    - {x: 0.5351602, y: 0.5898418}
+    - {x: 0.7031211, y: 0.003908203}
+    - {x: 0.7031211, y: 0.5898418}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 62067aeaa1004689840ad2c0a5f5dbf6, type: 2}
+    materialId: 0
+    sourceTextureGUID: "16c1d60db68844c1b8efff487261bcfa"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "ScaledanWheel"
+    boundsData:
+    - {x: 0.01041663, y: -0.01041669, z: 0}
+    - {x: 1.3125, y: 1.3125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041663, y: -0.01041669, z: 0}
+    - {x: 1.3125, y: 1.3125, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.6458334, y: -0.6666667, z: 0}
+    - {x: 0.6666666, y: -0.6666667, z: 0}
+    - {x: -0.6458334, y: 0.6458333, z: 0}
+    - {x: 0.6666666, y: 0.6458333, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.8515645}
+    - {x: 0.2539023, y: 0.8515645}
+    - {x: 0.007816406, y: 0.9746074}
+    - {x: 0.2539023, y: 0.9746074}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 62067aeaa1004689840ad2c0a5f5dbf6, type: 2}
+    materialId: 0
+    sourceTextureGUID: "3ed088eed5be84fbf8dbbe49e6ba4ad8"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 62067aeaa1004689840ad2c0a5f5dbf6, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 3f228e0ac9aa494ab310eead8cd5a229, type: 3}
+  pngTextures: []
+  materialPngTextureId: 
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "ae3fb792b1edf4dbd8b78aa9a53785d3"
+  spriteCollectionName: "SpriteCollectionFishingScaledan"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 768
+  buildKey: 776762004
+  dataGuid: "1b983bde12c2b494dad9fd254af2d7b2"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

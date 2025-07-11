@@ -1,0 +1,502 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "QuarrySpriteCollection"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "quarryDangerSign01"
+    boundsData:
+    - {x: 0, y: -0.0250001, z: 0}
+    - {x: 0.7, y: 10.45, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.0250001, z: 0}
+    - {x: 0.7, y: 10.45, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -0.35, y: -5.25, z: 0}
+    - {x: 0.35, y: -5.25, z: 0}
+    - {x: -0.35, y: 5.2, z: 0}
+    - {x: 0.35, y: 5.2, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.003908203, y: 0.4277363}
+    - {x: 0.003908203, y: 0.4550762}
+    - {x: 0.4121074, y: 0.4277363}
+    - {x: 0.4121074, y: 0.4550762}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0b3fb5b0f13f4fe4b434d4cdf191b953, type: 2}
+    materialId: 0
+    sourceTextureGUID: "fd55ac70b3591499fadb0fd439e1515e"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "quarryFence"
+    boundsData:
+    - {x: 0, y: -0.0250001, z: 0}
+    - {x: 15.5, y: 4.75, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.0250001, z: 0}
+    - {x: 15.5, y: 4.75, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -7.75, y: -2.4, z: 0}
+    - {x: 7.75, y: -2.4, z: 0}
+    - {x: -7.75, y: 2.35, z: 0}
+    - {x: 7.75, y: 2.35, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.003908203, y: 0.003908203}
+    - {x: 0.609373, y: 0.003908203}
+    - {x: 0.003908203, y: 0.1894512}
+    - {x: 0.609373, y: 0.1894512}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0b3fb5b0f13f4fe4b434d4cdf191b953, type: 2}
+    materialId: 0
+    sourceTextureGUID: "396677a0fae74433297b86e23ecc9902"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "quarryRod01"
+    boundsData:
+    - {x: 0, y: -0.02500057, z: 0}
+    - {x: 1.6, y: 17.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.02500057, z: 0}
+    - {x: 1.6, y: 17.25, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -0.8, y: -8.650001, z: 0}
+    - {x: 0.8, y: -8.650001, z: 0}
+    - {x: -0.8, y: 8.599999, z: 0}
+    - {x: 0.8, y: 8.599999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.003908203, y: 0.9199238}
+    - {x: 0.003908203, y: 0.9824199}
+    - {x: 0.6777324, y: 0.9199238}
+    - {x: 0.6777324, y: 0.9824199}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0b3fb5b0f13f4fe4b434d4cdf191b953, type: 2}
+    materialId: 0
+    sourceTextureGUID: "d10789155124642e68cf2fffb5f2c029"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "quarryRodSign02"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 6.2, y: 1.4, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 6.2, y: 1.4, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -3.1, y: -0.7, z: 0}
+    - {x: 3.1, y: -0.7, z: 0}
+    - {x: -3.1, y: 0.7, z: 0}
+    - {x: 3.1, y: 0.7, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6855488, y: 0.4277363}
+    - {x: 0.6855488, y: 0.6699199}
+    - {x: 0.7402324, y: 0.4277363}
+    - {x: 0.7402324, y: 0.6699199}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0b3fb5b0f13f4fe4b434d4cdf191b953, type: 2}
+    materialId: 0
+    sourceTextureGUID: "68c20b179c4004955bf8cb85953cfdb2"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "quarryBushes"
+    boundsData:
+    - {x: 0.0250001, y: 0, z: 0}
+    - {x: 10.65, y: 4.7, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.0250001, y: 0, z: 0}
+    - {x: 10.65, y: 4.7, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -5.3, y: -2.35, z: 0}
+    - {x: 5.35, y: -2.35, z: 0}
+    - {x: -5.3, y: 2.35, z: 0}
+    - {x: 5.35, y: 2.35, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6171895, y: 0.003908203}
+    - {x: 0.6171895, y: 0.4199199}
+    - {x: 0.8007793, y: 0.003908203}
+    - {x: 0.8007793, y: 0.4199199}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0b3fb5b0f13f4fe4b434d4cdf191b953, type: 2}
+    materialId: 0
+    sourceTextureGUID: "3fb7e808c23e94c9eaf01ff953a687c9"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "quarryGrass02"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 8.1, y: 4.3, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 8.1, y: 4.3, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -4.05, y: -2.15, z: 0}
+    - {x: 4.05, y: -2.15, z: 0}
+    - {x: -4.05, y: 2.15, z: 0}
+    - {x: 4.05, y: 2.15, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8085957, y: 0.343752}
+    - {x: 0.8085957, y: 0.6601543}
+    - {x: 0.9765605, y: 0.343752}
+    - {x: 0.9765605, y: 0.6601543}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0b3fb5b0f13f4fe4b434d4cdf191b953, type: 2}
+    materialId: 0
+    sourceTextureGUID: "80270c68817954a1098a48e6e8daee28"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "quarryRodSign01"
+    boundsData:
+    - {x: 0, y: -0.02499998, z: 0}
+    - {x: 6.1, y: 1.35, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.02499998, z: 0}
+    - {x: 6.1, y: 1.35, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -3.05, y: -0.7, z: 0}
+    - {x: 3.05, y: -0.7, z: 0}
+    - {x: -3.05, y: 0.65, z: 0}
+    - {x: 3.05, y: 0.65, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.7480488, y: 0.4277363}
+    - {x: 0.7480488, y: 0.6660137}
+    - {x: 0.8007793, y: 0.4277363}
+    - {x: 0.8007793, y: 0.6660137}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0b3fb5b0f13f4fe4b434d4cdf191b953, type: 2}
+    materialId: 0
+    sourceTextureGUID: "26b0e178c1e7140fe907888d496a92cc"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "quarryDangerSign02"
+    boundsData:
+    - {x: 0.02499986, y: -0.0250001, z: 0}
+    - {x: 6.25, y: 5.15, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.02499986, y: -0.0250001, z: 0}
+    - {x: 6.25, y: 5.15, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -3.1, y: -2.6, z: 0}
+    - {x: 3.15, y: -2.6, z: 0}
+    - {x: -3.1, y: 2.55, z: 0}
+    - {x: 3.15, y: 2.55, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.003908203, y: 0.6679707}
+    - {x: 0.003908203, y: 0.9121074}
+    - {x: 0.2050762, y: 0.6679707}
+    - {x: 0.2050762, y: 0.9121074}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0b3fb5b0f13f4fe4b434d4cdf191b953, type: 2}
+    materialId: 0
+    sourceTextureGUID: "1be9d1bca9ce241e2ab26ae98d83b480"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "quarryGrass01"
+    boundsData:
+    - {x: 0, y: -0.0250001, z: 0}
+    - {x: 8.5, y: 4.15, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.0250001, z: 0}
+    - {x: 8.5, y: 4.15, z: 0}
+    texelSize: {x: 0.05, y: 0.05}
+    positions:
+    - {x: -4.25, y: -2.1, z: 0}
+    - {x: 4.25, y: -2.1, z: 0}
+    - {x: -4.25, y: 2.05, z: 0}
+    - {x: 4.25, y: 2.05, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.8085957, y: 0.003908203}
+    - {x: 0.8085957, y: 0.3359355}
+    - {x: 0.9707012, y: 0.003908203}
+    - {x: 0.9707012, y: 0.3359355}
+    normalizedUvs:
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 0}
+    - {x: 1, y: 1}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0b3fb5b0f13f4fe4b434d4cdf191b953, type: 2}
+    materialId: 0
+    sourceTextureGUID: "12d4e13f74a5a49f494c18fa33379292"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 0b3fb5b0f13f4fe4b434d4cdf191b953, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 44b6f2824de147958f92a5877ae5c1ac, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "fa57a96d57c334118b5955360bf5ac22"
+  spriteCollectionName: "QuarrySpriteCollection"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 320
+  buildKey: 824498148
+  dataGuid: "7136cac07b50d4bed851bb3070a20921"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "SpriteCollectionToyHSV"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "toyHSVWells"
+    boundsData:
+    - {x: 0.01041675, y: -0.01041663, z: 0}
+    - {x: 7.020833, y: 1.354167, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041675, y: -0.01041663, z: 0}
+    - {x: 7.020833, y: 1.354167, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.5, y: -0.6875, z: 0}
+    - {x: 3.520833, y: -0.6875, z: 0}
+    - {x: -3.5, y: 0.6666667, z: 0}
+    - {x: 3.520833, y: 0.6666667, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4765664, y: 0.003908203}
+    - {x: 0.4765664, y: 0.6621074}
+    - {x: 0.7304648, y: 0.003908203}
+    - {x: 0.7304648, y: 0.6621074}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: c2826c365a1c4aa88691762c9a27d2dd, type: 2}
+    materialId: 0
+    sourceTextureGUID: "96a9cf9365d2c4efab74a353c5a7a9d8"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "toyHSVBody"
+    boundsData:
+    - {x: 0.01041651, y: 0, z: 0}
+    - {x: 8.0625, y: 2.416667, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041651, y: 0, z: 0}
+    - {x: 8.0625, y: 2.416667, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -4.020833, y: -1.208333, z: 0}
+    - {x: 4.041667, y: -1.208333, z: 0}
+    - {x: -4.020833, y: 1.208333, z: 0}
+    - {x: 4.041667, y: 1.208333, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.007816406, y: 0.7597637}
+    - {x: 0.4609336, y: 0.003908203}
+    - {x: 0.4609336, y: 0.7597637}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: c2826c365a1c4aa88691762c9a27d2dd, type: 2}
+    materialId: 0
+    sourceTextureGUID: "894cd14e2565b408aacd74c45a2dcbd4"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "toyHSVWheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.333333, y: 1.333333, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.375, y: 1.375, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.6666667, y: -0.6666667, z: 0}
+    - {x: 0.6666667, y: -0.6666667, z: 0}
+    - {x: -0.6666667, y: 0.6666667, z: 0}
+    - {x: 0.6666667, y: 0.6666667, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.7675801}
+    - {x: 0.2578086, y: 0.7675801}
+    - {x: 0.007816406, y: 0.8925762}
+    - {x: 0.2578086, y: 0.8925762}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: c2826c365a1c4aa88691762c9a27d2dd, type: 2}
+    materialId: 0
+    sourceTextureGUID: "4051bf50f93864c2792444749f87ccca"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: c2826c365a1c4aa88691762c9a27d2dd, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 9f41a3066f414e30a8def306cbea467d, type: 3}
+  pngTextures: []
+  materialPngTextureId: 
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "c985211d1bf824a40a411e817c3aae28"
+  spriteCollectionName: "SpriteCollectionToyHSV"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 768
+  buildKey: 1751438376
+  dataGuid: "ccf1ff3372b814058a9251c53875a6cb"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

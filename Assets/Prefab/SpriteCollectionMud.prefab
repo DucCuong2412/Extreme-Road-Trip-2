@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "SpriteCollectionMud"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "MudBody"
+    boundsData:
+    - {x: 0.01041651, y: 0.01041669, z: 0}
+    - {x: 6.645833, y: 2.854167, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041651, y: 0, z: 0}
+    - {x: 6.6875, y: 2.875, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.3125, y: -1.416667, z: 0}
+    - {x: 3.333333, y: -1.416667, z: 0}
+    - {x: -3.3125, y: 1.4375, z: 0}
+    - {x: 3.333333, y: 1.4375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.007816406, y: 0.6269512}
+    - {x: 0.5429648, y: 0.003908203}
+    - {x: 0.5429648, y: 0.6269512}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0b0b110a167e422aab907ea33b1f002a, type: 2}
+    materialId: 0
+    sourceTextureGUID: "1958f20edd8364d7fb1e6b3201225dbb"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "MudWheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.666667, y: 1.666667, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.708333, y: 1.708333, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.8333334, y: -0.8333334, z: 0}
+    - {x: 0.8333334, y: -0.8333334, z: 0}
+    - {x: -0.8333334, y: 0.8333334, z: 0}
+    - {x: 0.8333334, y: 0.8333334, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5585977, y: 0.5761738}
+    - {x: 0.8710898, y: 0.5761738}
+    - {x: 0.5585977, y: 0.7324199}
+    - {x: 0.8710898, y: 0.7324199}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0b0b110a167e422aab907ea33b1f002a, type: 2}
+    materialId: 0
+    sourceTextureGUID: "4e5dd93ae00fa41cbb67b21c0b6cd17e"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "MudWells"
+    boundsData:
+    - {x: -0.01041675, y: -0.01041666, z: 0}
+    - {x: 6.020833, y: 1.1875, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041651, y: 0, z: 0}
+    - {x: 6.0625, y: 1.208333, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.020833, y: -0.6041667, z: 0}
+    - {x: 3, y: -0.6041667, z: 0}
+    - {x: -3.020833, y: 0.5833334, z: 0}
+    - {x: 3, y: 0.5833334, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.5585977, y: 0.003908203}
+    - {x: 0.5585977, y: 0.5683574}
+    - {x: 0.7812461, y: 0.003908203}
+    - {x: 0.7812461, y: 0.5683574}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 0b0b110a167e422aab907ea33b1f002a, type: 2}
+    materialId: 0
+    sourceTextureGUID: "49b461f4b282443179addbb5756a4317"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 0b0b110a167e422aab907ea33b1f002a, type: 2}
+  textures:
+  - {fileID: 2800000, guid: df09bdaf5736476e9ed08633277ebdb8, type: 3}
+  pngTextures: []
+  materialPngTextureId: 
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "4c7ada428bad9448397974e11feb1240"
+  spriteCollectionName: "SpriteCollectionMud"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 768
+  buildKey: 726116585
+  dataGuid: "a8bc052e0db53429fbd08a05b2edf996"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

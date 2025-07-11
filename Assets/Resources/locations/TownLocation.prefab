@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "TownLocation"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e35331c987d5770c240b8ced31ac83b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _skybox: {fileID: 1791799704090708513, guid: 19033202abbd049a18320697b145b5e8, type: 2}
+  _background:
+  - {fileID: 1791799704090708513, guid: 140aee1735541405285e39844d92b323, type: 2}
+  - {fileID: 1791799704090708513, guid: b4b49ad73e37a48449be933f7df27132, type: 2}
+  _clouds: []
+  _props:
+  - {fileID: 1791799704090708513, guid: d4739e0e6408c40038e748d92b8e8595, type: 2}
+  - {fileID: 1791799704090708513, guid: 084a7a7200b534219bbc4b91953e1427, type: 2}
+  - {fileID: 1791799704090708513, guid: b3072ee6421f648cd8a1562186cdd1de, type: 2}
+  - {fileID: 1791799704090708514, guid: d156aca2478fb4d7e89a832ae64665a4, type: 2}
+  - {fileID: 1791799704090708514, guid: 6fee5f1bdee254285b18223711956559, type: 2}
+  _statics: []
+  _surfaceMaterial: {fileID: 2100000, guid: e272edd8822f411989b7c22ad06dbfe9, type: 2}
+  _groundMaterial: {fileID: 2100000, guid: 31683642b28d4213888c6bba7f273aa3, type: 2}
+  _particleSystem: {fileID: 0}

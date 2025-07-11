@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "SpriteCollectionClassy"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "ClassyWheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.25, y: 1.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.25, y: 1.25, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.625, y: -0.625, z: 0}
+    - {x: 0.625, y: -0.625, z: 0}
+    - {x: -0.625, y: 0.625, z: 0}
+    - {x: 0.625, y: 0.625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.796877}
+    - {x: 0.2421836, y: 0.796877}
+    - {x: 0.007816406, y: 0.9140605}
+    - {x: 0.2421836, y: 0.9140605}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 3f25f7eee92d4ebf80955d68377f14b2, type: 2}
+    materialId: 0
+    sourceTextureGUID: "c835ae2b458634de2a5febfa46eb5e23"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "ClassyBody"
+    boundsData:
+    - {x: 2.384186E-07, y: 0.01041663, z: 0}
+    - {x: 8.375, y: 2.3125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041698, y: 0, z: 0}
+    - {x: 8.395834, y: 2.375, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -4.1875, y: -1.145833, z: 0}
+    - {x: 4.1875, y: -1.145833, z: 0}
+    - {x: -4.1875, y: 1.166667, z: 0}
+    - {x: 4.1875, y: 1.166667, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.007816406, y: 0.7890605}
+    - {x: 0.4414023, y: 0.003908203}
+    - {x: 0.4414023, y: 0.7890605}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 3f25f7eee92d4ebf80955d68377f14b2, type: 2}
+    materialId: 0
+    sourceTextureGUID: "b92f925c4c3ac4b32b9feb42f3742f60"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "ClassyWells"
+    boundsData:
+    - {x: 0.01041651, y: 2.980232E-08, z: 0}
+    - {x: 6.770833, y: 1.083333, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041651, y: -0.01041663, z: 0}
+    - {x: 6.8125, y: 1.104167, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.375, y: -0.5416667, z: 0}
+    - {x: 3.395833, y: -0.5416667, z: 0}
+    - {x: -3.375, y: 0.5416667, z: 0}
+    - {x: 3.395833, y: 0.5416667, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4570352, y: 0.003908203}
+    - {x: 0.4570352, y: 0.6386699}
+    - {x: 0.6601523, y: 0.003908203}
+    - {x: 0.6601523, y: 0.6386699}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 3f25f7eee92d4ebf80955d68377f14b2, type: 2}
+    materialId: 0
+    sourceTextureGUID: "399119a7c5e6145c8a200ad2c7a70180"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 3f25f7eee92d4ebf80955d68377f14b2, type: 2}
+  textures:
+  - {fileID: 2800000, guid: b048a082cb4a4d138979fcfbd5b2818e, type: 3}
+  pngTextures: []
+  materialPngTextureId: 
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "04be94c91c6a24ab490c1f6f3217175b"
+  spriteCollectionName: "SpriteCollectionClassy"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 768
+  buildKey: 636186301
+  dataGuid: "380b7b1241f1c44069bbc81a03496892"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

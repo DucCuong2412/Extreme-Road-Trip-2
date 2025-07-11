@@ -1,0 +1,13 @@
+{
+    "Version":"game",
+    "NumGames": {"Min":5,"Max":10},
+    "StreakDiscounts":[1,0.75,0.5],
+    "EpicPowerUpList":
+     [
+        {"Type":"rocket","Price":{"amount":10000,"currency":"coins"},"Weight":1},
+        {"Type":"transport","Price":{"amount":10000,"currency":"coins"},"Weight":1},
+        {"Type":"choppa","Price":{"amount":10000,"currency":"coins"},"Weight":1}
+     ]
+}
+
+

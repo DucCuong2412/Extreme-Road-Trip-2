@@ -1,0 +1,82 @@
+{
+    "soldForCoins":
+    [
+        {"currency" : "coins", "amount" : 500},
+        {"currency" : "coins", "amount" : 1000},
+        {"currency" : "coins", "amount" : 2000},
+        {"currency" : "bucks", "amount" : 1},
+        {"currency" : "bucks", "amount" : 2}
+    ],
+    
+    "soldForBucks":
+    [
+        {"currency" : "coins", "amount" : 1000},
+        {"currency" : "coins", "amount" : 2000},
+        {"currency" : "coins", "amount" : 5000},
+        {"currency" : "bucks", "amount" : 5},
+        {"currency" : "bucks", "amount" : 10}
+    ],
+    
+    "notForSale":
+    [
+        {"currency" : "coins", "amount" : 0},
+        {"currency" : "coins", "amount" : 0},
+        {"currency" : "coins", "amount" : 0},
+        {"currency" : "coins", "amount" : 0},
+        {"currency" : "coins", "amount" : 0}
+    ],
+    
+    "super":
+    [
+        {"currency" : "coins", "amount" : 1000},
+        {"currency" : "coins", "amount" : 2000},
+        {"currency" : "coins", "amount" : 5000},
+        {"currency" : "bucks", "amount" : 5},
+        {"currency" : "bucks", "amount" : 10}
+    ], 
+    
+    "prestige":
+    [
+        {"currency" : "coins", "amount" : 1000},
+        {"currency" : "coins", "amount" : 2000},
+        {"currency" : "coins", "amount" : 5000},
+        {"currency" : "bucks", "amount" : 5},
+        {"currency" : "bucks", "amount" : 10}
+    ],
+    
+    "pocketMine":
+    [
+        {"currency" : "coins", "amount" : 1000},
+        {"currency" : "coins", "amount" : 2000},
+        {"currency" : "coins", "amount" : 5000},
+        {"currency" : "bucks", "amount" : 5},
+        {"currency" : "bucks", "amount" : 10}
+    ],
+        
+    "fishingBreak":
+    [
+        {"currency" : "coins", "amount" : 1000},
+        {"currency" : "coins", "amount" : 2000},
+        {"currency" : "coins", "amount" : 5000},
+        {"currency" : "bucks", "amount" : 5},
+        {"currency" : "bucks", "amount" : 10}
+    ],
+    
+    "prt":
+    [
+        {"currency" : "coins", "amount" : 1000},
+        {"currency" : "coins", "amount" : 2000},
+        {"currency" : "coins", "amount" : 5000},
+        {"currency" : "bucks", "amount" : 5},
+        {"currency" : "bucks", "amount" : 10}
+    ],
+    
+    "pocketMine3":
+    [
+        {"currency" : "coins", "amount" : 1000},
+        {"currency" : "coins", "amount" : 2000},
+        {"currency" : "coins", "amount" : 5000},
+        {"currency" : "bucks", "amount" : 5},
+        {"currency" : "bucks", "amount" : 10}
+    ]
+}

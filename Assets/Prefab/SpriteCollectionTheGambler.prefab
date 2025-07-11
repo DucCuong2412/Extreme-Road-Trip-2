@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "SpriteCollectionTheGambler"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "theGamblerWells"
+    boundsData:
+    - {x: 0, y: -0.01041666, z: 0}
+    - {x: 5.833333, y: 0.9791667, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.01041666, z: 0}
+    - {x: 5.833333, y: 0.9791667, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -2.916667, y: -0.5, z: 0}
+    - {x: 2.916667, y: -0.5, z: 0}
+    - {x: -2.916667, y: 0.4791667, z: 0}
+    - {x: 2.916667, y: 0.4791667, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4257852, y: 0.003908203}
+    - {x: 0.4257852, y: 0.5507793}
+    - {x: 0.6093711, y: 0.003908203}
+    - {x: 0.6093711, y: 0.5507793}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 8bb22e195657415b8ef07b70aaa96f89, type: 2}
+    materialId: 0
+    sourceTextureGUID: "3f2322a672f3a480f91ae32834b6e3a2"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "theGamblerWheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.166667, y: 1.166667, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.166667, y: 1.166667, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.5833334, y: -0.5833334, z: 0}
+    - {x: 0.5833334, y: -0.5833334, z: 0}
+    - {x: -0.5833334, y: 0.5833334, z: 0}
+    - {x: 0.5833334, y: 0.5833334, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.7148457}
+    - {x: 0.2265586, y: 0.7148457}
+    - {x: 0.007816406, y: 0.8242168}
+    - {x: 0.2265586, y: 0.8242168}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 8bb22e195657415b8ef07b70aaa96f89, type: 2}
+    materialId: 0
+    sourceTextureGUID: "1c5fa5d8a425b4a2f8bd6ca385e70676"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "theGamblerBody"
+    boundsData:
+    - {x: 0, y: -0.01041663, z: 0}
+    - {x: 7.5, y: 2.145833, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.01041663, z: 0}
+    - {x: 7.5, y: 2.145833, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.75, y: -1.083333, z: 0}
+    - {x: 3.75, y: -1.083333, z: 0}
+    - {x: -3.75, y: 1.0625, z: 0}
+    - {x: 3.75, y: 1.0625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.007816406, y: 0.7070293}
+    - {x: 0.4101523, y: 0.003908203}
+    - {x: 0.4101523, y: 0.7070293}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 8bb22e195657415b8ef07b70aaa96f89, type: 2}
+    materialId: 0
+    sourceTextureGUID: "2da96841faebc40a28c61e28a677dc6c"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 8bb22e195657415b8ef07b70aaa96f89, type: 2}
+  textures:
+  - {fileID: 2800000, guid: fe1b4c7f3cf345b9b7904f4e0c1c9559, type: 3}
+  pngTextures: []
+  materialPngTextureId: 
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "b132fffc0fc7348509dc53c48a9ae1ae"
+  spriteCollectionName: "SpriteCollectionTheGambler"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 768
+  buildKey: 1585068885
+  dataGuid: "1d147a5744ef64ac09485fe1ff329b7c"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

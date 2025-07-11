@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "SpriteCollection1942"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "1942Body"
+    boundsData:
+    - {x: -0.01041651, y: 0.01041675, z: 0}
+    - {x: 7.604167, y: 2.479167, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.01041663, z: 0}
+    - {x: 7.708333, y: 2.979167, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.8125, y: -1.229167, z: 0}
+    - {x: 3.791667, y: -1.229167, z: 0}
+    - {x: -3.8125, y: 1.25, z: 0}
+    - {x: 3.791667, y: 1.25, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.007816406, y: 0.7167949}
+    - {x: 0.4726523, y: 0.003908203}
+    - {x: 0.4726523, y: 0.7167949}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a9f2b5139bb74a87a1c1af8b97c34b44, type: 2}
+    materialId: 0
+    sourceTextureGUID: "2e219a10ba153442daca121303987af5"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "1942Sprite"
+    boundsData:
+    - {x: 0.01041663, y: -0.03125003, z: 0}
+    - {x: 4.270833, y: 1.729167, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.01041669, z: 0}
+    - {x: 4.583333, y: 1.770833, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -2.125, y: -0.8958334, z: 0}
+    - {x: 2.145833, y: -0.8958334, z: 0}
+    - {x: -2.125, y: 0.8333333, z: 0}
+    - {x: 2.145833, y: 0.8333333, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.7246113}
+    - {x: 0.8085898, y: 0.7246113}
+    - {x: 0.007816406, y: 0.8867168}
+    - {x: 0.8085898, y: 0.8867168}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a9f2b5139bb74a87a1c1af8b97c34b44, type: 2}
+    materialId: 0
+    sourceTextureGUID: "33dc0986c4c2b415e8a4d26892b839f8"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "1942Wheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.25, y: 1.25, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.25, y: 1.25, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.625, y: -0.625, z: 0}
+    - {x: 0.625, y: -0.625, z: 0}
+    - {x: -0.625, y: 0.625, z: 0}
+    - {x: 0.625, y: 0.625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6914102, y: 0.003908203}
+    - {x: 0.9257773, y: 0.003908203}
+    - {x: 0.6914102, y: 0.1210918}
+    - {x: 0.9257773, y: 0.1210918}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a9f2b5139bb74a87a1c1af8b97c34b44, type: 2}
+    materialId: 0
+    sourceTextureGUID: "9ce2cd4771df84c05bb9df11e39cbec4"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "1942Wells"
+    boundsData:
+    - {x: 0.01041675, y: 0, z: 0}
+    - {x: 6.479167, y: 1, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041675, y: 0, z: 0}
+    - {x: 6.479167, y: 1, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.229167, y: -0.5, z: 0}
+    - {x: 3.25, y: -0.5, z: 0}
+    - {x: -3.229167, y: 0.5, z: 0}
+    - {x: 3.25, y: 0.5, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4882852, y: 0.003908203}
+    - {x: 0.4882852, y: 0.6113262}
+    - {x: 0.6757773, y: 0.003908203}
+    - {x: 0.6757773, y: 0.6113262}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a9f2b5139bb74a87a1c1af8b97c34b44, type: 2}
+    materialId: 0
+    sourceTextureGUID: "e69ca297699674f24810a3ed3df44343"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: a9f2b5139bb74a87a1c1af8b97c34b44, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 4946397b4e184f9a907bc107e8e3f070, type: 3}
+  pngTextures: []
+  materialPngTextureId: 
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "3e1cb25609b9842debc8b758820ccbed"
+  spriteCollectionName: "SpriteCollection1942"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 768
+  buildKey: 56066352
+  dataGuid: "e84f41941162f4ba2ba42d81ee28ddbd"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "AmazonLocation"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e35331c987d5770c240b8ced31ac83b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _skybox: {fileID: 1791799704090708513, guid: aad986f29d3434a5b81de3316ca10373, type: 2}
+  _background:
+  - {fileID: 1791799704090708513, guid: e88e229dc3f0d4865ae4d6da71476530, type: 2}
+  - {fileID: 1791799704090708513, guid: 0853c5eb50f9448c8bc96bac268d05b5, type: 2}
+  _clouds: []
+  _props:
+  - {fileID: 1791799704090708513, guid: 2171705569216463ca438cc3ec38166d, type: 2}
+  - {fileID: 1791799704090708513, guid: 8ebfd926840b74b3c9a71a31aadd669a, type: 2}
+  - {fileID: 1791799704090708513, guid: d6fd4be78a73f4c129a48bf1fd1e7db3, type: 2}
+  - {fileID: 1791799704090708516, guid: 6976336a3e9ff4d6f8d130c87f7ce4c4, type: 2}
+  - {fileID: 1791799704090708515, guid: 676fafc0dc6e34a018044bc2819ff62f, type: 2}
+  - {fileID: 1791799704090708515, guid: 77d9aa29ee2ad4c359adb7669634082d, type: 2}
+  _statics: []
+  _surfaceMaterial: {fileID: 2100000, guid: 2d5e3a73a416412d8b1ead59417f87d9, type: 2}
+  _groundMaterial: {fileID: 2100000, guid: cb944e8b025241acb2288811732c5f53, type: 2}
+  _particleSystem: {fileID: 0}

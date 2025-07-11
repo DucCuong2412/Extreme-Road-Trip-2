@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "MoonLocation"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e35331c987d5770c240b8ced31ac83b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _skybox: {fileID: 1791799704090708513, guid: 94d414ce3dedf4582a6031187df8aded, type: 2}
+  _background:
+  - {fileID: 1791799704090708513, guid: 418691ff7af1544eda783fde7d4c3bf2, type: 2}
+  - {fileID: 1791799704090708513, guid: 7305f8c6219bf4c3783dd1fe2560604e, type: 2}
+  _clouds: []
+  _props:
+  - {fileID: 1791799704090708515, guid: b82014e481d1e46a99c567bc2e867957, type: 2}
+  - {fileID: 1791799704090708515, guid: 7e3fdcc6601ae42b19b3c6455e35535f, type: 2}
+  - {fileID: 1791799704090708514, guid: c93289f9a26d34909ba166dd9df016bf, type: 2}
+  _statics: []
+  _surfaceMaterial: {fileID: 2100000, guid: 0a95d517ea084baa93be15d515d74165, type: 2}
+  _groundMaterial: {fileID: 2100000, guid: e2735061141846949a6720b491306222, type: 2}
+  _particleSystem: {fileID: 1791799704090708512, guid: 91e3474b5fd1f48379844137da52aa83, type: 2}

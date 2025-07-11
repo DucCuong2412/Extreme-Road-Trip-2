@@ -1,0 +1,671 @@
+Key	English	French
+h	h	h
+s	s	s
+min	min	min
+Coins	Coins	Pièces
+COINS	COINS	PIÈCES
+coins	coins	pièces
+UNLOCK	UNLOCK	DÉBLOQUER
+Bucks	Bucks	Billets
+BUCKS	BUCKS	BILLETS
+bucks	bucks	billets
+PURCHASE	PURCHASE	ACHETER
+LATER	LATER	PLUS TARD
+DONE	DONE	TERMINÉ
+PURCHASE MORE	PURCHASE MORE	ACHETEZ PLUS DE
+MISSIONS	MISSIONS	MISSIONS
+Resume	Resume	Continuer
+Quit	Quit	Quitter
+Restart	Restart	Recommencer
+Reset Game	Reset Game	Réinitialiser le jeu
+Options	Options	Options
+MORE GAMES	MORE GAMES	PLUS DE JEUX
+GAME CENTER	GAME CENTER	GAME CENTER
+Retry	Retry	Réessayer
+Menu	Menu	Menu
+m	m	m
+New\nRecord!	New\nRecord!	Nouveau\nRecord!
+@ remaining	@ remaining	@ restant
+m remaining	m remaining	m restant
+2K TIME	2K TIME	TEMPS AU 2000m
+Hands Free\nLanding!	Hands Free\nLanding!	Atterrissage\nSans mains!
+Perfect Slam\nLanding!	Perfect Slam\nLanding!	Atterrissage\nplaqué!
+Tumbler	Tumbler	Acrobatie
+Long Slam	Long Slam	Long Plaquage
+Close Call	Close Call	Frousse
+PLAY	PLAY	JOUER
+OPTIONS	OPTIONS	OPTIONS
+Best	Best	Record
+BEST	BEST	RECORD
+Distance	Distance	Distance
+Big Air	Big Air	Haut Saut
+Long Jump	Long Jump	Long Saut
+Front Flip	Front Flip	Salto Avant
+Hang Time	Hang Time	Vol Plané
+Stunts	Stunts	Cascades
+Best Stunt	Best Stunt	Cascade #1
+None :(	None :(	Aucune :(
+Back Flip	Back Flip	Salto Arrière
+Back Wheelie	Back Wheelie	Roue Arrière
+Perfect Landing	Perfect Landing	Atterrissage parfait
+Perfect\nLanding!	Perfect Landing!	Atterrissage\nparfait!
+RETRY	RETRY	RÉESSAYER
+ENGLISH	ENGLISH	ENGLISH
+FRAN\u00C7AIS	FRAN\u00C7AIS	FRAN\u00C7AIS
+Front Wheelie	Front Wheelie	Roue Avant
+Good Landing	Good Landing	Bon Atterrissage
+Great Landing	Great Landing	Excellent\nAtterrissage
+GAME PAUSED	GAME PAUSED	PAUSE
+QUIT	QUIT	QUITTER
+RESUME	RESUME	CONTINUER
+ACHIEVEMENTS	ACHIEVEMENTS	TROPHÉES
+ACHIEVEMENT	ACHIEVEMENT	TROPHÉE
+Sloppy Landing	Sloppy Landing	Piètre Atterrissage
+Wheelie Landing	Wheelie Landing	Retour Au Sol
+THE CLASSY	THE CLASSY	LA CLASSE
+THE COMPACT	THE COMPACT	LA COMPACTE
+THE ELECTRIC	THE ELECTRIC	L'ÉLECTRIQUE
+THE FORMULA	THE FORMULA	LA FORMULE
+THE GLIDER	THE GLIDER	LE PLANEUR
+THE MUD	THE MUD	LA BOUE
+THE MUSCLE	THE MUSCLE	LA MUSCLÉE
+THE PISTOL	THE PISTOL	LE PISTOLET
+THE POLIZIA	THE POLIZIA	LA POLICE
+THE RACER	THE RACER	LE COUREUR
+THE RALLY	THE RALLY	LE RALLY
+THE SNAKE	THE SNAKE	LA VIPÈRE
+THE SPIDER	THE SPIDER	L'ARAIGNÉE
+THE TORPEDO	THE TORPEDO	LA TORPILLE
+THE TAXI	THE TAXI	LE TAXI
+THE JACK	THE JACK	LA JACK
+THE DRAGSTER	THE DRAGSTER	LA FUSÉE
+THE PACEMAKER	THE PACEMAKER	LE DÉFIBRILATEUR
+THE BUSH	THE BUSH	LA SAUVAGE
+THE CHARGE	THE CHARGE	LA CHARGE
+THE BRO	THE BRO	LE FRIMEUR
+THE HOT ROD	THE HOT ROD	L'ENFLAMMÉE
+THE PEAK	THE PEAK	LA SUMMUM
+THE GOLDEN	THE GOLDEN	LA DORÉE
+THE TORO	THE TORO	LA TORO
+THE KING	THE KING	LE ROI
+THE ROADIE	THE ROADIE	LA GROUPIE
+THE SPORTSMAN	THE SPORTSMAN	LE SPORTIF
+THE IMPRESSIVE	THE IMPRESSIVE	L'IMPRESSIONNANTE
+THE 88	THE 88	LA 88
+THE SPY	THE SPY	L'ESPION
+THE MONSTER	THE MONSTER	LE MONSTRE
+THE HIPPIE	THE HIPPIE	LE HIPPIE
+THE OPTIMAL	THE OPTIMAL	L'OPTIMAL
+THE BEE	THE BEE	L'ABEILLE
+THE INSOMNIAC	THE INSOMNIAC	L'INSOMNIAQUE
+THE GHOST	THE GHOST	LA FANTÔME
+THE AERIAL	THE AERIAL	L'AÉRIENNE
+THE SAFARI	THE SAFARI	LA SAFARI
+THE DELICIOUS	THE DELICIOUS	LE DÉLICE
+THE GETAWAY	THE GETAWAY	LA FUITE
+THE DUO	THE DUO	LA DUO
+THE 3030	THE 3030	LA 3030
+THE DOH	THE DOH	LA DOH
+THE 500	THE 500	LA 500
+THE SCREAMER	THE SCREAMER	LE HURLEUR
+THE DRIFTER	THE DRIFTER	LA DÉRAPE
+THE DIGITAL	THE DIGITAL	LA DIGITALE
+THE STEALTH	THE STEALTH	LA FURTIVE
+THE DIRTY	THE DIRTY	LA CRASSE
+THE MOVERS	THE MOVERS	LES DÉMÉNAGEURS
+THE ADVENTURE	THE ADVENTURE	L'AVENTURIÈRE
+THE RED LIGHT	THE RED LIGHT	LA LUMIÈRE ROUGE
+THE RADIO	THE RADIO	LA RADIO
+THE ENGINE	THE ENGINE	LE MOTEUR
+THE PROTECTOR	THE PROTECTOR	LA PROTECTRICE
+THE TRAVELER	THE TRAVELER	LE VOYAGEUR
+THE SHELL	THE SHELL	LA COQUILLE
+THE HARDHAT	THE HARDHAT	LE TRAVAILLEUR
+THE MARK II	THE MARK II	LA VERSION 2
+THE CLASSIC	THE CLASSIC	LA CLASSIQUE
+THE STEAMER	THE STEAMER	LA VAPEUR
+THE TOW	THE TOW	LA REMORQUE
+THE ROVER	THE ROVER	L'EXPLORATEUR
+THE 1942	THE 1942	LA 1942
+THE SPEEDER	THE SPEEDER	LE BOLIDE
+THE J	THE J	LA J
+THE ZOMBIE	THE ZOMBIE	LA ZOMBIE
+THE T	THE T	LA T
+THE RED	THE RED	LA ROUGE
+THE MIDAS	THE MIDAS	LA MIDAS
+THE MINORITY	THE MINORITY	LA MINORITAIRE
+THE DINOSAUR	THE DINOSAUR	LE DINOSAURE
+THE ONE	THE ONE	L'UNIQUE
+THE JUNIOR ACE	THE JUNIOR ACE	L'AS JUNIOR
+THE CADET	THE CADET	LE CADET
+THE SILVER	THE SILVER	L'ARGENTÉE
+THE BEDTIME	THE BEDTIME	LA SOIRÉE
+THE RC	THE RC	LA TÉLÉGUIDÉE
+THE ZACK	THE ZACK	LA ZACK
+THE COAL	THE COAL	LE CHARBON
+THE MINER	THE MINER	LE MINEUR
+THE ROCK HARD	THE ROCK HARD	LE ROC
+THE HEALER	THE HEALER	LE GUÉRISSEUR
+THE DIAMOND	THE DIAMOND	LA DIAMANT
+THE CRATE	THE CRATE	LA CAISSE
+THE LEMON	THE LEMON	LA CITRON
+THE SPIRIT	THE SPIRIT	LA SPIRITUELLE
+THE RAPTOR	THE RAPTOR	LE VÉLOCIRAPTOR
+THE OMG	THE OMG	LA OMG
+THE ATLANTEAN	THE ATLANTEAN	L'ATLANTIQUE
+THE COUGAR	THE COUGAR	LA COUGAR
+THE MID-SIZED	THE MID-SIZED	LA FAMILIALE
+THE 46	THE 46	LA 46
+THE GAMBLER	THE GAMBLER	LA JOUEUSE
+THE JAGGED	THE JAGGED	L'IRRÉGULIÈRE
+THE ASPHALT	THE ASPHALT	L'ASPHALTE
+THE RAGER	THE RAGER	L'ENRAGÉE
+THE BOMBA	THE BOMBA	LA BOMBA
+THE CURVY	THE CURVY	LA TORDUE
+THE SHADOW	THE SHADOW 	L'OMBRE
+THE VENOM	THE VENOM	LA VENIMEUSE
+THE STREAMLINED	THE STREAMLINED	L'ÉPURÉ
+THE PRESTIGIOUS	THE PRESTIGIOUS	LA PRESTIGIEUSE
+THE PHOENIX	THE PHOENIX	LE PHÉNIX
+THE RACUDA	THE RACUDA	L’ANGUILLE
+THE HEAVY DUTY	THE HEAVY DUTY	LE SALE JOB
+THE CLASSIC	THE CLASSIC	LA CLASSIQUE
+THE INSECT	THE INSECT	L’INSECTE
+THE TOOLBOX	THE TOOLBOX	LE GARAGISTE
+Travel 5000m	Travel 5000m	Roule 5000m
+Travel 10000m	Travel 10000m	Roule 10000m
+Travel 20000m	Travel 20000m	Roule 20000m
+Travel 50000m	Travel 50000m	Roule 50000m
+Travel 100000m	Travel 100000m	Roule 100000m
+Reach 500m	Reach 500m	Atteins 500m
+Reach 2000m	Reach 2000m	Atteins 2000m
+Reach 5000m	Reach 5000m	Atteins 5000m
+Reach 10000m	Reach 10000m	Atteins 10000m
+Reach 20000m	Reach 20000m	Atteins 20000m
+Travel 500m in a game	Travel 500m in a game	Roule 500m dans une course
+Travel 2000m in a game	Travel 2000m in a game	Roule 2000m dans une course
+Travel 5000m in a game	Travel 5000m in a game	Roule 5000m dans une course
+Pickup 500@	Pickup 500@	Ramasse 500@
+Pickup 1000@	Pickup 1000@	Ramasse 1000@
+Pickup 2000@	Pickup 2000@	Ramasse 2000@
+Pickup 5000@	Pickup 5000@	Ramasse 5000@
+Pickup 50@ in a game	Pickup 50@ in a game	Ramasse 50@ dans une course
+Pickup 100@ in a game	Pickup 100@ in a game	Ramasse 100@ dans une course
+Pickup 200@ in a game	Pickup 200@ in a game	Ramasse 200@ dans une course
+Pickup 500@ in a game	Pickup 500@ in a game	Ramasse 500@ dans une course
+Pickup 1000@ in a game	Pickup 1000@ in a game	Ramasse 1000@ dans une course
+Do a Perfect landing	Do a Perfect landing	Fais un Atterrissage Parfait
+Do a Perfect Slam landing	Do a Perfect Slam landing	Fais un Atterrissage plaqué
+2 consecutive Perfect landings	2 consecutive Perfect landings	2 Atterrissages parfaits consécutifs
+2 consecutive Perfect Slam landings	2 consecutive Perfect Slam landings	2 Atterrissages plaqués consécutifs
+3 consecutive Perfect landings	3 consecutive Perfect landings	3 Atterrissages parfaits consécutifs
+3 consecutive Perfect Slam landings	3 consecutive Perfect Slam landings	3 Atterrissages plaqués consécutifs
+Activate the Overdrive	Activate the Overdrive	Active la Super Nitro
+Overdrive twice in a game	Overdrive twice in a game	Active 2 fois la Super Nitro
+Overdrive 3 times in a game	Overdrive 3 times in a game	Active 3 fois la Super Nitro
+Overdrive 5 times in a game	Overdrive 5 times in a game	Active 5 fois la Super Nitro
+Overdrive 10 times in a game	Overdrive 10 times in a game	Active 10 fois la Super Nitro
+Jump over a distance of 50m	Jump over a distance of 50m	Saute sur une distance de 50m
+Jump over a distance of 100m	Jump over a distance of 100m	Saute sur une distance de 100m
+Jump over a distance of 200m	Jump over a distance of 200m	Saute sur une distance de 200m
+Jump over a distance of 500m	Jump over a distance of 500m	Saute sur une distance de 500m
+Jump over a distance of 300m	Jump over a distance of 300m	Saute sur une distance de 300m
+Jump over a distance of 850m	Jump over a distance of 850m	Saute sur une distance de 850m
+Do 2 flips in a jump	Do 2 flips in a jump	Fais 2 saltos dans un saut
+Do 3 flips in a jump	Do 3 flips in a jump	Fais 3 saltos dans un saut
+Do 4 flips in a jump	Do 4 flips in a jump	Fais 4 saltos dans un saut
+Do 5 flips in a jump	Do 5 flips in a jump	Fais 5 saltos dans un saut
+Do 10 flips in a jump	Do 10 flips in a jump	Fais 10 saltos dans un saut
+Do 10 flips in a game	Do 10 flips in a game	Fais 10 saltos dans une course
+Do 20 flips in a game	Do 20 flips in a game	Fais 20 saltos dans une course
+Do 30 flips in a game	Do 30 flips in a game	Fais 30 saltos dans une course
+Do 50 flips in a game	Do 50 flips in a game	Fais 50 saltos dans une course
+Hit a mine	Hit a mine	Frappe une mine
+Hit 3 mines in a game	Hit 3 mines in a game	Frappe trois mines
+Hit 5 mines in a game	Hit 5 mines in a game	Frappe cinq mines
+Crash between 300m and 400m	Crash between 300m and 400m	Écrase toi entre 300m et 400m
+Crash between 1000m and 1200m	Crash between 1000m and 1200m	Écrase toi entre 1000m et 1200m
+Crash between 2000m and 2250m	Crash between 2000m and 2250m	Écrase toi entre 2000m et 2250m
+Slam while upside down	Slam while upside down	Fais un plaquage la tête en bas
+Travel 50m while upside down	Travel 50m while upside down	Survole 50m la tête en bas
+Travel 200m while upside down	Travel 200m while upside down	Survole 200m la tête en bas
+Travel 400m while upside down	Travel 400m while upside down	Survole  400m la tête en bas
+OVERALL STATS	OVERALL STATS	STATS GLOBALES
+Time played:	Time played:	Temps joué:
+Time played per run avg.:	Time played per run avg.:	Temps joué en moyenne:
+Coins picked up:	Coins picked up:	Pièces ramassées:
+Total coins spent:	Total coins spent:	Pièces dépensées:
+Coins made per run avg:	Coins made per run avg:	Pièces par course:
+Most profitable race:	Most profitable race:	Course la plus rentable:
+Total distance:	Total distance:	Distance totale:
+Total distance on boost:	Total distance on boost:	Distance sur la nitro:
+Distance spent on air:	Distance spent on air:	Distance dans les airs:
+Longest distance:	Longest distance:	Plus longue distance:
+Highest jump:	Highest jump:	Plus haut saut:
+Longest jump:	Longest jump:	Plus long saut:
+Most flip in a jump:	Most flips in a jump:	Le plus de saltos en un saut:
+Most stunt in a jump:	Most stunt in a jump:	Cascades en un saut:
+Number of slams:	Number of slams:	Nombre de plaquages:
+Number of races:	Number of races:	Nombre de courses:
+Number of stunts:	Number of stunts:	Nombre de cascades:
+Perfect landing:	Perfect landing:	Atterrissages parfait:
+Perfect Slam landing:	Perfect Slam landing:	Atterrissages Plaqués:
+Overdrive activated	Overdrive activated	Super Nitro activés:
+Total wheelie distance:	Total wheelie distance:	Distance sur 2 roues:
+Total distance on ground:	Total distance on ground:	Distance totale au sol:
+Longest distance on ground:	Longest distance on ground:	Plus longue distance au sol:
+Reach 2000m under 60 seconds	Reach 2000m under 60 seconds	Atteins 2000m en 60 secondes
+Reach 2000m under 50 seconds	Reach 2000m under 50 seconds	Atteins 2000m en 50 secondes
+Reach 2000m under 40 seconds	Reach 2000m under 40 seconds	Atteins 2000m en 40 secondes
+Reach 2000m under 30 seconds	Reach 2000m under 30 seconds	Atteins 2000m en 30 secondes
+Use the Magnet powerup	Use the Magnet powerup	Achète l'aimant
+Use the Boost powerup	Use the Boost powerup	Achète la Super Nitro
+Use the Coin Doubler powerup	Use the Coin Doubler powerup	Achète le doubleur de pièces
+Crash your car before 120m	Crash your car before 120m	Écrase ta voiture avant 120m
+Crash your car between 600m and 700m	Crash your car between 600m and 700m	Écrase ta voiture entre 600m et 700m
+STATS	STATS	STATS
+OVERALL	OVERALL	GLOBAL
+LEADERBOARDS	LEADERBOARDS	CLASSEMENTS
+5k TIME	5K TIME	TEMPS AU 5000m
+10k TIME	10K TIME	TEMPS AU 10000m
+MUSIC	MUSIC	MUSIQUE
+SOUNDS	SOUNDS	SONS
+CREDITS	CREDITS	GÉNÉRIQUE
+RESTART	RESTART	REPRENDRE
+CHANGE CAR	CHANGE CAR	VOITURES
+SKIP	SKIP	PASSER
+Next	Next	Suivant
+NEW	NEW	WOW!
+LEVEL UP!	LEVEL UP!	NIVEAU!
+REWARDS	REWARDS	RÉCOMPENSE
+FREE CRATE!	FREE CRATE!	GRATUITE!
+Break the crate to get your reward!	Break the crate to get your reward!	Brise la caisse pour récolter ta récompense!
+Break the crates to get your reward!	Break the crates to get your reward!	Brise les caisses pour récolter ta récompense!
+You are now level {0}	You are now level {0}	Tu es maintenant niveau {0}
+Here's your gift! :)	Here's your gift! :)	Voici ton cadeau! :)
+Thanks for watching!	Thanks for watching!	Merci d'avoir visionné!
+RANDOM	RANDOM	ALÉATOIRE
+BACK	BACK	RETOUR
+TUTORIAL	TUTORIAL	TUTORIELS
+Share with friends	Share with friends	Partage avec tes amis
+TITLE	TITLE	TITRE
+PREVIOUS	PREVIOUS	PRÉCÉDENT
+NEXT	NEXT	SUIVANT
+Your gas pedal is stuck!	Your gas pedal is stuck!	Ta pédale d'accélération est bloquée!
+Try to get as far as you can before crashing!	Try to get as far as you can before crashing!	Va le plus loin possible avant de t'écraser!
+Press left and right to tilt your car.	Press left and right to tilt your car.	Appuie à gauche et à droite pour incliner la voiture.
+Take it easy! Don't hold for too long.	Take it easy! Don't hold for too long.	Relaxe! Ne pèse pas trop longtemps!
+Do stunts to get a nitro boost.	Do stunts to get a nitro boost.	Fais des acrobaties pour accumuler la nitro.
+Land BOTH WHEELS at the SAME TIME for EXTRA BOOST!	Land BOTH WHEELS at the SAME TIME for EXTRA BOOST!	Atterri les DEUX ROUES en MÊME TEMPS pour PLUS de NITRO!
+Press left and right at the same time to slam.	Press left and right at the same time to slam.	Appuie les deux côtés pour un atterissage plaqué. 
+PERFECT SLAMS are the key to achieving OVERDRIVE.	PERFECT SLAMS are the key to achieving OVERDRIVE.	C'est la clé pour atteindre la SUPER NITRO.
+Best 2K	Best 2K	2K Record
+Best 5K	Best 5K	5K Record
+Best 10K	Best 10K	10K Record
+2K TIME	2K TIME	Temps 2K
+5K TIME	5K TIME	Temps 5K
+10K TIME	10K TIME	Temps 10K
+UPGRADE	UPGRADE	AMÉLIORER
+Almost reliable	Almost reliable.	Presque fiable
+Bouncy and dirty	Bouncy and dirty.	Sale et rebondissante
+Power and class	Power and class.	Style et puissance
+Shooting star	Shooting star.	Étoile filante
+Great starter	Great starter	Tu sais que tu la veux!
+Made for this	Made for this.	Faite pour ça
+You talkin' to me?	You talkin' to me?	C'est à moi que tu parles?
+One heavy bad boy	One heavy bad boy.	Un mauvais garçon en puissance
+Tesla would be proud	Tesla would be proud	Tesla en serait fier
+Great power	Great power.	Quelle puissance...
+Incoming!	Incoming!	Chaud devant!
+Quicker than the eye	Quicker than the eye	Plus rapide que l'éclair
+Gliding through the sky	Gliding through the sky.	File dans le ciel
+Whatcha gonna do	Whatcha gonna do.	Y'a un problème ici?
+Master of speed	Master of speed.	Maître de la vitesse
+Majestic paint job	Majestic paint job	Couleurs majestueuses
+Pure boost... and not much else	Pure boost... and not much else	Nitro pure... et rien d'autre
+Medical Emergency!	Medical Emergency!	Urgence médicale!
+Only you can prevent forest fires	Only you can prevent forest fires	Vous seuls pouvez sauver nos forêts
+Unstoppable Monster	Unstoppable Monster	Monstre inarrêtable
+Do you even lift?	Do you even lift?	Vas-tu au gym?
+Flaming Hot	Flaming Hot	Flammes de l'enfer
+Roaring powerhouse	Roaring powerhouse	Caisse Rugissante
+Monocle not included	Monocle not included	Monocle non inclus
+Can make you see red	Can make you see red	Peut vous faire voir rouge
+The King has left the garage	The King has left the garage	Le roi a quitté le garage
+Noise, Metal, Blood and Fire	Noise, Metal, Blood and Fire	Bruit, métal, sang et feu
+Two lanes wide	Two lanes wide	Deux voies de large
+Slick as a shadow in the night	Slick as a shadow in the night	Comme une ombre dans la nuit
+The car of the future	The car of the future	La voiture du futur
+Car. Spy Car.	Car. Spy Car.	Espion. Voiture d'espion
+A monster on wheels!	A monster on wheels!	Un monstre sur roues!
+Van full of love	Van full of love	Une camionnette d'amour
+For haulin' big things	For haulin' big things	Pour gros chargements
+Be wary of the sting	Be wary of the sting	Attention à la piqûre!
+A lonely car in a dangerous world	A lonely car in a dangerous world	Une voiture solitaire dans un monde hostile
+Whomever shall we ring?	Whomever shall we ring?	Qui devrions nous appeler?
+For the fastest pro racers	For the fastest pro racers	Pour les pros les plus rapides seulement
+HANG ON!	HANG ON!	Tenez-vous bien!
+Meal on wheels	Meal on wheels	Repas sur roulettes
+No hop-ons allowed!	No hop-ons allowed!	Passagers clandestins interdits!
+Do it. Do it.	Do it. Do it.	Fais-le. Fais-le.
+3030 is the new 2000	3030 is the new 2000	L'an 3030 est le nouveau 2000
+America's favorite	America's favorite	Le favori des Américains
+Screeching fireball	Screeching fireball	Crissements de pneus enflammés
+Drifting in Tokyo	Drifting in Tokyo	Dérapages à Tokyo
+Riding the information superhighway	Riding the information superhighway	Dans la superautoroute de l'information
+Not afraid to get dirty	Not afraid to get dirty	N'a pas peur de se salir
+You won't see it coming	You won't see it coming	Vous ne la verrez pas venir
+Powerful like a gorilla	Powerful like a gorilla	Puissant comme un gorille
+Getting from point A to point B	Getting from point A to point B	Aller du point A au point B
+Wild adventures ahead	Wild adventures ahead	De folles aventures vous attendent
+Nighttime roamer	Nighttime roamer	Vagabond de la nuit
+Highway party!	Highway party!	Une fête sur l'autoroute!
+Nothing but engine	Nothing but engine	Rien qu'un moteur
+The car you deserve, and the one you need too	The car you deserve, and the one you need too	La voiture que vous méritez, et dont vous avez besoin.
+For tourists and enthusiasts	For tourists and enthusiasts	Pour touristes de tous genres
+Cowabunga!	Cowabunga!	Cowabunga!
+Hard at work	Hard at work	Dur au travail
+Take your prom date in style	Take your prom date in style	Va au bal avec style
+Veteran racer	Veteran racer	Un courseur de renom
+Off the rails!	Off the rails!	Complètement déraillé!
+The Tow King	The Tow King	Le roi de la remorque!
+Exploring planets	Exploring planets	Tant de planètes à explorer
+General America	General America	Général Amérique
+This is the speeder you are looking for	This is the speeder you are looking for	Ceci est le bolide que vous cherchez...
+101 puppies to rescue	101 puppies to rescue	101 chiots à retrouver
+Braaiiiiiins!!!!	Braaiiiiiins!!!!	Cerveaaaauuuu!
+Bouncy old-timer	Bouncy old-timer	Une vieille bondissante
+Genuine italian craftsmanship	Genuine italian craftsmanship	Authentique art italien
+Pure Gold	Pure gold	Or pur
+Precognitive speeding ticket	Precognitive speeding ticket	Excès de vitesse pré-cognitif
+Life finds a way	Life finds a way	La vie trouve la voie
+Mach has nothing on this one.	Mach has nothing on this one.	Mach 2 tous les jours
+Ready for takeoff!	Ready for takeoff!	Paré au décollage!
+Almost a real police	Almost a real police	Presqu'un vrai policier!
+Serious business	Serious business	Que du sérieux
+High speed in the driveway	High speed in the driveway	Haute vitesse dans le stationnement
+Rules the neighbourhood	Rules the neighbourhood	Règne sur le voisinage
+Pedal to the plastic	Pedal to the plastic	Pédale au plastique
+Everyday I'm shoveling	Everyday I'm shoveling	Tous les jours je rammasse
+Dig, Dug, Dug	Dig, Dug, Dug	Creuse, creusons, creusez
+Carved in pure awesome	Carved in pure awesome	Taillé dans la perfection
+Medic!	Medic!	CHAUD DEVANT!
+This car is forever	This car is forever	Une voiture pour la vie
+Filled with goodies	Filled with goodies	Remplie de bonnes choses
+French Engineering	French Engineering	Ingénierie française
+Ethereal	Ethereal	Éthérale
+Clever Girl	Clever Girl	Chasseur invétéré
+Officially Certified Incredible	Officially Certified Incredible	Officiellement certifiée incroyable
+A work of art	A work of art	Une oeuvre d'art
+On the prowl	On the prowl	À l'affût des proies
+For racing families	For racing families	Pour familles de course
+Faster than it looks	Faster than it looks	Plus rapide qu'elle ne paraît
+It's all skill	It's all skill	Tout est dans le poignet
+Back from a demolition derby	Back from a demolition derby	En revevant d'un derby de démolition
+As fast as it is green	As fast as it is green	Aussi rapide que vert
+The fury of a thousand suns	The fury of a thousand suns	La rage de 1000 soleils
+The Bomba, as fast as it can be	The Bomba, as fast as it can be	La Bomba, possiblement la plus rapide
+Sinuous and muscular, from front to rear.	Sinuous and muscular, from front to rear.	Voluptueuse et musculaire
+Something wicked this way come	Something wicked this way come	Plus rapide que son ombre
+No known antidote except speed	No known antidote except speed	Aucun antidote connus excepté la vitesse
+Go with the flow	Go with the flow	Être dans le vent est sa force
+Comfort and Speed, what a great combo	Comfort and Speed, what a great combo	Vitesse et confort, quelle belle combinaison
+There's a cool cat in town	There's a cool cat in town	Place au frimeur
+Bad to the bone	Bad to the bone	Mauvaise jusqu’à l’os
+Operation: road trip	Operation: road trip	Opération: road trip
+Too good for you	Too good for you	Trop bien pour vous
+Yes, it's an actual car	Yes, it's an actual car	Oui, c’est une voiture
+Full of surprises	Full of surprises	Pleine de surprise
+TRY IT!	TRY IT!	 ESSAYE!
+My best score!	My best score!	Ma meilleure distance!
+I've reached	I've reached	J'ai atteint
+m in Extreme Road Trip 2 with	m in Extreme Road Trip 2 with	m dans Extreme Road Trip 2 avec
+STARS!	STARS!	ÉTOILES!
+Copyright 2012 Roofdog Games inc. All Rights Reserved.	Copyright 2012 Roofdog Games inc. All Rights Reserved.	© 2012 Jeux Roofdog inc. Tous droits réservés,
+Extreme Road Trip 2 is Copyright 2012 Roofdog Games inc.	Extreme Road Trip 2 is Copyright 2012 Roofdog Games inc.	Extreme Road Trip 2 © 2012 Jeux Roofdog inc.
+Extreme Road Trip 2 is a work of fiction.	Extreme Road Trip 2 is a work of fiction.	Extreme Road Trip 2 est une oeuvre de fiction.\n
+Don't repeat anything you've seen in this game with a real car.	Don't repeat anything you've seen in this game with a real car.	N'essayez rien de ce que vous avez fait dans le jeu\nà bord d'une vraie voiture.
+That would be dangerous, stupid and awesome to watch.	That would be dangerous, stupid and awesome to watch.	Ça serait dangereux, stupide, et impressionnant à voir.
+So, if you do, please film it and put it up on Youtube.	So, if you do, please film it and put it up on Youtube.	Alors si vous le faites... filmez-le et mettez le sur Youtube.
+That last paragraph was a joke.	That last paragraph was a joke.	C'était une blague.
+Please ignore it if you're humorless or a lawyer.	Please ignore it if you're humorless or a lawyer.	\nIgnorez si vous n'avez pas le sens de l'humour\nou si vous êtes un avocat.
+There's not much beyond here, you can go play the game.	There's not much beyond here, you can go play the game.	Il n'y a pas grand chose de plus ici...\nvous pouvez retourner au jeu.
+Well, if you insist, I guess I can tell you a story...	Well, if you insist, I guess I can tell you a story...	Bon, si vous insistez, je peux vous raconter une histoire...
+Wait... nevermind.	Wait... nevermind.	Oh... rien.
+Surprising fact: cars have feelings too.	Surprising fact: cars have feelings too.	Fait surprenant, les voitures ont des sentiments elles aussi! 
+Another surprising fact: nobody was expected to make it\nthis far in the credits.	Another surprising fact: nobody was expected to make it\nthis far in the credits.	Autre fait surprenant: personne n'était supposé\nse rendre jusqu'ici dans le générique.
+One more surprising fact: my co-worker will be mad at me for\nhaving to localize this.	One more surprising fact: my co-worker will be mad at me for\nhaving to localize this.	Un fait encore plus surprenant, mon collègue va etre furieux\nd'avoir eu à traduire ceci. [NDLT: Sans blague!]
+Still here?  OK, here's a challenge for you:	Still here?  OK, here's a challenge for you:	Encore ici? D'accord voici un défi:
+DON'T PRESS THE RED BUTTON!	DON'T PRESS THE RED BUTTON!	N'APPUYEZ PAS SUR LE BOUTON ROUGE!
+PRESS ME	PRESS ME	APPUYEZ ICI
+You've pressed the red button 	You've pressed the red button 	Vous avez appuyé le bouton rouge 
+ times.	 times.	 fois.
+ time.	 time.	 fois.
+CHALLENGE YOUR FRIENDS!	CHALLENGE YOUR FRIENDS!	DÉFIEZ VOS AMIS!
+SELECT ALL	SELECT ALL	TOUS SÉLECT.
+Log into Game Center to issue challenges.	Log into Game Center to issue challenges.	Connectez-vous à Game Center pour envoyer des défis.
+You do not have any Game Center friends.	You do not have any Game Center friends.	Vous n'avez pas d'amis Game Center.
+CLOSE	CLOSE	FERMER
+CHALLENGE\nFRIENDS	CHALLENGE\nFRIENDS	DÉFIEZ\nVOS AMIS
+SPECIAL THANKS	SPECIAL THANKS	MERCI SPÉCIAL
+SHARE	SHARE	PARTAGE
+One Minute Distance	One Minute Distance	Distance d'une minute
+GHOSTS	GHOSTS	FANTÔMES
+YOU	YOU	TOI
+Log into Game Center to see your achievements, leaderboards and challenges.	Log into Game Center to see your achievements, leaderboards and challenges.	Connectez-vous à Game Center pour voir vos trophées, classements et défis.
+Challenge has been sent to your friends!	Challenge has been sent to your friends!	Vous avez envoyé un défi à vos amis!
+Thanks for sharing!	Thanks for sharing!	Merci d'avoir partagé!
+FEEDBACK	FEEDBACK	COMMENTAIRES
+SUPPORT	SUPPORT	SUPPORT
+FREE @!	FREE @!	@ GRATUIT!
+Extreme Road Trip 2 Feedback	Extreme Road Trip 2 Feedback	Commentaires Extreme Road Trip 2
+Please leave your comments here:	Please leave your comments here:	Veuillez laisser vos commentaires ici:
+LEVEL	LEVEL	NIV.
+VISIT	VISIT	VISITEZ
+Thanks for your purchase!	Thanks for your purchase!	Merci pour votre achat!
+Success!	Success!	Succès!
+CHALLENGE	CHALLENGE	DÉFI
+Send a challenge to all your Game Center friends?\n\nYou will see their cars while playing!	Send a challenge to all your Game Center friends?\n\nYou will see their cars while playing!	Désirez-vous envoyer un défi à tous vos amis Game Center?\n\nVous pourrez ainsi les voir en action lorsque vous jouez!
+SEND	SEND	ENVOYER
+INVITE FRIENDS	INVITE FRIENDS	INVITATION
+Get 	Get 	Recevez 
+@ for each Facebook friends invited.\n\nYou can only do this once!	@ for each Facebook friends invited.\n\nYou can only do this once!	@ pour chaque amis invités.\n\nVous ne pourrez envoyer des invitations qu'une seule fois.
+INVITE	INVITE	INVITER
+You don't have enough of the required currency\nto purchase this item.\n\nPurchasing currency is currently not\navailable on this platform.	You don't have enough of the required currency\nto purchase this item.\n\nPurchasing currency is currently not\navailable on this platform.	Vous ne pouvez vous procurer cet item\npuisque vous ne disposez pas des fonds nécessaires.\n\nL'achat de pièces ou de billets n'est pas\ndisponible sur cette plateforme.
+Login to Facebook to race against your friends' replays!	Log in to Facebook to race against your friends' replays!	Connecte-toi à Facebook pour courser contre les reprises de tes amis!
+LOG IN	LOG IN	CONNECTE
+NO THANKS	NO THANKS	NON MERCI
+Having fun?	Having fun?	Vous avez du plaisir?
+Please rate the game to help spread the word!	Please rate the game to help spread the word!	Veuillez coter le jeu afin de nous aider à le partager!
+RATE IT!	RATE IT!	COTEZ-LE!
+YES	YES	OUI
+NO	NO	NON
+Are you sure you want to quit the application?	Are you sure you want to quit the application?	Êtes-vous sur de vouloir quitter l'application?
+Family Garage	Family Garage	Garage familial
+Frontier Fun	Frontier Fun	Plaisirs de campagne
+Lots of room!	Lots of room!	Beaucoup de place!
+Hottest place on Earth	Hottest place on Earth	L'endroit le plus chaud au monde!
+Atlantean Garage	Atlantean Garage	Garage Atlantéen
+STORE	STORE	BOUTIQUE
+SHOWROOM	SHOWROOM	EXPOSITION
+OPEN	OPEN	OUVRIR
+NEW! THE STORE	NEW! THE STORE	NOUVEAU! LA BOUTIQUE
+The store allows you to stack up on powerups and buy mystery crates. Give it a look!	The store allows you to stack up on powerups and buy mystery crates. Give it a look!	La boutique vous permet d'acheter des atouts ainsi que des caisses mystère. Jetez-y un coup d'oeil!
+NEW! THE SHOWROOM	NEW! THE SHOWROOM	NOUVEAU! L'EXPOSITION
+The showroom lets you put your favorite cars on display, for all your friends to see. Go set it up!	The showroom lets you put your favorite cars on display, for all your friends to see. Go set it up!	L'exposition vous permet de mettre vos voitures favorites en valeur, pour que tous vos amis les voient! Allez la mettre en place!
+ MYSTERY CRATES	 MYSTERY CRATES	 CAISSES MYSTÈRE
+ SETS OF POWERUPS	 SETS OF POWERUPS	 ENSEMBLES D'ATOUTS
+Please allow the game to access your Facebook account. In your device's Settings app, select Facebook and allow "Road Trip 2".	Please allow the game to access your Facebook account. In your device's Settings app, select Facebook and allow "Road Trip 2".	Assurez-vous que le jeu a accès à votre compte Facebook. Dans l'app de Réglages de votre téléphone, sélectionez Facebook et autorisez "Road Trip 2".
+FRIENDS	FRIENDS	AMIS
+LOCATIONS	LOCATIONS	ENDROITS
+NOT LOGGED IN	NOT LOGGED IN	PAS CONNECTÉ
+You must be logged in to Facebook in order to share and see your friend's showroom. Would you like to login now?	You must be logged in to Facebook in order to share and see your friend's showroom. Would you like to login now?	Vous devez être connecté à Facebook pour partager et voir les expositions de vos amis. Désirez-vous vous connecter maintenant?
+You must be logged in to Game Center in order to share and see your friend's showroom. Would you like to login now?	You must be logged in to Game Center in order to share and see your friend's showroom. Would you like to login now?	Vous devez être connecté à Game Center pour partager et voir les expositions de vos amis. Désirez-vous vous connecter maintenant?
+CAN'T RETRIEVE YOUR FACEBOOK FRIENDS LIST.\n\nPLEASE TRY AGAIN.	CAN'T RETRIEVE YOUR FACEBOOK FRIENDS LIST.\n\nPLEASE TRY AGAIN.	IMPOSSIBLE DE RÉCUPÉRER VOTRE LISTE D'AMIS FACBEOOK\n\nESSAYER À NOUVEAU.
+CAN'T RETRIEVE YOUR GAME CENTER FRIENDS LIST.\n\nPLEASE TRY AGAIN.	CAN'T RETRIEVE YOUR GAME CENTER FRIENDS LIST.\n\nPLEASE TRY AGAIN.	Impossible de récupérer votre liste d'amis Game Center\n\nPlease try again.
+FRIENDS' SHOWROOM	FRIENDS' SHOWROOM	EXPOSITIONS DES AMIS
+Waiting for Facebook...	Waiting for Facebook...	En attente de Facebook...
+WAITING FOR FACEBOOK...	WAITING FOR FACEBOOK...	EN ATTENTE DE FACEBOOK...
+Facebook login failed.	Facebook login failed.	Connection à Facebook échoué.
+THANKS FOR PASSING BY!	THANKS FOR PASSING BY!	MERCI DE VOTRE VISITE!
+Here's a gift for you :)	Here's a gift for you :)	VOICI UN CADEAU POUR VOUS :)
+Score: 	Score: 	Score: 
+GARAGE	GARAGE	GARAGE
+BARN	BARN	GRANGE
+TRUCK	TRUCK	CAMION
+CARAVAN	CARAVAN	CARAVANE
+UNDERWATER	UNDERWATER	SOUS-MARIN
+LOG INTO GAME CENTER TO SEE YOUR FRIEND'S SHOWROOM.	LOG INTO GAME CENTER TO SEE YOUR FRIEND'S SHOWROOM.	CONNECTE-TOI À GAME CENTER POUR VOIR LES EXPOSITIONS DE TES AMIS.
+NONE OF YOUR FACEBOOK FRIENDS ARE PLAYING EXTREME ROAD TRIP 2.	NONE OF YOUR FACEBOOK FRIENDS ARE PLAYING EXTREME ROAD TRIP 2.	AUCUN DE VOS AMIS FACEBOOK NE JOUENT À EXTREME ROAD TRIP 2.
+NONE OF YOUR GAME CENTER FRIENDS HAVE A SHOWROOM SETUP.	NONE OF YOUR GAME CENTER FRIENDS HAVE A SHOWROOM SETUP.	AUCUN DE VOS AMIS GAME CENTER NE POSSÈDENT UNE EXPOSITION.
+SELECT A CAR	SELECT A CAR	SÉLECTIONNER UNE VOITURE
+LOADING...	LOADING...	CHARGEMENT...
+ HAS'T SETUP ANY SHOWROOM YET.	 HAS'T SETUP ANY SHOWROOM YET.	 N'A PAS ENCORE UTILISÉ LES EXPOSITIONS.
+ADD CAR	ADD CAR	VOITURE
+FRIEND LIST	FRIEND LIST	LISTE D'AMIS
+Log to Facebook now!	Log to Facebook now!	Connectez-vous à Facebook!
+Achievements	Achievements	Réalisations
+Friend Signs	Friend Signs	Pancarte\nd'amis
+Friend Ghosts	Friend Ghosts	Fantôme\nd'amis
+CHECK THIS OUT!	CHECK THIS OUT!	VISE-MOI ÇA!
+YOU'RE ON A ROLL!	YOU'RE ON A ROLL!	ET ÇA CONTINUE!
+IT'S YOUR LUCKY DAY!	IT'S YOUR LUCKY DAY!	C'EST VOTRE JOUR DE CHANCE!
+A crazy engineer wants to strap a rocket to your car. What's the worst that could happen?	A crazy engineer wants to strap a rocket to your car. What's the worst that could happen?	Un savant fou veut attacher une fusée sur ta voiture. Quels sont les risques, vraiment?
+An epic carrier is passing by! Do you want to hop on for a ride?	An epic carrier is passing by! Do you want to hop on for a ride?	Un transporteur épique passe dans le coin! Tu fais un tour?
+It's an evac emergency! Do you want to zip ahead in the chopper?	It's an evac emergency! Do you want to zip ahead in the chopper?	C'est une urgence, on décampe! Embarquez vous dans l'hélicoptère?
+Get in the chopper! It's cheaper this time!	Get in the chopper! It's cheaper this time!	L'hélicoptère est encore là! On se la refait à rabais? 
+Keep it coming! Enjoy this reduced price on the epic carrier!	Keep it coming! Enjoy this reduced price on the epic carrier!	Ce n'était pas assez! Embarquez sur le transporteur à nouveau avec un prix réduit cette fois!
+The explosion wasn't big enough! Let's do it a second time! How about a discount this time?	The explosion wasn't big enough! Let's do it a second time! How about a discount this time?	L'explosion n'a pas été assez impressionnante! Allons-y encore. Un prix d'ami cette fois?
+We're going insane! Let's make it even cheaper this time!	We're going insane! Let's make it even cheaper this time!	Nous devenons fous! Allons-y avec un plus gros rabais cette fois!
+Let's do it!	Let's do it!	Allons-y!
+Amazon River	Amazon River	Rivière Amazone
+The Beach	The Beach	La Plage
+The Desert	The Desert	Le Désert
+The City	The City	La Ville
+The Camping	The Camping	Le Camping
+The Alps	The Alps	Les Alpes
+The Cemetery	The Cemetery	Le Cimetière
+Snowy City	Snowy City	Ville enneigée
+The Moon	The Moon	La Lune
+The Countryside	The Countryside	La campagne
+Pixel World	Pixel World	Monde pixellisé
+Mine	The Mine	La Mine
+CANCEL	CANCEL	ANNULER
+MAPS LIST	MAPS LIST	ROUTES
+Let your friends know!	Let your friends know!	Partage avec tes amis!
+GO	GO	GO
+Invalid receipt	Invalid receipt	Reçu invalide
+Purchase failed	Purchase failed	Transaction échouée
+No Content	No Content	Aucun contenu
+No Ads are available at this time. Please try again later.	No Ads are available at this time. Please try again later.	Aucun contenu disponible pour l'instant. Ré-essayer plus tard.
+OK	OK	OK
+needed to complete purchase.	needed to complete purchase.	sont nécéssaires pour complèter l'achat.
+Get	Get	Achetez-en
+for	for	pour
+BUY	BUY	ACHETER
+Watch a video and earn a free crate	Watch a video and earn a free crate	Visionne une vidéo et gagne une caisse
+Watch now	Watch now	Visionner
+Here's a delivery!	Here's a delivery!	Une livraison!
+From your friends at Roofdog	From your friends at Roofdog	De vos amis chez Roofdog
+Next in: 	Next in:	Prochaine:
+REMAINING	REMAINING	RESTANTES
+You have already purchased this item.	You have already purchased this item.	Vous avez déjà acheté cet article.
+Permanent coin doubler\n+ ADS Remover	Permanent coin doubler\n+ ADS Remover	Doublez vos pièces pour toujours!\n+ Jouez sans pub!
+ADS Remover	ADS Remover	Jouez sans pub!
+RESTORE	RESTORE	RESTAURER
+Not enough	Not enough	Pas assez de
+I just racked up {0} bucks and {1} coins in my daily Frenzy Run! Did you play yours today?	I just racked up {0} bucks and {1} coins in my daily Frenzy Run! Did you play yours today?	Je viens de récolter {0} billets et {1} pièces dans ma Course Frénésie quotidienne! Avez-vous joué la vôtre? 
+It's been a while!	It's been a while!	Ça fait un bail!
+Time to ride again! Get back on the road!	Time to ride again! Get back on the road!	C'est le temps de rouler! Reprenez la route!
+Frenzy Run Ready!	Frenzy Run Ready!	Course Frénésie prête!
+A Frenzy Run awaits you! Grab free bucks now!	A Frenzy Run awaits you! Grab free bucks now!	Une Course Frénésie vous attend! Récoltez vos billets maintenant!
+UPGRADE YOUR CAR	UPGRADE YOUR CAR	AMÉLIORE TA VOITURE
+UPGRADE CAR	UPGRADE CAR	AMÉLIORER
+Do you wish to purchase this item?	Do you wish to purchase this item?	Désirez-vous acheter cet item?
+APPLY	APPLY	APPLIQUER
+Restart this run and lose all progress?	Restart this run and lose all progress?	Reprendre cette course et perdre la partie en cours?
+Cancel	Cancel	Annuler
+Buy	Buy	Acheter
+Play with your friends on Facebook	Play with your friends on Facebook	Compare-toi à tes amis Facebook
+You've completed 100% of the missions for this car. You can now perform a Prestige to earn an exclusive badge and prestige tokens. 	You've completed 100% of the missions for this car. You can now perform a Prestige to earn an exclusive badge and prestige tokens. 	Vous avez complétez 100% des missions pour cette voiture. Vous pouvez accomplir un Prestige afin d'obtenir un badge exclusif ainsi que des jetons de prestige. 
+This is the last Prestige level for this car. Your missions completion percentage will remain at 100%.	This is the last Prestige level for this car. Your missions completion percentage will remain at 100%.	Ceci est le dernier niveau de Prestige pour cette voiture. Le pourcentage de missions accomplis demeura à 100%.
+Performing a Prestige will reset your missions completion for this car to 0%.	Performing a Prestige will reset your missions completion for this car to 0%.	En effectuant un Prestige, le pourcentage de missions accomplies retournera à 0%.
+ALL MISSIONS COMPLETED	ALL MISSIONS COMPLETED	TOUTES LES MISSIONS COMPLÉTÉES
+PRESTIGE	PRESTIGE	PRESTIGE
+Prestige Tokens	Prestige Tokens	Jetons de Prestige
+You have {0} token(s). Complete 100% of the missions for any car to earn Prestige Tokens.	You have {0} token(s). Complete 100% of the missions for any car to earn Prestige Tokens.	Vous avez {0} jeton(s). Compléter 100% des missions pour une voiture afin d'obtenir plus de jetons de Prestige.
+You can obtain Prestige Tokens by completing 100% of the missions for any car.	You can obtain Prestige Tokens by completing 100% of the missions for any car.	Vous pouvez obtenir des jetons de Prestige en complétant toutes les missions pour une voiture.
+Are you sure you want to continue?	Are you sure you want to continue?	Êtes-vous certain de vouloir poursuivre?
+Complete them over again to earn more exclusive items.	Complete them over again to earn more exclusive items.	Complétez-les de nouveau pour obtenir encore plus d'éléments exclusifs.
+CONTINUE	CONTINUE	POURSUIVRE
+Congrats! You've earned {0} Prestige Tokens and a new Prestige Badge.	Congrats! You've earned {0} Prestige Tokens and a new Prestige Badge.	Félicitations! Vous avez obtenu {0} jetons et un nouveau badge.
+CONTROLS	CONTROLS	CONTRÔLES
+No More Frenzy Run Available!	No More Frenzy Run Available!	Aucune Course Frénésie Disponible!
+Do you want to purchase 7 Frenzy Runs right now?	Do you want to purchase 7 Frenzy Runs?	Désirez-vous acheter 7 Courses Frénésie?
+Send a challenge to {0}?	Send a challenge to {0}?	Envoyer un défi à {0}?
+GAME CENTER CHALLENGE	GAME CENTER CHALLENGE	DÉFI GAME CENTER
+Coal	coal nuggets	charbons
+Diamonds	diamonds	diamants
+Pick Repairs	Pick Repairs	réparations de pic
+Dirt blocks	dirt blocks	blocs de terre
+Rock blocks	rock blocks	roches
+Meters	Meters	Mètres
+Crates	crates	boîtes
+STREET	STREET	URBAINE
+MUSCLE	MUSCLE	MUSCLE
+TRUCK	TRUCK	CAMION
+PRESTIGE	PRESTIGE	PRESTIGE
+NOVELTY	NOVELTY	ORIGINALE
+Collect {0} more {1} in Pocket Mine 2.	Collect {0} more {1} in Pocket Mine 2.	Amasse {0} {1} de plus dans Pocket Mine 2.
+Travel {0} more meters with a {1} car in Pocket Road Trip.	Travel {0} more meters with a {1} car in Pocket Road Trip.	Parcours {0} mètres de plus avec une voiture de type {1} dans Pocket Road Trip.
+PLAY POCKET MINE 2	PLAY POCKET MINE 2	JOUER À POCKET MINE 2
+PLAY PRT NOW	PLAY PRT NOW	JOUER À PRT
+NOTIFICATIONS	NOTIFICATIONS	ALERTES
+Pocket Mine 2 mission completed!	Pocket Mine 2 mission completed!	Mission Pocket Mine 2 réussie!
+Pocket Road Trip mission completed!	Pocket Road Trip mission completed!	Mission Pocket Road Trip réussie!
+Pocket Mine 3 mission completed!	Pocket Mine 3 mission completed!	Mission Pocket Mine 3 réussie!
+CLAIM!	CLAIM!	RÉCLAME!
+LOG OUT	LOG OUT	DÉCONNEXION
+PLAY WITH YOUR FRIENDS!	PLAY WITH YOUR FRIENDS!	JOUE AVEC TES AMIS!
+COMPETE AGAINST OTHER PLAYERS!	COMPETE AGAINST OTHER PLAYERS!	JOUE CONTRE D’AUTRES JOUEURS!
+PLAY NOW	PLAY NOW	JOUEZ MAINTENANT
+NEW GARAGE ARRIVALS!	NEW GARAGE ARRIVALS!	NOUVELLES BAGNOLES!
+New shipment: 6 incredibly fast cars!	New shipment: 6 incredibly fast cars!	Nouvel arrivage: 6 nouvelles voitures ultra rapides!
+Six new cars are available for completing missions in our new game, Pocket Road Trip! Check 'em out!	Six new cars are available for completing missions in our new game, Pocket Road Trip! Check 'em out!	Six nouvelles voitures disponibles en complétant des missions dans notre nouveau jeu, Pocket Road Trip! Vise-moi ça!
+Six new cars are available for completing missions in our new game, Fishing Break! Check 'em out!	Six new cars are available for completing missions in our new game, Fishing Break! Check 'em out!	Six nouvelles voitures disponibles en complétant des missions dans notre nouveau jeu, Fishing Break! Vise-moi ça!
+Six new cars are available for completing missions in our new game, Pocket Mine 3! Check 'em out!	Six new cars are available for completing missions in our new game, Pocket Mine 3! Check 'em out!	Six nouvelles voitures disponibles en complétant des missions dans notre nouveau jeu, Pocket Mine 3! Vise-moi ça!
+FREE BUCKS!	FREE BUCKS!	GRATUIT!
+play	play	jouer
+Minnow	Minnow	Méné
+Peamouth	Peamouth	Méné deux-barres
+Trout	Trout	Truite
+Barracuda	Barracuda	Barracuda
+Clownfish	Clownfish	Poisson-clown
+Great White Shark	Great White Shark	Grand requin blanc
+Catch {0} more {1} in Fishing Break!	Catch {0} more {1} in Fishing Break!	Attrappe {0} {1} de plus dans Fishing Break!
+PLAY FISHING BREAK!	PLAY FISHING BREAK!	JOUER À FISHING BREAK!
+PLAY POCKET MINE 3	PLAY POCKET MINE 3	JOUER À POCKET MINE 3
+Fishing Break! mission completed!	Fishing Break! mission completed!	Mission Fishing Break! réussie!
+Kill {0} more {1} in Pocket Mine 3.	Kill {0} more {1} in Pocket Mine 3.	Tuez {0} autre {1} dans Pocket Mine 3.
+THE GREEN ORC	THE GREEN ORC	L'ORC VERT
+THE BLACK SPIDER	THE BLACK SPIDER	LA MYGALE
+THE GOBLIN	THE GOBLIN	LA GOBLIN
+PINKY	PINKY	ROSETTA
+THE SENTINEL	THE SENTINEL	LA SENTINELLE
+THE BERSERKER	THE BERSERKER	LA BERSERKER
+Green Orc	Green Orc	Orc vert
+Slime	Slime	Gélatine
+Black Spider	Black Spider	Mygale
+Goblin	Goblin	Goblin
+Sentinel	Sentinel	Sentinelle
+Berserker	Berserker	Berserker
+It's mean and it's green!	It's mean and it's green!	Verte et méchante!
+Hanging on a thread.	Hanging on a thread.	Ne tiens que par un fil
+They hoard more than just gold.	They hoard more than just gold.	Il collectionne plus que de l'or.
+Pink in color and spirit!	Pink in color and spirit!	La vie en rose
+Aquiring Target...	Aquiring Target...	Aquisition de la cible en cours...
+Sometimes, you just can't stop.	Sometimes, you just can't stop.	Parfois, on ne peut s'arrêter.
+REFRESH	REFRESH	VÉRIF.
+Videos	Vidéo
+You need to allow storage acces to view videos.\nIf you don't see the permissions popup, check your app settings	Vous devez accepter l'accès au storage pour pouvoir visionner des vidéos.\nSi vous ne voyez pas la demande de permission, vérifiez les paramètres de l'application
+Retry	Ré-essayer

@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "SpriteCollectionSpyCar"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "SpyCar"
+    boundsData:
+    - {x: 0, y: -0.01041663, z: 0}
+    - {x: 9.166667, y: 2.395833, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.01041663, z: 0}
+    - {x: 9.25, y: 2.479167, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -4.583333, y: -1.208333, z: 0}
+    - {x: 4.583333, y: -1.208333, z: 0}
+    - {x: -4.583333, y: 1.1875, z: 0}
+    - {x: 4.583333, y: 1.1875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.007816406, y: 0.8632793}
+    - {x: 0.4570273, y: 0.003908203}
+    - {x: 0.4570273, y: 0.8632793}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 786ba03e6c2147329806db3dd1a29b25, type: 2}
+    materialId: 0
+    sourceTextureGUID: "b5bc7e3a6275d44e3b49d79981f7c2af"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "SpyCarWells"
+    boundsData:
+    - {x: 0, y: -0.01041669, z: 0}
+    - {x: 6.75, y: 1.1875, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -0.01041669, z: 0}
+    - {x: 6.75, y: 1.1875, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.375, y: -0.6041667, z: 0}
+    - {x: 3.375, y: -0.6041667, z: 0}
+    - {x: -3.375, y: 0.5833333, z: 0}
+    - {x: 3.375, y: 0.5833333, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4726602, y: 0.003908203}
+    - {x: 0.4726602, y: 0.6367168}
+    - {x: 0.6953086, y: 0.003908203}
+    - {x: 0.6953086, y: 0.6367168}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 786ba03e6c2147329806db3dd1a29b25, type: 2}
+    materialId: 0
+    sourceTextureGUID: "d27cea6d4163647669950512ce09030d"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "SpyCarWheel"
+    boundsData:
+    - {x: -2.980232E-08, y: -2.980232E-08, z: 0}
+    - {x: 1.416667, y: 1.416667, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041663, y: -0.01041669, z: 0}
+    - {x: 1.4375, y: 1.4375, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.7083334, y: -0.7083334, z: 0}
+    - {x: 0.7083333, y: -0.7083334, z: 0}
+    - {x: -0.7083334, y: 0.7083333, z: 0}
+    - {x: 0.7083333, y: 0.7083333, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.4726602, y: 0.6445332}
+    - {x: 0.7382773, y: 0.6445332}
+    - {x: 0.4726602, y: 0.7773418}
+    - {x: 0.7382773, y: 0.7773418}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 786ba03e6c2147329806db3dd1a29b25, type: 2}
+    materialId: 0
+    sourceTextureGUID: "83ec9277699284b78b6ffba7eaf77a7b"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 786ba03e6c2147329806db3dd1a29b25, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 95bfa778bf114a258f2bf06f2bad608b, type: 3}
+  pngTextures: []
+  materialPngTextureId: 
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "f0fd97e6037844cb7bee7a6f04c04132"
+  spriteCollectionName: "SpriteCollectionSpyCar"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 768
+  buildKey: 1156396420
+  dataGuid: "007cc4694e3a748d989743cfd36384f6"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

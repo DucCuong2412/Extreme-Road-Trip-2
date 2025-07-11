@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1791799704040376862}
+  m_IsPrefabParent: 1
+--- !u!4 &1791799704090708511
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791799704040376862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1791799704090708511}
+  - component: {fileID: 1791799705936202272}
+  m_Layer: 0
+  m_Name: "SpriteCollectionDelicious"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791799705936202272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1791799704040376862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5277c20f53bc2486ec458bcf3baa522b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 0
+  spriteDefinitions:
+  - name: "deliciousWheel"
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.125, y: 1.125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.125, y: 1.125, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -0.5625, y: -0.5625, z: 0}
+    - {x: 0.5625, y: -0.5625, z: 0}
+    - {x: -0.5625, y: 0.5625, z: 0}
+    - {x: 0.5625, y: 0.5625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.8222676}
+    - {x: 0.2187461, y: 0.8222676}
+    - {x: 0.007816406, y: 0.9277324}
+    - {x: 0.2187461, y: 0.9277324}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7070ecdbf0fa409495b2fd8c7bd34ca2, type: 2}
+    materialId: 0
+    sourceTextureGUID: "b2ab471e3a7ce43959aae7534b5ae647"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "deliciousBody"
+    boundsData:
+    - {x: 0.01041698, y: -0.01041675, z: 0}
+    - {x: 8.645834, y: 3.4375, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041698, y: -0.01041675, z: 0}
+    - {x: 8.645834, y: 3.4375, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -4.3125, y: -1.729167, z: 0}
+    - {x: 4.333334, y: -1.729167, z: 0}
+    - {x: -4.3125, y: 1.708333, z: 0}
+    - {x: 4.333334, y: 1.708333, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.007816406, y: 0.003908203}
+    - {x: 0.007816406, y: 0.8144512}
+    - {x: 0.6523398, y: 0.003908203}
+    - {x: 0.6523398, y: 0.8144512}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7070ecdbf0fa409495b2fd8c7bd34ca2, type: 2}
+    materialId: 0
+    sourceTextureGUID: "581a00f2afe3642f4a8b5cd200de56ea"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: "deliciousWells"
+    boundsData:
+    - {x: 0.01041651, y: -0.01041666, z: 0}
+    - {x: 6.0625, y: 0.7708334, z: 0}
+    untrimmedBoundsData:
+    - {x: 0.01041651, y: -0.01041666, z: 0}
+    - {x: 6.0625, y: 0.7708334, z: 0}
+    texelSize: {x: 0.02083333, y: 0.02083333}
+    positions:
+    - {x: -3.020833, y: -0.3958333, z: 0}
+    - {x: 3.041667, y: -0.3958333, z: 0}
+    - {x: -3.020833, y: 0.375, z: 0}
+    - {x: 3.041667, y: 0.375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: 0.6679727, y: 0.003908203}
+    - {x: 0.6679727, y: 0.5722637}
+    - {x: 0.8124961, y: 0.003908203}
+    - {x: 0.8124961, y: 0.5722637}
+    normalizedUvs: []
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 7070ecdbf0fa409495b2fd8c7bd34ca2, type: 2}
+    materialId: 0
+    sourceTextureGUID: "fbadec92eb70242839fc63cdfbb61d4d"
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 1
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 7070ecdbf0fa409495b2fd8c7bd34ca2, type: 2}
+  textures:
+  - {fileID: 2800000, guid: b5cf8500f0714981af94deb9ccd5d29a, type: 3}
+  pngTextures: []
+  materialPngTextureId: 
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: "63b6eb93c9ff64a0787ed650c8b59de4"
+  spriteCollectionName: "SpriteCollectionDelicious"
+  assetName: 
+  loadable: 0
+  invOrthoSize: 0.0625
+  halfTargetHeight: 768
+  buildKey: 764853371
+  dataGuid: "a5fc1a1d0b664401299d189e6e37265e"
+  managedSpriteCollection: 0
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []

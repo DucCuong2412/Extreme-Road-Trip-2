@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: b2bc9e9960564a52940da774d6bfdc46
+timeCreated: 1752223195
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 24
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  fontName: "SourceSans24"
+  fontNames:
+  - Source Sans Pro
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 
