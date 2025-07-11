@@ -54,11 +54,11 @@ public class Boot : Singleton<Boot>
 		yield return null;
 		InitTapjoy();
 		yield return null;
-		if (GameChartboostManager.IsSupported())
-		{
-			//Chartboost.Create();
-			yield return null;
-		}
+		//if (GameChartboostManager.IsSupported())
+		//{
+		//	//Chartboost.Create();
+		//	yield return null;
+		//}
 		AutoSingleton<GameAdProvider>.Instance.Create();
 		yield return null;
 		if (BikeTripCrossPromoManager.IsSupported())

@@ -276,25 +276,25 @@ public class tk2dButton : MonoBehaviour
 		{
 			return;
 		}
-		bool flag = false;
-		if (Input.multiTouchEnabled)
-		{
-			for (int i = 0; i < UnityEngine.Input.touchCount; i++)
-			{
-				Touch touch = UnityEngine.Input.GetTouch(i);
-				if (touch.phase == TouchPhase.Began)
-				{
-					Ray ray = viewCamera.ScreenPointToRay(touch.position);
-					if (GetComponent<Collider>().Raycast(ray, out RaycastHit hitInfo, 1E+08f) && !Physics.Raycast(ray, hitInfo.distance - 0.01f))
-					{
-						StartCoroutine(coHandleButtonPress(touch.fingerId));
-						flag = true;
-						break;
-					}
-				}
-			}
-		}
-		if (!flag && Input.GetMouseButtonDown(0))
+		//bool flag = false;
+		//if (Input.multiTouchEnabled)
+		//{
+		//	for (int i = 0; i < UnityEngine.Input.touchCount; i++)
+		//	{
+		//		Touch touch = UnityEngine.Input.GetTouch(i);
+		//		if (touch.phase == TouchPhase.Began)
+		//		{
+		//			Ray ray = viewCamera.ScreenPointToRay(touch.position);
+		//			if (GetComponent<Collider>().Raycast(ray, out RaycastHit hitInfo, 1E+08f) && !Physics.Raycast(ray, hitInfo.distance - 0.01f))
+		//			{
+		//				StartCoroutine(coHandleButtonPress(touch.fingerId));
+		//				flag = true;
+		//				break;
+		//			}
+		//		}
+		//	}
+		//}
+		if (/*!flag &&*/ Input.GetMouseButtonDown(0))
 		{
 			Ray ray2 = viewCamera.ScreenPointToRay(UnityEngine.Input.mousePosition);
 			if (GetComponent<Collider>().Raycast(ray2, out RaycastHit hitInfo2, 1E+08f) && !Physics.Raycast(ray2, hitInfo2.distance - 0.01f))

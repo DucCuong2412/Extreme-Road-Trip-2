@@ -125,18 +125,18 @@ public class MetroMenuMain : MetroMenuPage
     public override void OnFocus()
     {
         base.OnFocus();
-        bool flag = CanPushPopup() && _checkForBikeTripPromo && BikeTripPromoUIManager.DisplayMainMenuPopup();
-        _checkForBikeTripPromo = false;
-        if (CanPushPopup() && AutoSingleton<PlatformCapabilities>.Instance.IsFacebookSupported() && !_facebookLoginPopupChecked)
-        {
-            _facebookLoginPopupChecked = true;
-            PersistenceManager instance = AutoSingleton<PersistenceManager>.Instance;
-            if (instance.MustShowFacebookInvitationToLoginPopup && instance.FacebookLoginPopupAttemptCount % 5 == 0 && !AutoSingleton<GameFacebookManager>.Instance.IsPublishPermissionGranted())
-            {
-                ShowFacebookInvitationToLoginPopup();
-            }
-            instance.FacebookLoginPopupAttemptCount++;
-        }
+        //bool flag = CanPushPopup() && _checkForBikeTripPromo && BikeTripPromoUIManager.DisplayMainMenuPopup();
+        //_checkForBikeTripPromo = false;
+        //if (CanPushPopup() && AutoSingleton<PlatformCapabilities>.Instance.IsFacebookSupported() && !_facebookLoginPopupChecked)
+        //{
+        //    _facebookLoginPopupChecked = true;
+        //    PersistenceManager instance = AutoSingleton<PersistenceManager>.Instance;
+        //    if (instance.MustShowFacebookInvitationToLoginPopup && instance.FacebookLoginPopupAttemptCount % 5 == 0 && !AutoSingleton<GameFacebookManager>.Instance.IsPublishPermissionGranted())
+        //    {
+        //        ShowFacebookInvitationToLoginPopup();
+        //    }
+        //    instance.FacebookLoginPopupAttemptCount++;
+        //}
     }
 
     public void OnDisable()
@@ -180,8 +180,8 @@ public class MetroMenuMain : MetroMenuPage
 
     private void ShowFacebookInvitationToLoginPopup()
     {
-        MetroMenuPopupFacebookLogin page = MetroMenuPage.Create<MetroMenuPopupFacebookLogin>().Setup();
-        AutoSingleton<MetroMenuStack>.Instance.Push(page, MetroAnimation.popup);
+        //MetroMenuPopupFacebookLogin page = MetroMenuPage.Create<MetroMenuPopupFacebookLogin>().Setup();
+        //AutoSingleton<MetroMenuStack>.Instance.Push(page, MetroAnimation.popup);
     }
 
     private MetroButton CreateInviteButton()
