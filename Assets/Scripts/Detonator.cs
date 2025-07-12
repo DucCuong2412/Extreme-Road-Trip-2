@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 [AddComponentMenu("Detonator/Detonator")]
 public class Detonator : MonoBehaviour
@@ -236,52 +236,52 @@ public class Detonator : MonoBehaviour
 		}
 	}
 
-	private void UpdateComponents()
-	{
-		if (_firstComponentUpdate)
-		{
-			Component[] array = components;
-			for (int i = 0; i < array.Length; i++)
-			{
-				DetonatorComponent detonatorComponent = (DetonatorComponent)array[i];
-				detonatorComponent.Init();
-				detonatorComponent.SetStartValues();
-			}
-			_firstComponentUpdate = false;
-		}
-		if (_firstComponentUpdate)
-		{
-			return;
-		}
-		Component[] array2 = components;
-		for (int j = 0; j < array2.Length; j++)
-		{
-			DetonatorComponent detonatorComponent2 = (DetonatorComponent)array2[j];
-			if (detonatorComponent2.detonatorControlled)
-			{
-				detonatorComponent2.size = detonatorComponent2.startSize * (size / _baseSize);
-				detonatorComponent2.timeScale = duration / _baseDuration;
-				detonatorComponent2.detail = detonatorComponent2.startDetail * detail;
-				detonatorComponent2.force = detonatorComponent2.startForce * (size / _baseSize) + direction * (size / _baseSize);
-				detonatorComponent2.velocity = detonatorComponent2.startVelocity * (size / _baseSize) + direction * (size / _baseSize);
-				detonatorComponent2.color = Color.Lerp(detonatorComponent2.startColor, color, color.a);
-			}
-		}
-	}
+    private void UpdateComponents()
+    {
+        if (_firstComponentUpdate)
+        {
+            foreach (DetonatorComponent comp in components)
+            {
+                if (comp != null)
+                {
+                    comp.Init();
+                    comp.SetStartValues();
+                }
+            }
+            _firstComponentUpdate = false;
+        }
 
-	public void Explode()
-	{
-		_lastExplosionTime = Time.time;
-		Component[] array = components;
-		for (int i = 0; i < array.Length; i++)
-		{
-			DetonatorComponent detonatorComponent = (DetonatorComponent)array[i];
-			UpdateComponents();
-			detonatorComponent.Explode();
-		}
-	}
+        foreach (DetonatorComponent comp in components)
+        {
+            if (comp != null && comp.detonatorControlled)
+            {
+                comp.size = comp.startSize * (size / _baseSize);
+                comp.timeScale = duration / _baseDuration;
+                comp.detail = comp.startDetail * detail;
+                comp.force = comp.startForce * (size / _baseSize) + direction * (size / _baseSize);
+                comp.velocity = comp.startVelocity * (size / _baseSize) + direction * (size / _baseSize);
+                comp.color = Color.Lerp(comp.startColor, color, color.a);
+            }
+        }
+    }
 
-	public void Reset()
+
+    public void Explode()
+    {
+        _lastExplosionTime = Time.time;
+
+        UpdateComponents(); // GỌI TRƯỚC VÒNG LẶP
+
+        foreach (DetonatorComponent detonatorComponent in components)
+        {
+            if (detonatorComponent != null)
+            {
+                detonatorComponent.Explode();
+            }
+        }
+    }
+
+    public void Reset()
 	{
 		size = 10f;
 		color = _baseColor;
