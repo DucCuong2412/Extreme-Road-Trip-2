@@ -119,11 +119,11 @@ public class MetroMenuEndRun : MetroMenuPage
 		metroLayout.Add(_statusBar);
 		MetroWidget metroWidget = MetroLayout.Create(Direction.horizontal).SetMass(5f);
 		metroLayout.Add(metroWidget);
-		MetroLayout metroLayout2 = MetroLayout.Create(Direction.vertical);
-		metroWidget.Add(metroLayout2);
+		//MetroLayout metroLayout2 = MetroLayout.Create(Direction.vertical);////leader board game gốc
+		//metroWidget.Add(metroLayout2);
 		MetroLayout metroLayout3 = MetroLayout.Create(Direction.vertical);
 		metroWidget.Add(metroLayout3);
-		metroLayout2.Add(MetroPanelLeaderboards.Create());
+		//metroLayout2.Add(MetroPanelLeaderboards.Create());
 		MetroLayout metroLayout4 = MetroLayout.Create(Direction.vertical);
 		metroLayout4.AddSlice9Background(MetroSkin.Slice9RoundedSemiTransparent);
 		metroLayout3.Add(metroLayout4);

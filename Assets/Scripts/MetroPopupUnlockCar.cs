@@ -402,8 +402,11 @@ public class MetroPopupUnlockCar : MetroPopupPage
 	{
 		if (!_profile.TryUnlock(_car.Prices))
 		{
-			AutoSingleton<CashManager>.Instance.HandleNotEnoughCurrency(_car.Prices, pauseOnFocus: false);
-		}
+            //AutoSingleton<CashManager>.Instance.HandleNotEnoughCurrency(_car.Prices, pauseOnFocus: false);
+            MetroPopupMessage popup = MetroMenuPage.Create<MetroPopupMessage>().Setup("STORE", "You don't have enough coins.");
+            AutoSingleton<MetroMenuStack>.Instance.Push(popup, MetroAnimation.popup);
+            return;
+        }
 		else
 		{
 			AutoSingleton<LoadingManager>.Instance.Load(new LoadConfigGame(_car));

@@ -202,7 +202,7 @@ public class CarController : MonoBehaviour
 		_inSetup = true;
 		if (!_rigidbody.isKinematic)
 		{
-			_rigidbody.velocity = new Vector3(20f, 0f, 0f);
+			_rigidbody.velocity = new Vector3(30f, 0f, 0f);
 		}
 	}
 
@@ -224,7 +224,9 @@ public class CarController : MonoBehaviour
 
 	private void FixedUpdate()
 	{
-		if (!_crashed && !_rigidbody.isKinematic)
+		Debug.Log(_rigidbody.velocity);	
+
+        if (!_crashed && !_rigidbody.isKinematic)
 		{
 			CarWheel[] carWheels = _carWheels;
 			foreach (CarWheel carWheel in carWheels)

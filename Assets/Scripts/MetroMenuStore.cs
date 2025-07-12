@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class MetroMenuStore : MetroMenuPage
@@ -14,31 +14,32 @@ public class MetroMenuStore : MetroMenuPage
 		MetroLayout metroLayout2 = MetroLayout.Create(Direction.horizontal);
 		metroLayout2.SetMass(7f);
 		metroLayout.Add(metroLayout2);
-		MetroLayout metroLayout3 = MetroLayout.Create(Direction.vertical);
-		metroLayout2.Add(metroLayout3);
+		//MetroLayout metroLayout3 = MetroLayout.Create(Direction.vertical);
+		//metroLayout2.Add(metroLayout3);
 		MetroLayout metroLayout4 = MetroLayout.Create(Direction.vertical);
 		metroLayout2.Add(metroLayout4);
 		List<StoreItem> storeItems = AutoSingleton<StoreDatabase>.Instance.GetStoreItems();
-		StoreItem storeItem = storeItems.Find((StoreItem i) => i.Type == StoreItemType.permanentCoinDoubler);
-		if (storeItem != null)
-		{
-			MetroButton coinsDoublerButton = CreateStoreItemButton(storeItem, (!storeItem.IsPurchased()) ? MetroSkin.Slice9ButtonGreen : MetroSkin.Slice9StoreSquare, Color.white);
-			storeItem.OnPurchaseSuccess += delegate
-			{
-				coinsDoublerButton.Reflow();
-			};
-			metroLayout3.Add(coinsDoublerButton);
-		}
-		if (AutoSingleton<PlatformCapabilities>.Instance.IsIncentivedVideoSupported())
-		{
-			MetroButton child = AutoSingleton<GameAdProvider>.Instance.CreateFreeCrateButtonMenuStore(1.2f);
-			metroLayout3.Add(child);
-		}
-		else
-		{
-			metroLayout3.Add(MetroSpacer.Create());
-		}
-		MetroGrid metroGrid = MetroGrid.Create(3, 2);
+		//StoreItem storeItem = storeItems.Find((StoreItem i) => i.Type == StoreItemType.permanentCoinDoubler);
+		//if (storeItem != null)
+		//{
+		//	MetroButton coinsDoublerButton = CreateStoreItemButton(storeItem, (!storeItem.IsPurchased()) ? MetroSkin.Slice9ButtonGreen : MetroSkin.Slice9StoreSquare, Color.white);
+		//	storeItem.OnPurchaseSuccess += delegate
+		//	{
+		//		coinsDoublerButton.Reflow();
+		//	};
+		//	metroLayout3.Add(coinsDoublerButton);
+		//}
+        //đây là chỗ bỏ nút Video Ad:	
+        //if (AutoSingleton<PlatformCapabilities>.Instance.IsIncentivedVideoSupported())
+        //{
+        //	MetroButton child = AutoSingleton<GameAdProvider>.Instance.CreateFreeCrateButtonMenuStore(1.2f);
+        //	metroLayout3.Add(child);
+        //}
+        //else
+        //{
+        //	metroLayout3.Add(MetroSpacer.Create());
+        //}
+        MetroGrid metroGrid = MetroGrid.Create(3, 2);
 		metroLayout4.Add(metroGrid);
 		MetroLayout metroLayout5 = MetroLayout.Create(Direction.horizontal);
 		metroLayout5.SetMass(2f);

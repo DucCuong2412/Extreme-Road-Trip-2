@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using UnityEngine;
 
 public class MetroPopupEpicPowerup : MetroPopupPage
@@ -15,15 +15,15 @@ public class MetroPopupEpicPowerup : MetroPopupPage
 		string empty = string.Empty;
 		switch (p.EpicPowerupStreak)
 		{
-		case 1:
-			empty = "YOU'RE ON A ROLL!";
-			break;
-		case 2:
-			empty = "IT'S YOUR LUCKY DAY!";
-			break;
-		default:
-			empty = "CHECK THIS OUT!";
-			break;
+			case 1:
+				empty = "YOU'RE ON A ROLL!";
+				break;
+			case 2:
+				empty = "IT'S YOUR LUCKY DAY!";
+				break;
+			default:
+				empty = "CHECK THIS OUT!";
+				break;
 		}
 		metroLayout.Add(MetroLabel.Create(empty));
 		metroLayout.Add(MetroSpacer.Create());
@@ -66,7 +66,8 @@ public class MetroPopupEpicPowerup : MetroPopupPage
 		metroButton.Add(metroLayout3);
 		metroLayout2.Add(MetroSpacer.Create(0.5f));
 		metroLayout.Add(MetroSpacer.Create(0.5f));
-		return this;
+		Debug.Log("đã trả về null trong MetroPopupEpicPowerup.Setup");
+		return null;
 	}
 
 	protected override Rect ViewRect()
