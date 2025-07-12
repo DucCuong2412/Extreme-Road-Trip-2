@@ -30,7 +30,7 @@ public class MetroMenuStack : AutoSingleton<MetroMenuStack>
 		{
 			_popups.Insert(0, page as MetroPopupPage);
 		}
-		Debug.Log($"{_stack == null} vs {page == null}");
+		//Debug.Log($"{_stack == null} vs {page == null}");
 		page.Layer = _stack.Count;
 		page.OnPush(animation);
 	}

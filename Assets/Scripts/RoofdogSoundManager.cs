@@ -10,8 +10,13 @@ public class RoofdogSoundManager<T> : PrefabSingleton<T> where T : MonoBehaviour
 	private AudioSource[] _pool;
 
 	private int _poolIndex;
+    private void Awake()
+    {
+        OnAwake();
+		
+    }
 
-	protected void PlayClip(AudioClip clip, float volume)
+    protected void PlayClip(AudioClip clip, float volume)
 	{
 		AudioSource nextAudioSource = GetNextAudioSource();
 		nextAudioSource.clip = clip;
@@ -82,23 +87,37 @@ public class RoofdogSoundManager<T> : PrefabSingleton<T> where T : MonoBehaviour
 		base.OnAwake();
 	}
 
-	private AudioSource GetNextAudioSource()
-	{
-		int num = 4;
-		AudioSource audioSource;
-		do
-		{
-			num--;
-			int poolIndex = _poolIndex;
-			_poolIndex++;
-			_poolIndex %= 16;
-			audioSource = _pool[poolIndex];
-		}
-		while (audioSource.isPlaying && num > 0);
-		return audioSource;
-	}
+    private AudioSource GetNextAudioSource()
+    {
+        if (_pool == null)
+        {
+            Debug.LogError("AudioSource pool is null! Did you forget to initialize RoofdogSoundManager?");
+            return null;
+        }
 
-	public void RefreshVolume()
+        int num = 4;
+        AudioSource audioSource = null;
+
+        do
+        {
+            num--;
+            int poolIndex = _poolIndex;
+            _poolIndex = (_poolIndex + 1) % _pool.Length;
+
+            audioSource = _pool[poolIndex];
+            if (audioSource == null)
+            {
+                Debug.LogError($"AudioSource at pool index {poolIndex} is null!");
+                break;
+            }
+        }
+        while (audioSource.isPlaying && num > 0);
+
+        return audioSource;
+    }
+
+
+    public void RefreshVolume()
 	{
 		_masterVolume = AutoSingleton<PersistenceManager>.Instance.SoundsVolume;
 	}

@@ -5,17 +5,34 @@ public class RoofdogSpecialFXManager<T> : PrefabSingleton<T> where T : MonoBehav
 {
 	private Dictionary<Transform, Transform> _fxCache;
 
-	protected void OnAwake()
+    private void Awake()
+    {
+        OnAwake();	
+    }
+    protected void OnAwake()
 	{
 		_fxCache = new Dictionary<Transform, Transform>();
 	}
 
-	public Transform InstantiateFX(Transform prefab)
-	{
-		if (!_fxCache.ContainsKey(prefab))
-		{
-			_fxCache[prefab] = (Transform)UnityEngine.Object.Instantiate(prefab, Vector3.zero, Quaternion.identity);
-		}
-		return _fxCache[prefab];
-	}
+    public Transform InstantiateFX(Transform prefab)
+    {
+        if (_fxCache == null)
+        {
+            Debug.LogError("FX Cache is null! Did you forget to call OnAwake()?");
+            _fxCache = new Dictionary<Transform, Transform>();
+        }
+
+        if (prefab == null)
+        {
+            Debug.LogWarning("InstantiateFX called with null prefab.");
+            return null;
+        }
+
+        if (!_fxCache.ContainsKey(prefab))
+        {
+            _fxCache[prefab] = Instantiate(prefab, Vector3.zero, Quaternion.identity);
+        }
+
+        return _fxCache[prefab];
+    }
 }

@@ -150,15 +150,21 @@ public class MetroWidget : MonoBehaviour
 		return this;
 	}
 
-	public virtual MetroWidget Add(MetroWidget child)
-	{
-		_childs.Add(child);
-		child._parent = this;
-		child.transform.parent = base.transform;
-		return child;
-	}
+    public virtual MetroWidget Add(MetroWidget child)
+    {
+        if (child == null)
+        {
+            Debug.LogWarning("Tried to add null child to " + gameObject.name);
+            return null;
+        }
 
-	public virtual MetroWidget Replace(MetroWidget replaced, MetroWidget child)
+        _childs.Add(child);
+        child._parent = this;
+        child.transform.parent = base.transform;
+        return child;
+    }
+
+    public virtual MetroWidget Replace(MetroWidget replaced, MetroWidget child)
 	{
 		_childs[_childs.IndexOf(replaced)] = child;
 		replaced._parent = null;
@@ -289,15 +295,17 @@ public class MetroWidget : MonoBehaviour
 		}
 	}
 
-	public virtual void OnFocus()
-	{
-		foreach (MetroWidget child in _childs)
-		{
-			child.OnFocus();
-		}
-	}
-
-	public void SetLayer(int layer)
+    public virtual void OnFocus()
+    {
+        foreach (MetroWidget child in _childs)
+        {
+            if (child != null)
+            {
+                child.OnFocus();
+            }
+        }
+    }
+    public void SetLayer(int layer)
 	{
 		base.gameObject.layer = layer;
 		Transform[] componentsInChildren = GetComponentsInChildren<Transform>();
