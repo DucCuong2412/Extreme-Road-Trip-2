@@ -1,4 +1,4 @@
-using Missions;
+﻿using Missions;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -155,11 +155,13 @@ public class MetroMenuEndRun : MetroMenuPage
 		metroLayout7.Add(MetroSpacer.Create());
 		MetroLayout metroLayout8 = MetroLayout.Create(Direction.vertical);
 		metroLayout5.Add(metroLayout8);
-		if (AutoSingleton<PlatformCapabilities>.Instance.UseSocialSharing())
-		{
-			metroLayout8.Add(CreateSocialSharingButton());
-		}
-		MetroLayout metroLayout9 = MetroLayout.Create(Direction.horizontal);
+        //đây là nút facebook share
+        //if (AutoSingleton<PlatformCapabilities>.Instance.UseSocialSharing())
+        //{
+        //	metroLayout8.Add(CreateSocialSharingButton());
+        //}
+        //
+        MetroLayout metroLayout9 = MetroLayout.Create(Direction.horizontal);
 		metroLayout8.Add(metroLayout9);
 		if (AutoSingleton<PlatformCapabilities>.Instance.UseGameCenterChallenge())
 		{
@@ -706,19 +708,19 @@ public class MetroMenuEndRun : MetroMenuPage
 	public override void OnFocus()
 	{
 		base.OnFocus();
-		bool flag = _checkForBikeTripPromo && BikeTripPromoUIManager.DisplayEndRunMenuPopup();
-		_checkForBikeTripPromo = false;
-		if (AutoSingleton<PlatformCapabilities>.Instance.IsFacebookSupported() && AutoSingleton<GameFacebookManager>.Instance.IsPublishPermissionVerify() && !AutoSingleton<GameFacebookManager>.Instance.IsPublishPermissionGranted() && AutoSingleton<GameFacebookManager>.Instance.IsLoggedIn() && !flag && !_facebookInvitationChecked)
-		{
-			_facebookInvitationChecked = true;
-			PersistenceManager instance = AutoSingleton<PersistenceManager>.Instance;
-			if (instance.MustShowFacebookInvitationToPublishPopup && instance.FacebookPublishPopupAttemptCount % 5 == 0)
-			{
-				ShowFacebookInvitationToPublishPopup();
-			}
-			instance.FacebookPublishPopupAttemptCount++;
-		}
-		UpdateCarUpgradeBadge();
+		//bool flag = _checkForBikeTripPromo && BikeTripPromoUIManager.DisplayEndRunMenuPopup();
+		//_checkForBikeTripPromo = false;
+		//if (AutoSingleton<PlatformCapabilities>.Instance.IsFacebookSupported() && AutoSingleton<GameFacebookManager>.Instance.IsPublishPermissionVerify() && !AutoSingleton<GameFacebookManager>.Instance.IsPublishPermissionGranted() && AutoSingleton<GameFacebookManager>.Instance.IsLoggedIn() && !flag && !_facebookInvitationChecked)
+		//{
+		//	_facebookInvitationChecked = true;
+		//	PersistenceManager instance = AutoSingleton<PersistenceManager>.Instance;
+		//	if (instance.MustShowFacebookInvitationToPublishPopup && instance.FacebookPublishPopupAttemptCount % 5 == 0)
+		//	{
+		//		ShowFacebookInvitationToPublishPopup();
+		//	}
+		//	instance.FacebookPublishPopupAttemptCount++;
+		//}
+		//UpdateCarUpgradeBadge();
 	}
 
 	private void ShowFacebookInvitationToPublishPopup()

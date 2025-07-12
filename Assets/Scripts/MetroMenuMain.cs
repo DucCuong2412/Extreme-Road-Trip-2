@@ -47,15 +47,17 @@ public class MetroMenuMain : MetroMenuPage
 
         metroLayout2.Add(MetroSpacer.Create(2f));
 
-        if (AutoSingleton<PlatformCapabilities>.Instance.UseFacebookInvite() && !AutoSingleton<PersistenceManager>.Instance.FacebookInviteSent)
-        {
-            _inviteButton = CreateInviteButton();
-            metroLayout2.Add(_inviteButton);
-        }
-        else
-        {
-            metroLayout2.Add(MetroSpacer.Create());
-        }
+        //cuongnd
+        //if (AutoSingleton<PlatformCapabilities>.Instance.UseFacebookInvite() && !AutoSingleton<PersistenceManager>.Instance.FacebookInviteSent)
+        //{
+        //    _inviteButton = CreateInviteButton();
+        //    metroLayout2.Add(_inviteButton);
+        //}
+        //else
+        //{
+        //    metroLayout2.Add(MetroSpacer.Create());
+        //}
+        metroLayout2.Add(MetroSpacer.Create());
         metroLayout.Add(metroLayout2);
         MetroLayout metroLayout3 = MetroLayout.Create(Direction.horizontal);
         metroLayout3.SetMass(2f);

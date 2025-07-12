@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class MetroMenuChooseCar : MetroMenuPager
@@ -112,22 +112,36 @@ public class MetroMenuChooseCar : MetroMenuPager
 			AutoSingleton<LoadingManager>.Instance.Load(new LoadConfigMenu(LoadConfigMenu.NextMenuPage.main));
 		};
 		metroLayout.Add(metroButton);
-		StoreItem storeItem = AutoSingleton<StoreDatabase>.Instance.GetStoreItem(StoreItemType.permanentCoinDoubler);
-		if (storeItem != null && !storeItem.IsPurchased())
-		{
-			metroLayout.Add(MetroButtonCoinsDoublerBundle.Create(storeItem).SetMass(2f));
-			storeItem.OnPurchaseSuccess += delegate
-			{
-				SetupMenuButtons();
-				_bottomMenuSpacer.Reflow();
-			};
-		}
-		else if (AutoSingleton<PlatformCapabilities>.Instance.IsIncentivedVideoSupported())
-		{
-			MetroButton child = AutoSingleton<GameAdProvider>.Instance.CreateFreeCrateButtonMenuChooseCar(0.85f, MetroSkin.Slice9Button, Color.white);
-			metroLayout.Add(child);
-		}
-		MetroButton metroButton2 = MetroSkin.CreateMenuButton(MetroSkin.IconStore, "STORE");
+
+        //StoreItem storeItem = AutoSingleton<StoreDatabase>.Instance.GetStoreItem(StoreItemType.permanentCoinDoubler);
+        //if (storeItem != null && !storeItem.IsPurchased())
+        //{
+        //	metroLayout.Add(MetroButtonCoinsDoublerBundle.Create(storeItem).SetMass(2f));
+        //	storeItem.OnPurchaseSuccess += delegate
+        //	{
+        //		SetupMenuButtons();
+        //		_bottomMenuSpacer.Reflow();
+        //	};
+        //}
+        //else if (AutoSingleton<PlatformCapabilities>.Instance.IsIncentivedVideoSupported())
+        //{
+        //	MetroButton child = AutoSingleton<GameAdProvider>.Instance.CreateFreeCrateButtonMenuChooseCar(0.85f, MetroSkin.Slice9Button, Color.white);
+        //	metroLayout.Add(child);
+        //}
+
+        // AFTER - Bỏ nút Video Ad:
+        StoreItem storeItem = AutoSingleton<StoreDatabase>.Instance.GetStoreItem(StoreItemType.permanentCoinDoubler);
+        if (storeItem != null && !storeItem.IsPurchased())
+        {
+            metroLayout.Add(MetroButtonCoinsDoublerBundle.Create(storeItem).SetMass(2f));
+            storeItem.OnPurchaseSuccess += delegate
+            {
+                SetupMenuButtons();
+                _bottomMenuSpacer.Reflow();
+            };
+        }
+
+        MetroButton metroButton2 = MetroSkin.CreateMenuButton(MetroSkin.IconStore, "STORE");
 		metroLayout.Add(metroButton2);
 		metroButton2.OnButtonClicked += delegate
 		{
