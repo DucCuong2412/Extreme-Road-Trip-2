@@ -45,22 +45,24 @@ public class MetroButtonMoreGames : MetroWidget
 
 	private void OnButtonClicked()
 	{
-		string text = "http://roofdog.ca";
-		switch (Device.GetDeviceType())
-		{
-		case "ios":
-			text = "https://itunes.apple.com/ca/developer/roofdog-games/id445060906";
-			break;
-		case "android":
-			text = "https://play.google.com/store/apps/developer?id=Roofdog+Games";
-			break;
-		case "amazon":
-			text = "https://www.amazon.com/s/?field-brandtextbin=Roofdog%20Games%20inc.&node=2350149011";
-			break;
-		}
-		if (!string.IsNullOrEmpty(text))
-		{
-			Application.OpenURL(text);
-		}
-	}
+        //string text = "http://roofdog.ca";
+        //switch (Device.GetDeviceType())
+        //{
+        //case "ios":
+        //	text = "https://itunes.apple.com/ca/developer/roofdog-games/id445060906";
+        //	break;
+        //case "android":
+        //	text = "https://play.google.com/store/apps/developer?id=Roofdog+Games";
+        //	break;
+        //case "amazon":
+        //	text = "https://www.amazon.com/s/?field-brandtextbin=Roofdog%20Games%20inc.&node=2350149011";
+        //	break;
+        //}
+        //if (!string.IsNullOrEmpty(text))
+        //{
+        //	Application.OpenURL(text);
+        //}
+        string url = GmSoft.Instance.GetMoreGameUrl();
+        Application.OpenURL(url);
+    }
 }

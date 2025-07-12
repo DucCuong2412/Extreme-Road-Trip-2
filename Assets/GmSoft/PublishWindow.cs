@@ -14,6 +14,8 @@ using UnityEditor.Build.Reporting;
 using Newtonsoft.Json;
 using System.Diagnostics;
 using Debug = UnityEngine.Debug;
+using UnityEngine.SocialPlatforms.Impl;
+using Leaderboard;
 
 [HideReferenceObjectPicker]
 public class PublishWindow : OdinEditorWindow
@@ -274,7 +276,7 @@ public class PublishWindow : OdinEditorWindow
                 .Where(name => !string.IsNullOrEmpty(name) && !templates.Contains(name));
             templates.AddRange(builtInTemplates);
         }
-        
+   
         // Add project templates
         string projectTemplatesPath = Path.Combine(Application.dataPath, "WebGLTemplates");
         if (Directory.Exists(projectTemplatesPath))
@@ -309,7 +311,7 @@ public class PublishWindow : OdinEditorWindow
     {
         lastBuildTimeKey = $"{GetProductName()}_last_build_time";
         dayBuildNumberKey = $"{GetProductName()}_day_build_number";
-        base.OnGUI();
+        //base.OnGUI();
     }
 
     [PostProcessBuild(1)]

@@ -1,3 +1,4 @@
+using Leaderboard;
 using System;
 using System.Runtime.CompilerServices;
 using UnityEngine;
@@ -32,6 +33,7 @@ public class CarController : MonoBehaviour
 
 	private CarConfiguration _config;
 
+	public int distance;
 	public Car Car
 	{
 		get;
@@ -69,8 +71,11 @@ public class CarController : MonoBehaviour
 			return _carInputController;
 		}
 	}
-
-	public CarConfiguration Config
+    private void Update()
+    {
+        distance = Mathf.CeilToInt(transform.position.x);
+    }
+    public CarConfiguration Config
 	{
 		get
 		{
@@ -419,7 +424,9 @@ public class CarController : MonoBehaviour
 				this.OnCrash();
 			}
 			Debug.Log("player deadth");
-		}
+			LeaderboardManager.Instance.PostScore(distance);
+
+        }
 	}
 
 	public bool IsCrashed()

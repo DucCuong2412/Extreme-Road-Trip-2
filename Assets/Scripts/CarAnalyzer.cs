@@ -146,7 +146,7 @@ public class CarAnalyzer : MonoBehaviour
 		Car car = _car.Car;
 		Vector3 position = _car.Position;
 		gameStats.RecordMaxDistance(car, position.x);
-		distance=Mathf.CeilToInt(transform.position.x);	
+	
         Debug.Log("Distance: " + distance);	
         if (_car.IsInSetup)
 		{
