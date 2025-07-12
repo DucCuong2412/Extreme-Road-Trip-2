@@ -1,4 +1,5 @@
 using System.Runtime.CompilerServices;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class CarAnalyzer : MonoBehaviour
@@ -98,6 +99,8 @@ public class CarAnalyzer : MonoBehaviour
 
 	private GameStats _gameStats;
 
+	public int distance;
+
 	[method: MethodImpl(32)]
 	public event StuntEventHandler OnStuntEvent;
 
@@ -134,6 +137,7 @@ public class CarAnalyzer : MonoBehaviour
 
 	private void FixedUpdate()
 	{
+
 		if (_car.IsCrashed())
 		{
 			return;
@@ -142,7 +146,9 @@ public class CarAnalyzer : MonoBehaviour
 		Car car = _car.Car;
 		Vector3 position = _car.Position;
 		gameStats.RecordMaxDistance(car, position.x);
-		if (_car.IsInSetup)
+		distance=Mathf.CeilToInt(transform.position.x);	
+        Debug.Log("Distance: " + distance);	
+        if (_car.IsInSetup)
 		{
 			Vector3 position2 = _car.Position;
 			_leftieStartOffset = position2.x;

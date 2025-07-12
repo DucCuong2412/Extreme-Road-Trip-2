@@ -32,10 +32,18 @@ public class MetroQuad : MonoBehaviour
 
     static MetroQuad()
     {
-       // _sharedMaterial = new Material(Shader.Find("Roofdog/Vertex Colored"));
+        // _sharedMaterial = new Material(Shader.Find("Roofdog/Vertex Colored"));
         _sharedMaterial = new Material(Shader.Find("Unlit/Transparent Colored"));
 
-        //tại vì cái này mình đã xóa foler gốc đi của nó rồi nên  ko còn shader 
+        Texture2D tex = Resources.Load<Texture2D>("ground_d2");
+        if (tex != null)
+        {
+            _sharedMaterial.mainTexture = tex;
+        }
+        else
+        {
+            Debug.Log("Không tìm thấy texture MyTexture trong Resources/Textures/");
+        }
     }
 
     public void Awake()
@@ -80,6 +88,13 @@ public class MetroQuad : MonoBehaviour
         Width = 1f;
         Height = 1f;
     }
+
+
+    private void Start()
+    {
+     
+    }
+
 
     public MetroQuad SetColor(Color color)
     {

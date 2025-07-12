@@ -224,7 +224,7 @@ public class CarController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Debug.Log($"Speed: {_rigidbody.velocity.x}, Gas: {CarGas.GetGas()}, Boosting: {CarBoost.IsBoosting()}");
+        //Debug.Log($"Speed: {_rigidbody.velocity.x}, Gas: {CarGas.GetGas()}, Boosting: {CarBoost.IsBoosting()}");
 
         if (!_crashed && !_rigidbody.isKinematic)
         {
@@ -418,6 +418,7 @@ public class CarController : MonoBehaviour
 			{
 				this.OnCrash();
 			}
+			Debug.Log("player deadth");
 		}
 	}
 

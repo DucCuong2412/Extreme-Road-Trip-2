@@ -566,7 +566,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maintainAspectRatio: 1
   scaleToFitScreen: 1
-  scaleFactor: 0.05
+  scaleFactor: 0.035
 --- !u!196 &1791799707311934002
 NavMeshSettings:
   serializedVersion: 2

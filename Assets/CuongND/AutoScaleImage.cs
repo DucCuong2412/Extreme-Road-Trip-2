@@ -7,7 +7,7 @@ public class AutoScaleImage : MonoBehaviour
     [Header("Scale Settings")]
     public bool maintainAspectRatio = true;
     public bool scaleToFitScreen = true;
-    public float scaleFactor = 1f; // Hệ số scale bổ sung
+    public float scaleFactor = 0.035f; // Hệ số scale bổ sung
 
     private Camera mainCamera;
     private MeshRenderer spriteRenderer;
