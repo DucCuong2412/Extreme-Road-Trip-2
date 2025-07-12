@@ -99,7 +99,7 @@ public class CarAnalyzer : MonoBehaviour
 
 	private GameStats _gameStats;
 
-	public int distance;
+
 
 	[method: MethodImpl(32)]
 	public event StuntEventHandler OnStuntEvent;
@@ -147,7 +147,7 @@ public class CarAnalyzer : MonoBehaviour
 		Vector3 position = _car.Position;
 		gameStats.RecordMaxDistance(car, position.x);
 	
-        Debug.Log("Distance: " + distance);	
+
         if (_car.IsInSetup)
 		{
 			Vector3 position2 = _car.Position;
