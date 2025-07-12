@@ -222,93 +222,89 @@ public class CarController : MonoBehaviour
 		return t.GetComponent<CarWheel>();
 	}
 
-	private void FixedUpdate()
-	{
-		Debug.Log(_rigidbody.velocity);	
+    private void FixedUpdate()
+    {
+        Debug.Log($"Speed: {_rigidbody.velocity.x}, Gas: {CarGas.GetGas()}, Boosting: {CarBoost.IsBoosting()}");
 
         if (!_crashed && !_rigidbody.isKinematic)
-		{
-			CarWheel[] carWheels = _carWheels;
-			foreach (CarWheel carWheel in carWheels)
-			{
-				if (HasGas() || IsBoosting())
-				{
-					carWheel.Accelerate();
-				}
-				else
-				{
-					carWheel.Brake();
-				}
-			}
-			float num = Input.Tilt;
-			if (_inSetup)
-			{
-				Vector3 eulerAngles = _rigidbody.rotation.eulerAngles;
-				float num2 = Mathf.DeltaAngle(0f, eulerAngles.z);
-				if (Mathf.Abs(num2) >= 30f && num2 * num >= 0f)
-				{
-					num = 0f;
-					_rigidbody.angularVelocity *= Mathf.Lerp(0.9f, 0.6f, Mathf.InverseLerp(30f, 50f, Mathf.Abs(num2)));
-				}
-			}
-			if (num != 0f)
-			{
-				Vector3 angularVelocity = _rigidbody.angularVelocity;
-				float z = angularVelocity.z;
-				float num3 = 1f;
-				if (num * z < 0f)
-				{
-					num3 = Config._tiltOppositeBoost;
-				}
-				_rigidbody.angularVelocity += new Vector3(0f, 0f, Config._tiltVelocity * num * num3 * Time.deltaTime);
-			}
-			if (Input.Slam && !IsTouchingGround())
-			{
-				if (!Slamming)
-				{
-					Slamming = true;
-					PrefabSingleton<GameSoundManager>.Instance.PlaySlamming();
-					if (_slammingFX != null)
-					{
-						_slammingFX.Play();
-					}
-				}
-				if (_slammingFX != null)
-				{
-					_slammingFX.transform.rotation = Quaternion.identity;
-				}
-				_rigidbody.velocity += new Vector3(0f, Config._slamForce, 0f);
-			}
-			else if (Slamming)
-			{
-				AutoSingleton<GameStatsManager>.Instance.CurrentRun.RecordSlam(Car, 1);
-				Slamming = false;
-				PrefabSingleton<GameSoundManager>.Instance.StopSlamming();
-				if (this.OnSlammingGround != null && IsTouchingGround())
-				{
-					this.OnSlammingGround();
-				}
-				if (_slammingFX != null)
-				{
-					_slammingFX.Stop();
-				}
-			}
-		}
-		ClampVelocity();
-		if (CarBoost.IsBoosting() && !_rigidbody.isKinematic)
-		{
-			float num4 = (!CarBoost.IsMegaBoosting()) ? 1f : Config._megaBoostFactor;
-			_rigidbody.AddForce(new Vector3(Config._boostAcceleration * num4 * Config._mass * ResistanceFactor(), 0f, 0f));
-			return;
-		}
-		Vector3 velocity = Velocity;
-		if (velocity.x < 0f && !HasGas())
-		{
-			Crash();
-		}
-	}
+        {
+            // X? lý bánh xe Accelerate/Brake
+            foreach (CarWheel carWheel in _carWheels)
+            {
+                if (HasGas() || IsBoosting())
+                {
+                    carWheel.Accelerate();
+                }
+                else
+                {
+                    carWheel.Brake();
+                }
+            }
 
-	private void ClampVelocity()
+            // X? lý nghiêng
+            float tiltInput = Input.Tilt;
+            if (_inSetup)
+            {
+                float angleZ = Mathf.DeltaAngle(0f, _rigidbody.rotation.eulerAngles.z);
+                if (Mathf.Abs(angleZ) >= 30f && angleZ * tiltInput >= 0f)
+                {
+                    tiltInput = 0f;
+                    _rigidbody.angularVelocity *= Mathf.Lerp(0.9f, 0.6f, Mathf.InverseLerp(30f, 50f, Mathf.Abs(angleZ)));
+                }
+            }
+            if (tiltInput != 0f)
+            {
+                float z = _rigidbody.angularVelocity.z;
+                float tiltBoost = (tiltInput * z < 0f) ? Config._tiltOppositeBoost : 1f;
+                _rigidbody.angularVelocity += new Vector3(0f, 0f, Config._tiltVelocity * tiltInput * tiltBoost * Time.deltaTime);
+            }
+
+            // X? lý slam
+            if (Input.Slam && !IsTouchingGround())
+            {
+                if (!Slamming)
+                {
+                    Slamming = true;
+                    PrefabSingleton<GameSoundManager>.Instance.PlaySlamming();
+                    _slammingFX?.Play();
+                }
+                _slammingFX?.transform.SetPositionAndRotation(_transform.position, Quaternion.identity);
+                _rigidbody.velocity += new Vector3(0f, Config._slamForce, 0f);
+            }
+            else if (Slamming)
+            {
+                AutoSingleton<GameStatsManager>.Instance.CurrentRun.RecordSlam(Car, 1);
+                Slamming = false;
+                PrefabSingleton<GameSoundManager>.Instance.StopSlamming();
+                if (IsTouchingGround()) this.OnSlammingGround?.Invoke();
+                _slammingFX?.Stop();
+            }
+
+            // ?? L?c ??y chính: boost ho?c th??ng
+            if (CarBoost.IsBoosting())
+            {
+                float boostFactor = CarBoost.IsMegaBoosting() ? Config._megaBoostFactor : 1f;
+                _rigidbody.AddForce(new Vector3(Config._boostAcceleration * boostFactor * Config._mass * ResistanceFactor(), 0f, 0f));
+            }
+            else if (HasGas())
+            {
+                // ? Khi có x?ng mà không boost, v?n ??y nh? v? phía tr??c
+                float normalAccel = Config._boostAcceleration * 0.25f; // h? s? này b?n có th? ch?nh m?nh/nh? h?n
+                _rigidbody.AddForce(new Vector3(normalAccel * Config._mass * ResistanceFactor(), 0f, 0f));
+            }
+        }
+
+        ClampVelocity();
+
+        // ?? T? ??ng crash n?u xe ch?y lùi mà h?t x?ng
+        if (_rigidbody.velocity.x < 0f && !HasGas())
+        {
+            Crash();
+        }
+    }
+
+
+    private void ClampVelocity()
 	{
 		if (!_crashed && !_rigidbody.isKinematic)
 		{
